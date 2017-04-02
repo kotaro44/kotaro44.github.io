@@ -1,0 +1,86 @@
+<div class="container-fluid main page-section">
+	<div class="home-content">
+		<div class="row card-corousel">
+			<div class="col-md-12  highlights" 
+				style="min-height: 0px;height: {{data.height}}px;">
+				<card-carousel></card-carousel>
+			</div>
+			<div class="scroll-down" ng-click="scrollDown(1)" 
+				ng-class="{bounce: !offset, 'fade-out': offset}">
+				<span class="glyphicon glyphicon-menu-down"></span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid full-section innovation-page page-section" style="min-height: 0px;height: {{data.moreHeight}}px;">
+	<a href="#/show/Innovation">
+			<div class="section-overlay"></div>
+		<span class="page-section-label">
+			{{'Innovation'|i18n}}
+		</span>
+	</a>
+
+</div>
+<div class="container-fluid full-section network-excellence-page page-section" style="min-height: 0px;height: {{data.moreHeight}}px;">
+	<a href="#/show/Network%20Excellence">
+			<div class="section-overlay"></div>
+		<span class="page-section-label">
+			{{'Network Excellence'|i18n}}
+		</span>
+	</a>
+
+</div>
+<div class="container-fluid full-section user-experience-page page-section" style="min-height: 0px;height: {{data.moreHeight}}px;">
+	<a href="#/show/User%20Experience">
+			<div class="section-overlay"></div>
+		<span class="page-section-label">
+			{{'User Experience'|i18n}}
+		</span>
+	</a>
+
+</div>
+<div class="container-fluid full-section compliance-page page-section" style="min-height: 0px;height: {{data.moreHeight}}px;">
+	<a href="#/show/Compliance">
+		<div class="section-overlay"></div>
+		<span class="page-section-label">
+			{{'Compliance'|i18n}}
+		</span>
+	</a>
+
+</div>
+<div class="row partners page-section">
+	<div class="col-md-12">
+		<div class="row page-section-title">
+			<div class="col-md-12">
+				<h1>{{'Partners'|i18n}}</h1>
+			</div>
+		</div>
+		<div class="row">
+			<a href="http://go.sap.com/index.html">
+				<div class="col-md-2 col-md-offset-1 purple purple-1">
+					<span ng-class="{viewed: data.viewed}"class="logo sap"></span>
+				</div>
+			</a>
+			<a href="http://www.unitec.edu/">
+				<div class="col-md-2 purple purple-1" >
+					<span ng-class="{viewed: data.viewed}" class="logo unitec"></span>
+				</div>
+			</a>
+			<a href="http://www2.ufscar.br/home/index.php">
+				<div class="col-md-2 purple purple-1">
+					<span ng-class="{viewed: data.viewed}" class="logo ufscar"></span>
+				</div>
+			</a>
+			<a href="http://applicationview.diveo.net.br/">
+				<div class="col-md-2 purple purple-1">
+					<span ng-class="{viewed: data.viewed}" class="logo diveo"></span>
+				</div>
+			</a>
+			<a href="#/innovation">
+				<div class="col-md-2 purple purple-1" >
+					<span ng-class="{viewed: data.viewed}" class="logo alltax"></span>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>

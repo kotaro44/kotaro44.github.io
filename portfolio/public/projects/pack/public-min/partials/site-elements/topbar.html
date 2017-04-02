@@ -1,0 +1,88 @@
+<div class="topbar-fixed-top">
+	<div class="mobile-menu-button col-md-1" ng-click="sideMenu()">
+		<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+	</div>
+	
+	<div class="topbar-fixed-img">
+		<a href="/">
+			<img>
+		</a>
+	</div>
+
+	<div class="topbar-fixed-options">
+		<ul class="list-inline">
+			<li ng-repeat="section in options.sections">
+				<a ng-if="!section.url" ng-click="options.activeSection=$index">{{section.name}}</a>
+				<a ng-if="section.url" href="{{section.url}}">{{section.name}}</a>
+			</li>
+		</ul>
+	</div>
+	<language-selector></language-selector>
+
+	<div class="top-bar-overlay" ng-if="options.activeSection>=0 && options.showFixedTopbar"
+		 ng-click="options.activeSection=-1" ></div>
+	<div class="inner-menu container-fluid col-md-12"
+		ng-repeat="section in options.sections"
+		ng-class="{expanded: options.activeSection==$index}">
+		<div class="col-md-{{12/section.articles.length|Math:'ceil'}}" ng-repeat="article in section.articles">
+			<a href="{{article.url}}" ng-click="options.activeSection=-1">
+				{{article.name}}
+			</a>
+		</div>
+	</div>
+</div>
+<div class="side-menu" ng-class="{'contact-showing': shifted }">
+	<div class="side-menu-options">
+		<ul class="list-unstyled">
+			<li ng-repeat="section in options.sections" 
+				ng-click="collapseSideMenu($index)"
+				ng-class="{collapsed: $index==options.sideMenuOpt, arrow: section.articles}">
+				<a ng-if="!section.url">{{section.name|i18n}}</a>
+				<a ng-if="section.url" href="{{section.url}}">{{section.name|i18n}}</a>
+				<ul class="list-unstyled">
+					<li ng-repeat="article in section.articles">
+						<a href="{{article.url}}" ng-click="options.activeSection=-1; sideMenu()">
+							{{article.name|i18n}}
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li><a  ng-click="shiftContact()">{{'Contact'|i18n}}</a></li>
+		</ul>
+		<language-selector></language-selector>
+	</div>
+	<div class="contact-us">
+		<span class="glyphicon glyphicon-chevron-left side-menu-back" ng-click="shiftContact()"></span>
+		<ul class="list-unstyled">
+			<li>
+				<h4><span class="glyphicon glyphicon-earphone"></span> Brazil</h4>
+				<ul class="list-unstyled">
+					<li>São Paulo</li>
+					<li>T +55 (11) 5501 6555</li>
+				</ul>
+			</li>
+			<li>
+				<h4><span class="glyphicon glyphicon-earphone"></span> EUA</h4>
+				<ul class="list-unstyled">
+					<li>Boston</li>
+					<li>T +01 (617) 401 2697</li>
+				</ul>	
+			</li>
+			<li>
+				<h4><span class="glyphicon glyphicon-earphone"></span> Chile</h4>
+				<ul class="list-unstyled">
+					<li>Center of Resource and Development</li>
+					<li>T +562 25947498</li>
+				</ul>
+			</li>
+			<li>
+				<h4><span class="glyphicon glyphicon-earphone"></span> Honduras</h4>
+				<ul class="list-unstyled">
+					<li>Tegucigalpa</li>
+					<li>T +504 2236-6758</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,105 @@
+<div class="container-fluid article {{data.name}}">
+	<div class="content-wrapper">
+		<div ng-if="!data.showRoom" class="article-header">
+			<div class="static-links" ng-if="data.header.links">
+				<ul class="list-inline">
+					<li ng-repeat="link in data.header.links" >
+						<a href="{{link.url}}">{{link.name|UpperCase}}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="article-title">{{ data.header.title|i18n }}</div>
+			<div class="article-subtitle">{{ data.header.subtitle|i18n }}</div>
+			<div ng-if="data.header.by" class="article-subtitle by-label">{{("by"|i18n) + " "}}{{data.header.by}}</div>
+			<div ng-if="data.header.date" class="article-date">{{data.header.date|date}}</div>
+			<div class="article-link-wrapper">
+				<a href="">
+					<div class="article-link email">
+					</div>
+				</a>
+				<a href="http://www.twitter.com">
+					<div class="article-link tweet">
+					</div>
+				</a>
+				<a href="http://www.facebook.com">
+					<div class="article-link facebook">
+					</div>
+				</a>
+				<a href="http://www.google.com">
+					<div class="article-link gplus">
+					</div>
+				</a>
+				<a href="http://www.linkedin.com">
+					<div class="article-link linkedin">
+					</div>
+				</a>
+				
+			</div>
+			<!--<div class="article-section-bar" style="background-image: url({{data.header.background}})">
+				<ul class="">
+					<li >{{ 'Contents:'|i18n }}</li>
+					<li ng-repeat="sec in data.contentBar" ng-click="data.openSection($index)">{{ sec|i18n }}</li>
+				</ul>
+			</div>-->
+
+		</div>
+		<article-section ng-if="!data.showRoom" ng-repeat="section in data.sections" data="section" ng-class="{expanded: ($parent.$index==$parent.data.expanded||$parent.data.expandAll)}">
+		</article-section>
+
+		<div class="article-footer">
+			<div class="article-link-wrapper">
+				<a href="">
+					<div class="article-link email">
+					</div>
+				</a>
+				<a href="http://www.twitter.com">
+					<div class="article-link tweet">
+					</div>
+				</a>
+				<a href="http://www.facebook.com">
+					<div class="article-link facebook">
+					</div>
+				</a>
+				<a href="http://www.google.com">
+					<div class="article-link gplus">
+					</div>
+				</a>
+				<a href="http://www.linkedin.com">
+					<div class="article-link linkedin">
+					</div>
+				</a>
+			</div>
+			<div class="comments">
+				<span>{{"Comments"|i18n}}</span>
+			</div>
+			<div class="divide-ruler"></div>
+		</div>
+
+		<div class="subscribe">
+			<p>{{"Subscribe to"|i18n}}{{" "}}<span>{{data.header.title|i18n}}</span>{{" "}}{{"for getting updates and more!"}}</p>
+			<input type="text" placeholder="{{'Enter your e-mail address'|i18n}}"></input>
+			<button>{{"Subscribe"|i18n}}</button>
+		</div>
+
+		<!--SHOW ROOM-->
+		<div ng-if="data.showRoom" class="article-header show-room" style="background-image: url({{data.sections[data.selected].background}})">
+			<div class="article-title">{{ data.selected|i18n }}</div>
+			<div class="article-subtitle">{{ data.header.subtitle|i18n }}</div>
+			<div class="article-section-bar">
+				<ul class="list-inline">
+					<li ng-click="data.scrollTo($index)" 
+						ng-repeat="app in data.sections[data.selected].apps">
+						{{ app.name|i18n }}
+					</li>
+				</ul>
+			</div>
+		</div>
+		<article-section 
+			ng-if="data.showRoom" 
+			ng-repeat="app in data.sections[data.selected].apps" 
+			data="app" 
+			show-room="true">
+		</article-section>
+	</div>
+</div>
+<next-article article="data.header"></next-article>

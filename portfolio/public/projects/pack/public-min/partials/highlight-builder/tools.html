@@ -1,0 +1,37 @@
+<div class="tools">
+	<span>Background Image</span>
+
+	<form id="uploadForm" enctype="multipart/form-data" action="/uploadImage" method="post">
+		<input type="file" name="userPhoto" accept="image/*" fileread="opts.selectedImage" />
+	</form>
+
+	<div class="text-options">
+		<button class="btn btn-default dropdown-toggle" ng-click="addLink()">Add Link</button>
+		<button class="btn btn-default dropdown-toggle" ng-click="addText()">Add Text</button>
+	</div>
+
+	<div class="tool-options">
+	    <div class="panel-group" id="accordion">
+	        <div class="panel panel-default" ng-repeat="section in optionMenu.sections">
+	            <div class="panel-heading">
+	                <h4 class="panel-title" ng-click="collapseSection(section,$index)">
+	                    {{section.title}}
+	                </h4>
+	            </div>
+	            <div id="collapseOne" class="panel-collapse collapse" 
+	            	ng-class="{'in': $index==opts.selectedIndex}">
+	                <div class="panel-body">
+	                    <div class="tool-option" 
+	                    	ng-repeat="option in section.options"
+	                    	ng-class="{'selected': $index==section.selected}" 
+	                    	ng-click="section.selected=$index">
+	                    	<div class="option-img" 
+	                    		style="background-image: url({{option.img}})"></div>
+	                    	<div class="option-text">{{option.text}}</div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+</div>

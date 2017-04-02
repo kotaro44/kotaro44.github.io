@@ -1,0 +1,90 @@
+<div class="highlight-wrapper" 
+	ng-class="{'edit': language}">	
+	<div class="highlight highlight-fixpos" ng-click="goToContent()" img-wait
+		 style="background-position: {{HighLightConfig._positions[data.background.position]}}; background-size: {{HighLightConfig._sizes[data.background.size]}};">
+		 	<div class="highlight-overlay"></div>
+
+			<div class="text-wrapper">
+				<div ng-repeat="label in data.content" 
+					index="{{$index}}" ng-if="!label.isLink"
+					ng-class="{'title': label.isTitle, 'white': label.white}"
+					class="text"
+					style="left: {{label.type%2?'auto':label.position.x}}; top: {{label.type>1?'auto':label.position.y}}; right: {{label.type%2==0?'auto':label.position.x}}; bottom: {{label.type<2?'auto':label.position.y}};" >
+					<span ng-if="!language">{{label.text|i18n}}</span>
+					<div ng-if="language" >
+						<span class="input-text" 
+							ng-dblclick="edit($event)" 
+							ng-keypress="disableEnter($event)"
+							ng-keyup="titleEdit($event)"
+							ng-attr-contentEditable="{{label._edit}}" 
+							>{{data.i18n[language][label.text]||("<%"+label.text+"%>")}}</span>
+						<div class="language-alert" >
+							<div class="language" 
+								ng-repeat="lang in HighLightConfig.supportedLanguages"
+								ng-if="!data.i18n[lang][label.text]">
+								<div class="glyphicon glyphicon-alert" 
+									aria-hidden="true"></div>
+								<div class="text">{{lang}}</div>
+							</div>
+						</div>
+						<div class="color-changer" 
+							ng-click="label.white=!label.white"
+							ng-class="{'white': label.white}">
+						</div>
+						<div ng-repeat="i in [0,1,2,3]" 
+							class="handler handler-{{i}}" 
+							ng-class="{'selected': label.type==i}" 
+							ng-click="typeChange(i,$event)">
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="socialmedia-wrapper">
+				<div ng-repeat="label in data.content" 
+					index="{{$index}}" ng-if="label.isLink"
+					ng-class="{'title': label.isTitle, 'white': label.white}"
+					class="text type-{{label.type}} highlight-link"
+					style="left: {{label.type%2?'auto':label.position.x}}; top: {{label.type>1?'auto':label.position.y}}; right: {{label.type%2==0?'auto':label.position.x}}; bottom: {{label.type<2?'auto':label.position.y}};" >
+					<a ng-if="!language"  href="{{label.link}}">
+						<div class="social-network" 
+							style="background-image: url({{label.img.base64 || label.img}})"></div>
+					</a>
+					<div ng-if="language" >
+						<div class="social-network" 
+							style="background-image: url({{label.img.base64 || label.img}})"></div>
+						<div class="image-uploader" 
+							ng-click="setImage($event)">
+						</div>
+						<div class="language-alert" >
+							<div class="language" 
+								ng-if="!label.link">
+								<div class="glyphicon glyphicon-alert" 
+									aria-hidden="true"></div>
+								<div class="text">No URL setted</div>
+							</div>
+						</div>
+						<div class="url-preview" >
+							<div class="language" >
+								<div class="text">{{label.link}}</div>
+							</div>
+						</div>
+						<div>
+							<div class="link" 
+								ng-click="setLink($event)">
+							</div>
+						</div>
+						<div ng-repeat="i in [0,1,2,3]" 
+							class="handler handler-{{i}}" 
+							ng-class="{'selected': label.type==i}" 
+							ng-click="typeChange(i,$event)">
+						</div>	
+					</div>
+				</div>
+			</div>
+	</div>
+	<input class="uploaded-image"
+			type="file" 
+			name="imageUploader" 
+			accept="image/*" 
+			fileread="data._uploadImage" />
+</div>

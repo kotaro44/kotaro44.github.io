@@ -1,0 +1,49 @@
+html , body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: black;
+}
+
+body {
+	display: table;
+}
+
+canvas {
+	background-color: #EEEEEE;
+}
+
+.canvas-wrapper {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.console {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	font-size: 20px;
+	display: none;
+}
+
+.framespsec {
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 20px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	padding: 5px 10px;
+	max-width: 700px;
+}

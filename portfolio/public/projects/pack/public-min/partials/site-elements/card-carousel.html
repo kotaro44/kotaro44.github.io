@@ -1,0 +1,15 @@
+<div class="card-carousel">
+	<div class="carousel-screen"></div>
+	<div class="carousel-stage">
+		<div class="card" ng-class="$index == selectedIndex ? 'current-card':''" ng-repeat="card in content">
+				<highlight data="card"></highlight>
+		</div>
+	</div>
+	<div class="carousel-options">
+		<ul class="list-unstyled">
+			<li ng-repeat="card in content" ng-click="changeIndex($index)" ng-class="$index == selectedIndex ? 'selected':''">
+				<span> </span>
+			</li>
+		</ul>
+	</div>
+</div>

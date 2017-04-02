@@ -1,0 +1,38 @@
+<div class="content-manager">
+	<div class="content-list">
+		<div class="package-title">
+			<h3>Available Highlights</h3>
+		</div>
+		<ul class="package list-unstyled">
+			<li ng-repeat=" highlight in data.highlights" ng-click="select(highlight)">
+				<div class="highlight-name">
+					{{highlight.name}}
+				</div>
+				<div class="highlight-add">
+					<span class="glyphicon glyphicon-trash" ng-click="delete(highlight)"></span>
+					<a ng-href="#/highlightBuilder?name={{highlight.name}}">
+						<span class="glyphicon glyphicon-pencil"></span>
+					</a>
+					<span class="glyphicon glyphicon-plus" ng-click="add(highlight)"></span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="installed-list text-center">
+		<h3>Installed Highlights</h3>
+		<ul class="content-installed list-inline">
+				<li ng-repeat="package in data.installed " ng-click="select(package)" ng-class="{empty: package.empty}">
+					<div class="highlight-remove" ng-click="remove(package)">
+						<span class="glyphicon glyphicon-remove"></span>
+					</div>
+					<div class="highlight-name">{{package.name}}</div>
+				</li>
+		</ul>
+	</div>
+	<h3>Preview Section</h3>
+	<div class="content-preview">
+		<highlight ng-if="!selected.empty" data="selected">
+		</highlight>
+	</div>
+	<button type="button" name="button" ng-click="install()">Install</button>
+</div>

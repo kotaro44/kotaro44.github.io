@@ -1,0 +1,298 @@
+body , html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.page-wrapper {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.page-wrapper .tools-wrapper, .page-wrapper .content-wrapper {
+	position: absolute;
+	overflow: hidden;
+}
+
+.page-wrapper .tools-wrapper {
+	background-color: #EEEEEE;
+	width: 299px;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	border-right: 1px solid black;
+}
+
+.page-wrapper .content-wrapper  {
+	background-color: #DDDDDD;
+	left: 300px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: visible;
+}
+
+.page-wrapper .content-wrapper .toolbar {
+	position: fixed;
+	top: 20px;
+	left: 320px;
+	padding: 2px 10px;
+	height: 60px;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+	display: table;
+	z-index: 100;
+}
+
+.page-wrapper .toolbar-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.page-wrapper .content-wrapper .toolbar-content > * {
+	display: inline;
+}
+
+.page-wrapper .content-wrapper .toolbar > span {
+	font-style: italic;
+	font-family: arial;
+	margin-left: 5px;
+}
+
+.page-wrapper .content-wrapper .viewbox {
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.page-wrapper .content-wrapper .canvas {
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+	background-color: white;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 130px;
+	margin-left: 50px;
+	margin-right: 300px;
+}
+
+.page-wrapper .content-wrapper .elements {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.page-wrapper .content-wrapper .vRuler ,
+.page-wrapper .content-wrapper .hRuler {
+	position: absolute;
+	background-color: white;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+}
+
+.page-wrapper .content-wrapper .vRuler {
+	top: -1px;
+	left: -31px;
+}
+
+.page-wrapper .content-wrapper .hRuler {
+	top: -32px;
+	left: -1px;
+}
+
+.clone-wrapper {
+	display: table;
+	background-color: white;
+	width: 299px;
+	border: 1px solid black;
+	height: 60px;
+}
+
+.tool.ui-draggable-dragging , 
+.page-wrapper .tool {
+	height: 60px;
+	border-bottom: 1px solid black;
+	background-color: white;
+	display: table-cell;
+	vertical-align: middle;
+	width: 290px;
+	padding-left: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.page-wrapper .content-wrapper .canvas.canvas-active {
+	background-color: rgba(160,160,160,0.3);
+}
+
+.page-wrapper .content-wrapper .canvas.canvas-hover {
+	background-color: rgba(200,200,200,0.3);
+}
+
+input.error {
+	color: red;
+	font-weight: bold;
+}
+
+input {
+	width: 50px;
+}
+
+input[type=checkbox] {
+	width: 15px;
+}
+
+span.space {
+	margin-left: 100px;
+}
+
+.rectangle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	cursor: move;
+}
+
+.rectangle[type="0"] {
+	background-color: rgba(255,0,0,0.5);
+}
+
+.rectangle[type="1"] {
+	background-color: rgba(0,255,0,0.5);
+}
+
+.rectangle[type="2"] {
+	background-color: rgba(0,0,255,0.5);
+}
+
+.rectangle[type="3"] {
+	background-color: rgba(255,255,0,0.5);
+}
+
+.rectangle[type="4"] {
+	background-color: rgba(0,255,255,0.5);
+}
+
+.rectangle[type="5"] {
+	background-color: rgba(255,0,255,0.5);
+}
+
+.rectangle[type="6"] {
+	background-color: rgba(255,200,0,0.5);
+}
+
+.rectangle[type="7"] {
+	background-color: rgba(166,44,162,0.5);
+}
+
+.rectangle[type="8"] {
+	background-color: rgba(247,186,209,0.5);
+}
+
+.black-screen {
+	background-color: black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 10000;
+	font-size: 200px;
+	line-height: 500px;
+	color: white;
+	text-align: center;
+}
+
+.black-screen .preview {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 80% auto;
+	border: 4px solid white;
+}
+
+.black-screen .xButton {
+	background-color: white;
+	border: 2px solid black;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	border-radius: 20px;
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	cursor: pointer;
+	font-weight: bold;
+	margin-left: -20px;
+	margin-top: -20px;
+	color: black;
+}
+
+.ui-resizable-handle {
+	background-color: #333333;
+	width: 10px!important;
+	height: 10px!important;
+}
+
+.ui-resizable-handle.ui-resizable-se {
+	right: -5px;
+	bottom: -5px;
+}
+
+.ui-resizable-handle.ui-resizable-n {
+	left: 50%;
+	top: -5px;
+	margin-left: -6px;
+}
+
+.ui-resizable-handle.ui-resizable-s {
+	left: 50%;
+	bottom: -5px;
+	margin-left: -6px;
+}
+
+.ui-resizable-handle.ui-resizable-w {
+	top: 50%;
+	left: -5px;
+	margin-top: -6px;
+}
+
+.ui-resizable-handle.ui-resizable-e {
+	top: 50%;
+	right: -5px;
+	margin-top: -6px;
+}
+
+.ui-resizable {
+	border: 1px solid #333333;
+}
+
+.ui-resizable.ui-resizable-disabled {
+	border: 0;
+}
+
+.preview .ui-resizable {
+	border: none;
+}
+
+.preview .ui-resizable-handle {
+	background-color: transparent;
+}
+
+.preview .elements {
+	background-color: white;
+}

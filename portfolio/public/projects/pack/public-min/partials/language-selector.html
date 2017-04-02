@@ -1,0 +1,8 @@
+<div class="language-selector-wrapper" ng-class="{expanded: expanded}">
+	<div class="flags-overlay" ng-click="toggleExpanded()"></div>
+	<div class="flags-wrapper">
+		<div ng-repeat="lang in languages" class="flag {{lang}}" 
+			ng-click="setLang(lang)"></div>
+	</div>
+</div>
+

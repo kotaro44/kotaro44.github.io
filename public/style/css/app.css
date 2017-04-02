@@ -4,7 +4,7 @@ html , html body {
 	font-size: 16px;
 	min-height: 100%;
 	-webkit-font-smoothing: antialiased;
-	background-color: #EEEEEE;
+	background-color: #888888;
 }
 
 body {
@@ -14,6 +14,33 @@ body {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.portfolio {
+	position: absolute;
+	cursor: pointer;
+	left: 0;
+	top: 0;
+	background-image: url(../../img/page-turn-hi.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100px;
+	height: 100px;
+	z-index: 10;
+}
+
+.portfolio span {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: -5px;
+	display:block;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 .download-pdf {
@@ -77,11 +104,11 @@ body {
 	z-index: 2;
 }
 
-.agile-solution:hover {
+.agile-solution {
 	background-image: url(../../img/agile.png);
 }
 
-.unitec:hover {
+.unitec {
 	background-image: url(../../img/unitec.png);
 }
 
@@ -110,16 +137,51 @@ body {
 	background-image: url(../../img/squadventure.png);
 }
 
-.nthu:hover {
+.nthu {
 	background-image: url(../../img/NTHU.png);
 }
 
-.intercontinental:hover {
+.intercontinental.ed-link {
 	background-image: url(../../img/intercontinental.png);
-	background-size: 90% auto;
+	background-size: 400px auto;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+
+.unitec-hn-ed {
+	background-image: url(../../img/unitec-hn.png);
+}
+
+.job-link-2 {
+	cursor: pointer;
+	padding-right: 40px;
+	background-size: 100px auto;
+	background-position: right center;
+	background-repeat: no-repeat;
+	transition: all;
+}
+
+.ed-link {
+	cursor: pointer;
+	padding-bottom: 100px;
+	background-size: 300px auto;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	transition: all;
 }
 
 .job-link {
+	cursor: pointer;
+	background-color: white;
+	background-image: none;
+	background-size: auto 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	transition: all;
+	border-right: 3px solid #1593CB;
+}
+
+.pro-link {
 	cursor: pointer;
 	background-color: white;
 	background-image: none;
@@ -143,6 +205,11 @@ body {
 	opacity: 0;
 }
 
+
+.pro-pic {
+	border: 4px solid;
+    border-radius: 100px;
+}
 
 /* GENERATED CSS FOR CV*/
 #page_1  {
@@ -208,7 +275,7 @@ body {
     left: 343px;z-index:0;width:661px;height:20px;}
 #page_2 #p1dimg1x3 {position:absolute;top: 3px;
     left: 343px;z-index:0;width:661px;height:20px;}
-#page_2 #p1dimg1x4 {position:absolute;top: 292px;
+#page_2 #p1dimg1x4 {position:absolute;top: 527px;
     left: 343px;z-index:0;width:661px;height:20px;}
 #page_3 #p1dimg1x5 {position:absolute;top: 25px;
     left: 343px;z-index:0;width:661px;height:20px;}
@@ -295,11 +362,11 @@ body {
 .p26{text-align: right;padding-left: 89px;margin-top: 5px;margin-bottom: 0px;text-indent: -89px;}
 .p27{text-align: left;padding-right: 244px;margin-top: 0px;margin-bottom: 0px;}
 .p28{text-align: left;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;}
-.p29{text-align: right;padding-right: 0px;margin-top: 69px;margin-bottom: 0px;}
-.p30{text-align: right;padding-right: 0px;margin-top: 57px;margin-bottom: 0px;}
-.p31{text-align: right;padding-left: 105px;margin-top: 87px;margin-bottom: 0px;}
-.p32{text-align: right;margin-top: 13px;margin-bottom: 0px;}
-.p33{text-align: right;padding-left: 77px;margin-top: 5px;margin-bottom: 0px;}
+.p29{text-align: right;padding-right: 0px;margin-top: 168px;margin-bottom: 0px;}
+.p30{text-align: right;padding-right: 0px;margin-top: 161px;margin-bottom: 0px;}
+.p31{text-align: right;padding-left: 105px;margin-top: 118px;margin-bottom: 0px;}
+.p32{text-align: left;margin-top: 13px;margin-bottom: 0px;}
+.p33{text-align: right;padding-left: 77px;margin-top: 22px;margin-bottom: 0px;}
 .p34{text-align: right;padding-left: 99px;margin-top: 16px;margin-bottom: 0px;}
 .p35{text-align: right;padding-left: 187px;padding-right: 0px;margin-top: 52px;margin-bottom: 0px;text-indent: -120px;}
 .p36{text-align: right;padding-left: 18px;margin-top: 56px;margin-bottom: 0px;}

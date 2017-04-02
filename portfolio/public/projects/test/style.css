@@ -1,0 +1,38 @@
+body , html {
+	margin: 0;
+	padding: 0;
+}
+
+.div1{
+	background-color: red;
+	position:absolute;
+	left: 10%;
+	right:50%;
+	top: 10%;
+	bottom: 50%;
+	transition: all 1s ease-in-out;
+	cursor: pointer;
+}
+
+.div2{
+	background-color: green;
+	position:absolute;
+	left: 50%;
+	right:10%;
+	bottom:10%;
+	top: 50%;
+	transition: all 1s ease-in-out;
+	cursor: pointer;
+}
+
+.divA{
+	left: 0%;
+	right:0%;
+	top: 0%;
+	bottom: 0%;
+	transition: all 1s ease-in-out;
+}
+
+ .divB{
+
+ }

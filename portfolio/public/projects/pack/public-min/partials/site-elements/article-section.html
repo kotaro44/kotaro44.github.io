@@ -1,0 +1,54 @@
+<div class="article-section s{{$parent.$index}}">
+	<div ng-if="!showRoom" class="section-titler" ng-class="" ng-click="data.toggleExpand()" ng-style="{'background-image': 'url(/img/{{data.img}})'}">
+		<span class="section-label">{{ data.name|i18n }}</span>
+	</div>
+
+	<div ng-if="showRoom" class="section-titler" ng-class="" ng-click="data.goTo()" ng-style="{'background-image': 'url(/img/{{data.img}})'}">
+		<span class="section-label">{{ data.name|i18n }}</span>
+	</div>
+
+	<div class="article-section-content" ng-if="$parent.$parent.data.expanded!=-1||$parent.$parent.data.expandAll">
+		<h2 id="{{ data.tag }}">{{ data.title|i18n }}</h2>
+
+		<div ng-if="!showRoom" class="inner-sections">
+			<div class="inner-section" ng-repeat="innerSection in data.contents">
+				<h3 ng-if="innerSection.title">{{ innerSection.title|i18n }}</h3>
+				<p ng-if="!innerSection.title">{{ innerSection|i18n }}</p>
+				<div ng-repeat="innerContent in innerSection.contents">
+					<div ng-if="innerContent.title" >{{ innerContent.title|i18n }}</div>
+					<div ng-if="innerContent.name && !innerContent.url" >{{ innerContent.name|i18n }}</div>
+					<div ng-if="innerContent.url"><a ng-href="{{innerContent.url}}">{{innerContent.name}}</a></div>
+					<ul ng-if="innerContent.list">
+						<li ng-repeat="item in innerContent.list">
+							<a ng-if="item.url" ng-href="item.url">{{ item.name|i18n }}</a>
+							<span ng-if="!item.url">{{ item|i18n }}</span>
+						</li>
+					</ul>
+					<div ng-if="innerContent.contents">
+						<div ng-repeat="content in innerContent.contents">
+							<a ng-if="content.url" ng-href="content.url">{{ content.name|i18n }}</a>
+							<span ng-if="!content.url">{{ content|i18n }}</span>
+						</div>
+					</div>
+					
+					<div ng-if="!innerContent.title && !innerContent.name && !innerContent.list && innerContent">
+						{{ innerContent|i18n }}
+					</div>
+
+				</div>
+				<ul ng-if="innerSection.list">
+					<li ng-repeat="li in innerSection.list">
+						<span>{{ li|i18n }}</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div ng-if="showRoom" class="description">
+		<div ng-repeat="par in data.description">
+			<p ng-if="!par.title">{{par}}</p>
+			<h2 ng-if="par.title">{{par.title}}</h2>
+		</div>
+	</div>
+</div>

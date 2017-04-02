@@ -1,0 +1,83 @@
+<div class="highlight-builder-wrapper">
+	<div class="highlight-builder">
+		<highlight-builder-tools highlight="options.highlight" ></highlight-builder-tools>
+		<div class="canvas-wrapper">
+			<div class="header">
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{options.canvasSize|capitalize}} <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li ng-repeat="option in defaults.canvasSizes" ng-click="resize(option)">
+							<a>{{option|capitalize}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{options.language}} <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li ng-repeat="language in HighLightConfig.supportedLanguages" 
+							ng-click="changeLang(language)">
+							<a>{{language}}</a>
+						</li>
+					</ul>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{options.highlight.type}} <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li ng-repeat="type in HighLightConfig._types" 
+							ng-click="options.highlight.type=type;">
+							<a>{{type}}</a>
+						</li>
+					</ul>
+				</div>
+				<span ng-if="!editting">Highlight Name:</span>
+				<input type="text" ng-model="options.highlight.name" ng-if="!editting"></input>
+				<span>Content Name:</span>
+				<input type="text" ng-model="options.highlight.contentName"></input>
+				<span>Grid Size:</span>
+				<input type="number" ng-model="options.gridSize"></input>
+				<div class="checkbox toggle-ruler">
+					<label>
+						<input type="checkbox" ng-click="toggleRuler()">
+						<span>Show Ruler</span>
+					</label>
+				</div>
+				<div class="checkbox toggle-ruler">
+					<label>
+						<input type="checkbox" ng-click="toggleCanvas()">
+						<span>Show Grid</span>
+					</label>
+				</div>
+			</div>
+			<div class="canvas-reset {{options.canvasSize}}">
+				<button class="btn btn-default dropdown-toggle" ng-click="resize('reset')"
+					type="button">Reset</button>
+			</div>
+			<div class="canvas {{options.canvasSize}}" >
+				<div class="ruler-wrapper" ng-if="options.showRuler">
+					<div class="vertical-ruler">
+						<div class="lb-500">(50%,0%)</div>
+						<div class="lb-50100">(50%,100%)</div>
+					</div>
+					<div class="horizontal-ruler">
+						<div class="lb-050">(0%,50%)</div>
+						<div class="lb-5050">(50%,50%)</div>
+						<div class="lb-10050">(100%,50%)</div>
+					</div>
+				</div>
+				<highlight data="options.highlight" language="options.language" grid-size="options.gridSize"></highlight>
+				<canvas-grid ng-if="options.showCanvas" size="options.gridSize" resize="options.resize" ></canvas-grid>
+			</div>
+			<div class="export-wrapper">
+				<button type="button" ng-click="export()" class="btn btn-primary"
+					 ng-if="options.highlight.background.imageUrl&&options.highlight.name">Export</button>
+			</div>
+		</div>
+	</div>
+</div>
+

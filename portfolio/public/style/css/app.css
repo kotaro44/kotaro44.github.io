@@ -1,0 +1,44 @@
+/* app css stylesheet */
+html , html body {
+ 	margin: 0;
+	font-size: 16px;
+	min-height: 100%;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #AAAAAA;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.debug-console {
+	position: absolute;
+	top: 0;
+	width: 400px;
+	height: auto;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+
+/* Tablets*/
+@media (max-width: 950px) {
+	
+}
+
+/*Mobile Portrait*/
+@media (max-width: 768px){
+	
+}
+
+/*Mobile Landscape*/
+@media (max-height: 400px) {
+
+}
+

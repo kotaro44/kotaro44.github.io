@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="mobile-web-app-capable" content="yes">
+		<title>Level Designer</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/level.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/html2canvas.js"></script>
+	</head>
+	<body oncontextmenu="return false;">
+		<input type="file" id="filename" accept="kwl"></input>
+		<input type="file" id="matrixfile" accept="kwl"></input>
+		<div class="page-wrapper">
+			<div class="tools-wrapper">
+				<div class="tool">
+					Rectangle
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="toolbar">
+					<div class="toolbar-content">
+						<span class="title">Canvas: </span>
+						<input id="width" type='text' placeholder="width" value="1920"></input>
+						<span>px X </span>
+						<input id="height" type='text' placeholder="height" value="1080"></input>
+						<span>px</span>
+						<span class="space"></span>
+						<span class="title">Grid: </span>
+						<input id="gridX" type='text' placeholder="Grid Width" value="20"></input>
+						<span>px X </span>
+						<input id="gridY" type='text' placeholder="Grid Height" value="20"></input>
+						<span>Positioning: </span>
+						<input id="positioning" type="checkbox" checked="true"></input>
+						<span>Show: </span>
+						<input id="show" type="checkbox" checked="true"></input>
+						<span class="space"></span>
+						<button id="preview" >Preview</button>
+						<button id="import" >Import</button>
+						<button id="export" >Export</button>
+						<button id="exportImg" >Image</button>
+						<button id="matrix" >Matrix</button>
+						<span>Compression: </span>
+						<input id="compress" type='text' placeholder="Compression" value="20"></input>
+					</div>
+				</div>
+				<div class="viewbox">
+					<div id="canvas" class="canvas">
+						<canvas id="vRulerCanvas" class="vRuler" width="30" height="1080"></canvas>
+						<canvas id="hRulerCanvas" class="hRuler" width="1920" height="30"></canvas>
+						<canvas id="gridCanvas" width="1920" height="1080"></canvas>
+						<div class="elements"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SOS</title> 
+    <div id="tablero" ondrop="drop(event)" ondragover="allowDrop(event)">  
+    <script type="text/javascript" src="SOS.js">
+    </script>
+    </div> 
+</head>
+    <body> 
+        <link rel="stylesheet" href="SOS.css"/>
+        <form id = "boton">
+            <input  id= "boton" type="button" value="Presione para ver el puntaje"   onclick="standardButtonClicked(event)"/>
+        </form></br></br>
+        <div class='down' id='down1' draggable='true' ondragstart='drag(event)'><p>O</p></div>
+        <div class='down' id='down2' draggable='true' ondragstart='drag(event)'><p>S</p></div>
+    </body>
+</html>
