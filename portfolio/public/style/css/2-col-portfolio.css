@@ -12,6 +12,8 @@ body {
     body {
         padding-top: 56px;
     }
+
+    
 }
 
 .portfolio-item {
@@ -20,4 +22,9 @@ body {
 
 .pagination {
     margin-bottom: 30px;
+}
+
+video {
+	width: 100%;
+	height: auto;
 }
