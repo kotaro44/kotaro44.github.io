@@ -1,0 +1,97 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+/* app css stylesheet */
+html , html body {
+ 	margin: 0;
+	font-size: 16px;
+	min-height: 100%;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	font-family: myFirstFont;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	color: #FFFFFF;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.debug-console {
+	position: absolute;
+	top: 0;
+	width: 400px;
+	height: auto;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+/*SVG styles*/
+.ruler {
+	stroke: #444444;
+	stroke-width: 0.25;
+	fill: transparent;
+}
+
+.square-svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.play-btn {
+	cursor: pointer;
+	fill: transparent;
+}
+
+.play-btn + path {
+	pointer-events: none;
+}
+
+.play-btn:hover {
+	fill: white;
+}
+
+.play-btn:hover + path {
+	fill: black;
+	stroke: black;
+}
+
+.america {
+	fill: red;
+}
+
+.text {
+	font-size: 1.5em;
+	position: absolute;
+}
+
+.text-1 {
+	right: 2%;
+	top: 2%;
+}
+
+
+
+/* Tablets*/
+@media (max-width: 950px) {
+	
+}
+
+/*Mobile Portrait*/
+@media (max-width: 768px){
+	
+}
+
+/*Mobile Landscape*/
+@media (max-height: 400px) {
+
+}
+

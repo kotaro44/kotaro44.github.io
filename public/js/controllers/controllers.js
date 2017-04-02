@@ -1,9 +1,9 @@
 'use strict';
 
 /* Controllers */
-var Controllers = angular.module('carlos.controllers', []);
+var Controllers = angular.module('cvsimple.controllers', []);
 
-Controllers.controller('carlosCtrl', ['$scope','Analytics','$http',
+Controllers.controller('seedCtrl', ['$scope','Analytics','$http',
 	function($scope,Analytics,$http) {
-	
+	//Analytics.analyzePage('seed');
 }]);

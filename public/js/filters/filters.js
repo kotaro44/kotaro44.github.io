@@ -1,7 +1,7 @@
 'use strict';
 
 /* Filters */
-var Filters = angular.module('carlos.filters', []);
+var Filters = angular.module('cvsimple.filters', []);
 
 Filters.filter('capitalize',function(){
 	return function(text){

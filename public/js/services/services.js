@@ -12,7 +12,7 @@ window.consoleF = function(){
 
 
 /* Services */
-var Services = angular.module('carlos.services', []);
+var Services = angular.module('cvsimple.services', []);
 
 Services.service('i18n',function(){
 	var observers = [];
