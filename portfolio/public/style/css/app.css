@@ -3,14 +3,14 @@ html , html body {
  	margin: 0;
 	font-size: 16px;
 	min-height: 100%;
-	overflow: hidden;
+	overflow: scroll;
 	-webkit-font-smoothing: antialiased;
 }
 
 body {
 	height: 100%;
 	width: 100%;
-	background-color: #AAAAAA;
+	background-color: white;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -26,6 +26,15 @@ body {
 	color: white;
 }
 
+.navbar-toggler {
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    nav > .container {
+        width: 100%;
+    }
+}
 
 /* Tablets*/
 @media (max-width: 950px) {
