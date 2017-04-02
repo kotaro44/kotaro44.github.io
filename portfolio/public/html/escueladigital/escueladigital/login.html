@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="jquery.js"></script> 
+<script type="text/javascript" src="JS/base.js"></script> 
+<script> 
+
+window.onload = function()
+{
+	
+};
+
+function login()
+{
+	var nombre = document.getElementById('usuario').value,
+        pass = document.getElementById('pass').value;
+
+	if( nombre == '' )
+    { alert('Ingrese un correo electronico'); return; }
+    if( pass == '' )
+    { alert('Ingrese una contraseña'); return; }
+    
+    document.getElementById('usuario').disabled = true;
+    document.getElementById('pass').disabled = true;
+	document.getElementById('ingresar').disabled = true;
+    
+    $.post('Queries/login.php' , { value: nombre+','+pass },
+    function(output)
+    {
+    	document.getElementById('usuario').disabled = false;
+        document.getElementById('pass').disabled = false;
+		document.getElementById('ingresar').disabled = false;
+        if( output.substring(0,2) == 'NO' )
+        {
+            document.getElementById('errorlogin').innerHTML = '¡Usuario o Contraseña incorrecto!';
+            document.getElementById('pass').value = '';
+        }
+        if( output.substring(0,8) == 'RROFESOR' )
+        {
+			post_to_url('menu.php' , {param: output.substring(8,output.length) } , "post" );
+        }
+        if( output.substring(0,8) == 'DIRECTOR' )
+        {
+        	post_to_url('menudirector.php' , {param: output.substring(8,output.length) } , "post" );
+        }
+    });
+};
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Escuela Digital</title>
+</head>
+<body style="
+	background-color: #f7f7f5;
+    margin: 0px;
+	padding: 0px;
+">
+<div style="
+    background: url(IMG/fondo.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 1px 250px;
+    "> 
+<div id ="contenido" style="
+
+	text-align:center;
+    background: url(IMG/login_titulo.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    margin: 0px;
+	padding: 0px;
+    
+    
+    "  > 
+<img src="IMG/alpha.png" style="
+    background-image: url(IMG/home0.jpg) ,url(IMG/home1.jpg);
+    background-position: 0px , 23px;
+    background-repeat: no-repeat , no-repeat;
+    width: 23px;
+    height: 19px;
+    
+	margin-left:20px;
+    margin-top:7px;
+"onmouseover="this.style.backgroundPosition = '23px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 23px';"
+onmousedown=" window.location = 'index.html'; "/>
+
+<img src="IMG/alpha.png" style="
+    background-image: url(IMG/registrarme0.jpg) ,url(IMG/registrarme1.jpg);
+    background-position: 0px , 82px;
+    background-repeat: no-repeat , no-repeat;
+    width: 82px;
+    height: 19px;
+    
+	margin-left:240px;
+    margin-top:7px;
+"onmouseover="this.style.backgroundPosition = '82px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 82px';"
+onmousedown=" window.location = 'formulario.html'; "/>
+
+
+  <table align="center" style="padding-top: 400px;">
+   	  <tr>
+            <td style="text-align:right" >
+            <font size="2" face="Arial, Helvetica, sans-serif">
+                Correo Electrónico:
+            </font>
+            </td>
+            <td>
+                <input id="usuario" type="text" name="usuario" maxlength="50" size="20" />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">
+            <font size="2" face="Arial, Helvetica, sans-serif">
+                Contraseña:
+            </font>
+            </td>
+            <td>
+                <input id="pass" type="password" name="pass" maxlength="20" size="20" 
+                onkeydown="document.getElementById('errorlogin').innerHTML = '';"
+                onkeyup="if(validateEnter(event)) { login(); }" />
+            </td>
+        </tr>
+    </table>
+    		<font id = "errorlogin" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" >
+            </font> 
+    </p>
+<button id = "ingresar" type="button" style="
+    background-image: url(IMG/ingresar0.jpg) ,url(IMG/ingresar1.jpg);
+    background-position: 0px , 118px;
+    background-repeat: no-repeat , no-repeat;
+    width: 118px;
+    height: 38px;
+    border: none;
+    
+"onmouseover="this.style.backgroundPosition = '118px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 118px';"
+onmousedown=" login(); "></button>
+
+</div>
+</div>
+
+<div id = "pie" style="
+	text-align:center;
+    margin-top: 50px;
+    
+"> <font size="2" face="Arial, Helvetica, sans-serif">
+  <p>Creditos: www.algodeeducacion.com<br />
+    Enero 2013
+  </p></font>
+  
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+</div>
+</body>
+</html>

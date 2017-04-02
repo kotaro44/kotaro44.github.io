@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type = "text/javascript" src="jquery.js"></script>
+<script type = "text/javascript" src="JS/menu.js"></script>
+<script>
+var id_sesion = -1;
+	window.onload = function()
+	{
+		if( location.href.indexOf('?') == -1 )
+			window.location = 'login.html';
+		else
+		{
+			var param = location.href.substring( location.href.indexOf('?') + 1, location.href.length );
+			id_sesion = param.substring(3,param.length);
+			if( id_sesion.length == 0 )
+				window.location = 'login.html';
+			else
+			{
+				/*verificar que la sesion no ha expirado*/
+				$.post('Queries/cp.php' , { value: id_sesion },
+				function(output)
+				{
+					if( output.substring(0,2) == 'SI' )
+					{
+						document.getElementById('linea1').innerHTML = 'Su correo electrónico ha sido confirmado';
+						document.getElementById('linea2').innerHTML = '¡Ya puedes iniciar sesión en el sistema!';
+					}
+					else
+					{
+						document.getElementById('linea1').innerHTML = 'Su correo electrónico no ha sido confirmado';
+						document.getElementById('linea2').innerHTML = 'Es posible que se haya cancelado la suscripción, deberá registrarse nuevamente';
+					}
+				});
+			}
+		}
+	};
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Matemáticas 2do Grado</title>
+<link href="CSS/menu.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="
+	background-color: #f7f7f5;
+    margin: 0px;
+	padding: 0px;
+">
+<div style="
+    background: url(IMG/fondo.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 1px 250px;
+    "> 
+<div id ="contenido" align="center" style="
+	text-align:center;
+    background: url(IMG/formulariotitulo.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    margin: 0px;
+	padding: 0px;
+    padding-top: 180px;
+    " >
+<font id="linea1" size="4" face="Arial, Helvetica, sans-serif">
+Confirmando su correo electrónico...
+</font>
+<br />
+<font id="linea2" size="4" face="Arial, Helvetica, sans-serif">
+Espere por favor
+</font>
+<br />
+<br />
+<br />
+<br />
+<img src="IMG/alpha.png" style="
+    background-image: url(IMG/iniciar0.jpg) ,url(IMG/iniciar1.jpg);
+    background-position: 0px , 83px;
+    background-repeat: no-repeat , no-repeat;
+    width: 83px;
+    height: 20px;
+"onmouseover="this.style.backgroundPosition = '83px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 83px';"
+onmousedown=" window.location = 'login.html'; "/>
+
+</div>
+    
+<div id = "pie" style="
+	text-align:center;
+    margin-top: 50px;
+    
+"> <font size="2" face="Arial, Helvetica, sans-serif">
+  <p>Creditos: www.algodeeducacion.com<br />
+    Enero 2013
+  </p></font>
+  
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+</div>
+
+</body>
+</html>

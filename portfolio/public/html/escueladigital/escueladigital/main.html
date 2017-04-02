@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="JS/base.js"></script> 
+<script>
+function codigo()
+{
+	var code = (document.getElementById('codigo').value);
+	
+	if( code == "COD1" )
+		window.open('Unidad%2012/leccion1.html');
+	else if( code == "COD2" )
+		window.open('Unidad%206/leccion1.html');
+	else if( code == "COD3" )
+		window.open('Unidad%204/leccion2.html');
+	else if( code == "COD4" )
+		window.open('Unidad%201/leccion2.html');
+	else
+		document.getElementById('errorcodigo').innerHTML = '¡el código es incorrecto o a expirado!';
+		
+	
+    /*$.post('Queries/getleccion.php' , { value: code },
+	function(output)
+	{
+		if( output.substring(0,2) == 'NO' )
+        {
+        	document.getElementById('errorcodigo').innerHTML = '¡el código es incorrecto o a expirado!';
+        }
+        else
+        {
+        	var datos = output.split(',');
+        	alert('¡Bienvenido ' + datos[0] + ' ' + datos[2] + '! \n Se abrirá una nueva ventana para comenzar la lección.');
+        	window.open('Unidad%20' + datos[5] + '/leccion' + datos[4] + '.html?id=' + datos[6]);
+        }
+	});	
+    document.getElementById('codigo').value = '';*/
+	
+	
+};
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Escuela Digital</title>
+</head>
+<body style="
+	background-color: #f7f7f5;
+    margin: 0px;
+	padding: 0px;
+">
+<div style="
+    background: url(IMG/fondo.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 1px 250px;
+    "> 
+<div id ="contenido" style="
+
+	text-align:center;
+    background: url(IMG/index_pizarra.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    margin: 0px;
+	padding: 0px;
+    
+    "> 
+<img src="IMG/alpha.png" style="
+    background-image: url(IMG/iniciar0.jpg) ,url(IMG/iniciar1.jpg);
+    background-position: 0px , 83px;
+    background-repeat: no-repeat , no-repeat;
+    width: 83px;
+    height: 20px;
+    
+	margin-left:290px;
+    margin-top:7px;
+"onmouseover="this.style.backgroundPosition = '83px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 83px';"
+onmousedown=" window.location = 'login.html'; "/>
+
+<br  />
+ <input id="codigo" type="text" name="codigo" maxlength="40" size="40" style = "margin-top:360px;"
+ 	onkeyup="if(validateEnter(event)) { codigo(); }" 
+    onkeydown="document.getElementById('errorcodigo').innerHTML = ''" />
+    <br />
+     
+<img src="IMG/alpha.png" style="
+    background-image: url(IMG/comenzar0.png) ,url(IMG/comenzar1.png);
+    background-position: 0px , 227px;
+    background-repeat: no-repeat , no-repeat;
+    width: 227px;
+    height: 48px;
+    
+	margin-top: 60px;
+"onmouseover="this.style.backgroundPosition = '227px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 227px';"
+onmousedown=" codigo(); "/>
+
+<br />
+<font id = "errorcodigo" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font> 
+</div>
+</div>
+
+<div id = "pie" style="
+	text-align:center;
+    margin-top: 50px;
+    
+"> <font size="2" face="Arial, Helvetica, sans-serif">
+  <p>Creditos: www.algodeeducacion.com<br />
+    Enero 2013
+  </p></font>
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+</div>
+</body>
+</html>

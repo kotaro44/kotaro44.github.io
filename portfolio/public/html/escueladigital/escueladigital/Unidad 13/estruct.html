@@ -1,0 +1,40 @@
+<DOCTYPE html> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html> 
+	<title><!--Título que aparece en el navegador-->
+		Lección M Unidad N 
+	</title>
+	
+	<head>  <!--estilo.css elimina los bordes, padding y margins de la pagina web-->
+	    <link type="text/css"
+		         href="CSS/estilo.css" 
+		         rel="stylesheet" >
+				 <!--cada una de las lecciones debe incluir estructura_leccion.js, ya que contiene todas las funciones 
+				       que hacen la estructura de las lecciones-->
+		<script type="text/javascript" 
+					 src="../JS/estructura_leccion.js">
+		</script> 
+				<!--cada una de las lecciones debe tener su propio código en JS para manipular la lección-->
+		<script type="text/javascript"  
+		             src="JS/leccionM.js">
+		</script>
+		<script>
+			/*Configuración de la lección*/
+		</script>
+	</head> 
+	
+	<body>  <!--Esto es HTML5, es el lienzo donde dibujaremos toda la lección, al igual que el wrapper que lo mantendra
+	                     en el centro de la pantalla y la tabla que nos ayudara a ajustar su tamaño, es iportante que no se 
+						 modifiquen lso ids, pues sin ellos el sistema no los reconocerá-->
+		<div id = "canvas_panel">
+			<table id="wrapper">
+				<tr>
+					<td>
+						<canvas id="canvas"  >
+						</canvas>
+					</td>
+				</tr>
+			</table>
+		</div> 
+	</body> 
+</html>

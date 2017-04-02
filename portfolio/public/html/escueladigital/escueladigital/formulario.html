@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="jquery.js"></script> 
+<script type="text/javascript" src="JS/base.js"></script> 
+<script>
+window.onload = function()
+{
+
+	document.getElementById('boton').disabled = true;
+	document.getElementById('dept').disabled = true;
+	document.getElementById('dist').disabled = true;
+
+	$.post('Queries/getdept.php' , { value: '' },
+			function(output)
+			{
+				var valores = output.split(","),
+				    combo = document.getElementById("dept");
+				for( i = 0 ; i < valores.length; i++ )
+					combo.options.add(new Option(valores[i], i));
+				document.getElementById('dept').disabled = false;	
+					
+				$.post('Queries/getdist.php' , { value: combo.options[combo.selectedIndex].text },
+				function(output)
+				{
+					var valores = output.split(","),
+						combo = document.getElementById("dist");
+					for( i = 0 ; i < valores.length; i++ )
+						combo.options.add(new Option(valores[i], i));
+					document.getElementById('boton').disabled = false;
+					document.getElementById('dist').disabled = false;
+				});
+			});
+};
+
+
+function validartelescuela()
+{
+	if( document.getElementById('telescuela').value.match( /^(?:\+|-)?\d+$/ ) || 
+				document.getElementById('telescuela').value == '')
+		document.getElementById('errortel').innerHTML = '';
+	else
+		document.getElementById('errortel').innerHTML = '*Ingrese un número válido';
+	
+};
+
+function validarcel()
+{
+	if( document.getElementById('celular').value.match( /^(?:\+|-)?\d+$/ ) || 
+				document.getElementById('celular').value == '' )
+		document.getElementById('errorcel').innerHTML = '';
+	else
+		document.getElementById('errorcel').innerHTML = '*Ingrese un número válido (Sin guiones)';
+	
+};
+
+function validarnoid()
+{
+	if( document.getElementById('numid').value.match( /^(?:\+|-)?\d+$/ )|| 
+				document.getElementById('numid').value == '' )
+		document.getElementById('errornoid').innerHTML = '';
+	else
+		document.getElementById('errornoid').innerHTML = '*Ingrese un número válido';
+	
+}
+
+function enviar()
+{
+	var nombreescuela = document.getElementById('nameescuela').value,
+		direccionescuela = document.getElementById('direscuela').value,
+		departamento =  document.getElementById('dept').options[ document.getElementById('dept').value].text,
+		distrito = document.getElementById('dist').options[ document.getElementById('dist').value].text,
+		telescuela = document.getElementById('telescuela').value,
+		email = document.getElementById('email').value,
+		celular = document.getElementById('celular').value,
+		pass = document.getElementById('pass').value,
+		pass2 = document.getElementById('pass2').value,
+		numid = document.getElementById('numid').value,
+		pnombre = document.getElementById('pnombre').value,
+		snombre = document.getElementById('snombre').value,
+		papellido = document.getElementById('papellido').value,
+		sapellido = document.getElementById('sapellido').value,
+		noenviar = false;
+	
+	if( nombreescuela == '' )
+	{ document.getElementById('errornombre').innerHTML = '*Ingrese el nombre de la escuela'; noenviar = true; }
+	else document.getElementById('errornombre').innerHTML = '';
+	
+	if( direccionescuela == '' )
+	{ document.getElementById('errordir').innerHTML = '*Ingrese la direcci\xF3n de la escuela'; noenviar = true; }
+	else document.getElementById('errordir').innerHTML = '';
+	
+	if( telescuela == '' )
+	{ document.getElementById('errortel').innerHTML = '*Ingrese el tel\xE9fono de la escuela'; noenviar = true; }
+	else
+	{
+		if( telescuela.match( /^(?:\+|-)?\d+$/ ) )
+		{
+			if( telescuela.length == 8 )
+			{
+				document.getElementById('errortel').innerHTML = '';
+			}
+			else
+			{
+				noenviar = true;
+				document.getElementById('errortel').innerHTML = '*Ingrese 8 dígitos';
+			}
+		}
+		else
+		{
+			document.getElementById('errortel').innerHTML = '*Ingrese un número válido (Sin guiones)';
+			noenviar = true;
+		}
+	}
+	
+	
+	if( email == '' )
+	{ document.getElementById('errorcorreo').innerHTML = '*Ingrese un correo electrónico'; noenviar = true; }
+	else
+	{
+		if( email.match( /[\w-\.]{3,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/ ) )
+			document.getElementById('errorcorreo').innerHTML = '';
+		else
+		{
+			document.getElementById('errorcorreo').innerHTML = '*Ingrese un correo electrónico válido';
+			noenviar = true;
+		}
+	}
+	
+	if( celular == '' )
+	{ document.getElementById('errorcel').innerHTML = '*Ingrese el celular del administrador'; noenviar = true; }
+	else
+	{
+		if( celular.match( /^(?:\+|-)?\d+$/ ) )
+		{
+			if( celular.length == 8 )
+			{
+				document.getElementById('errorcel').innerHTML = '';
+			}
+			else
+			{
+				document.getElementById('errorcel').innerHTML = '*Ingrese 8 dígitos';
+				noenviar = true;
+			}
+		}
+		else
+		{
+			document.getElementById('errorcel').innerHTML = '*Ingrese un número válido (Sin guiones)';
+			noenviar = true;
+		}
+	}
+	
+	if( pass == '' )
+	{ document.getElementById('errorpass').innerHTML = '*Ingrese una contrase\xF1a'; noenviar = true; }
+	else document.getElementById('errorpass').innerHTML = '';
+	
+	if( pass2 == '' )
+	{ document.getElementById('errorpass2').innerHTML = '*Ingrese nuevamente la contrase\xF1a'; noenviar = true; }
+	else
+	{
+		if( pass2 == pass )
+			document.getElementById('errorpass2').innerHTML = '';
+		else { document.getElementById('errorpass2').innerHTML = '*Las contrase\xF1as no coinciden'; noenviar = true; }
+	}
+	
+	if( numid == '' )
+	{ document.getElementById('errornoid').innerHTML = '*Ingrese el n\xFAmero de identidad del administrador'; noenviar = true; }
+	else
+	{
+		if( numid.match( /^(?:\+|-)?\d+$/ ) )
+		{
+			if( numid.length == 13 )
+			{
+				document.getElementById('errornoid').innerHTML = '';
+			}
+			else
+			{
+				document.getElementById('errornoid').innerHTML = '*Ingrese 13 dígitos';
+				noenviar = true;
+			}
+		}
+		else
+		{
+			document.getElementById('errornoid').innerHTML = '*Ingrese un número válido (Sin guiones)';
+			noenviar = true;
+		}
+	}
+	
+	if( pnombre == '' )
+	{ document.getElementById('errorpnombre').innerHTML = '*Ingrese el nombre del administrador'; noenviar = true; }
+	else document.getElementById('errorpnombre').innerHTML = '';
+	
+	if( papellido == '' )
+	{ document.getElementById('errorpapellido').innerHTML = '*Ingrese el apellido del administrador'; noenviar = true; }
+	else document.getElementById('errorpapellido').innerHTML = '';
+	
+	if( noenviar ) return;
+	
+	document.getElementById('boton').disabled = true;
+	document.getElementById('dept').disabled = true;
+	document.getElementById('dist').disabled = true;
+	
+	$.post('Queries/insdir.php' , { value: nombreescuela+','+direccionescuela+','+
+		departamento+','+distrito+','+telescuela+','+email+','+celular+','+pass+','+numid+','+pnombre+','+
+		snombre+','+papellido+','+sapellido },
+	function(output)
+	{
+		document.getElementById('boton').disabled = false;
+		document.getElementById('dept').disabled = false;
+		document.getElementById('dist').disabled = false;
+	
+		if( output.substring(0,6) == 'CORREO' )
+			document.getElementById('errorcorreo').innerHTML = '*Este usuario ya existe';
+		if( output.substring(0,2) == 'NO' )
+			alert('Se produjo un error en la Base de datos, el usuario no fue creado');
+		if( output.substring(0,2) == 'SI' )
+		{
+			alert('Se ha enviado una notificación al correo ' + email + ', debes confirmar tu cuenta de correo electrónico antes de iniciar sesión en el sistema');
+			window.location = 'login.html';
+		}
+	});
+};
+
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Escuela Digital</title>
+</head>
+
+<body style="
+	background-color: #f7f7f5;
+    margin: 0px;
+	padding: 0px;
+">
+<div style="
+    background: url(IMG/fondo.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 1px 250px;
+    "> 
+<div id ="contenido" align="center" style="
+	text-align:center;
+    background: url(IMG/formulariotitulo.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    margin: 0px;
+	padding: 0px;
+    " >
+<img src="IMG/alpha.png" style="
+    background-image: url(IMG/home0.jpg) ,url(IMG/home1.jpg);
+    background-position: 0px , 23px;
+    background-repeat: no-repeat , no-repeat;
+    width: 23px;
+    height: 19px;
+    
+	margin-left:20px;
+    margin-top:7px;
+    margin-bottom: 180px;
+"onmouseover="this.style.backgroundPosition = '23px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 23px';"
+onmousedown=" window.location = 'index.html'; "/>
+
+    <font size="2" face="Arial, Helvetica, sans-serif">
+    Ingresar una nueva escuela y un nuevo administrador al sistema<br /><br /><br /><br /><br />
+<table align="center" >
+<tr><td align="left" style="padding-right:300px;"> Escuela:</td><td></td></tr>
+</table>
+<table align="center" style="background: url(IMG/fondo.jpg);
+                             background-repeat: repeat;
+                             background-position: left top;">
+	<tr><td align="right">Nombre:</td><td>
+    	<input id="nameescuela" type="text" maxlength="100" size="25" 
+        	onkeyup=" document.getElementById('errornombre').innerHTML = '';"/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errornombre" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Direccion:</td><td>
+    	<input id="direscuela" type="text"  maxlength="100" size="25" 
+        	onkeyup=" document.getElementById('errordir').innerHTML = '';"/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errordir" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Departamento:</td><td><SELECT id="dept" size="1" style="width:200px" onchange="
+    	var combo = this;
+        document.getElementById('boton').disabled = true;
+        document.getElementById('dist').disabled = true;
+    	$.post('Queries/getdist.php' , { value: combo.options[combo.selectedIndex].text },
+				function(output)
+				{
+					var valores = output.split(','),
+						combo = document.getElementById('dist');
+                        combo.options.length = 0;
+					for( i = 0 ; i < valores.length; i++ )
+						combo.options.add(new Option(valores[i], i));
+					document.getElementById('boton').disabled = false;
+                    document.getElementById('dist').disabled = false;
+				});
+    
+    "> </SELECT> </td></tr>
+    <tr><td align="right">Distrito:</td><td>
+    	<SELECT id="dist" style="width:200px"  size="1" > </SELECT> 
+    </td></tr>
+    <tr><td align="right">Teléfono:</td><td>
+    	<input id="telescuela" type="text"  maxlength="8" size="25" 
+        	onkeyup=" validartelescuela(); "/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errortel" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    </table>
+    <br /><br />
+    <table align="center" >
+    <tr><td align="left" style="padding-right:300px;"> Administrador:</td><td></td></tr>
+    </table>
+    <table align="center" style="background: url(IMG/fondo.jpg);
+                             background-repeat: repeat;
+                             background-position: left top;">
+    <tr><td align="right">E-mail:</td><td>
+    	<input id="email" type="text"  maxlength="50" size="25" 
+        	onkeyup=" document.getElementById('errorcorreo').innerHTML = '';"/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errorcorreo" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Contraseña:</td><td>
+    	<input id="pass" type="password"  maxlength="50" size="25" 
+        	onkeyup=" document.getElementById('errorpass').innerHTML = '';"/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errorpass" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Confirmar Contraseña:</td><td>
+    	<input id="pass2" type="password"  maxlength="50" size="25"
+        	onkeyup=" document.getElementById('errorpass2').innerHTML = '';" />
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errorpass2" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">celular:</td><td>
+    	<input id="celular" type="text"  maxlength="8" size="25" 
+        	onkeyup=" validarcel(); "/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errorcel" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Num. Identidad (Sin guiones):</td><td>
+    	<input id="numid" type="text"  maxlength="13" size="25" 
+        	onkeyup=" validarnoid(); " />
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errornoid" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Primer Nombre:</td><td>
+    	<input id="pnombre" type="text"  maxlength="50" size="25"
+        	onkeyup=" document.getElementById('errorpnombre').innerHTML = '';"  />
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errorpnombre" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Segundo Nombre (Opcional):</td><td><input id="snombre" type="text" maxlength="50" size="25" /></td></tr>
+    <tr><td></td><td align="left"><font id = "errorsnombre" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Primer Apellido:</td><td>
+    	<input id="papellido" type="text"  maxlength="50" size="25" 
+        	onkeyup=" document.getElementById('errorpapellido').innerHTML = ''; 
+                      if(validateEnter(event)) { enviar(); }"/>
+    </td></tr>
+    <tr><td></td><td align="left"><font id = "errorpapellido" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+    <tr><td align="right">Segundo Apellido (Opcional):</td><td><input id="sapellido" type="text" maxlength="50" size="25" onkeyup="if(validateEnter(event)) { enviar(); }" /></td></tr>
+    <tr><td></td><td align="left"><font id = "errorsapellido" size="2" face="Arial, Helvetica, sans-serif" color="#FF0000" ></font></td></tr>
+</table>
+
+</font>
+<div style="text-align:center;" >
+
+<button id = "boton" type="button" style="
+    background-image: url(IMG/botonenviar0.jpg) ,url(IMG/botonenviar1.jpg);
+    background-position: 0px , 118px;
+    background-repeat: no-repeat , no-repeat;
+    width: 118px;
+    height: 39px;
+    border: none;
+    
+    margin-top: 20px;
+"onmouseover="this.style.backgroundPosition = '118px , 0px';"
+onmouseout="this.style.backgroundPosition = '0px , 118px';"
+onmousedown=" enviar(); "></button>
+
+
+</div>
+</div>
+
+<div id = "pie" style="
+	text-align:center;
+    margin-top: 50px;
+    
+"> <font size="2" face="Arial, Helvetica, sans-serif">
+  <p>Creditos: www.algodeeducacion.com<br />
+    Enero 2013
+  </p></font>
+  
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+  <img src="IMG/login_logo.jpg" hspace="10px" />
+</div>
+</body>
+</html>
+
+
+            

@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+#u3 {
+	background-image: url(../IMG/lapizg.jpg) , url(../IMG/lapizg1.jpg);
+}
+
+#u1 , #u6 , #u7 , #u10 {
+	background-image: url(../IMG/lapizm.jpg) , url(../IMG/lapizm1.jpg);
+}
+
+#u2 , #u4 , #u5 , #u8 , #u9 , #u11 , #u12 , #u13 {
+	background-image: url(../IMG/lapizp.jpg) , url(../IMG/lapizp1.jpg);
+}
+
+#u14 {
+	background-image: url(../IMG/lapizm.jpg) , url(../IMG/lapizm1.jpg);
+}
+
+#u1 , #u2 , #u3 , #u4 , #u5 ,#u6 , #u7 , #u8 , #u9 , #u10 , #u11 , #u12 , #u13 , #u14{
+	background-repeat: no-repeat;
+	background-position: 0px, 500px;
+	text-align: left;
+	width: 325px;
+	height: 21px;
+	padding-left: 45px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+#leccion1 , #leccion2 , #leccion3 , #leccion4 , #leccion5 , #leccion6 , #leccion7 , #leccion8, #leccion9{
+	background-image: url(../IMG/marcaverde.jpg) , url(../IMG/marcaazul.jpg);
+	background-position: 0px , 400px;
+	background-repeat: no-repeat;
+	width: 113px;
+	height: 25px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	padding-left: 23px;
+	padding-top: 10px;
+	margin-right: 0px;
+}
+
+#texto1 , #texto2 , #texto3 , #texto4 , #texto5 , #texto6,
+#texto7 , #texto8, #texto9
+{
+	text-align:left;
+	margin-left: 0px;
+	padding-top: 10px;
+	width: 200px;
+	height: 25px;
+}
+
+body {
+	background-color:#F7F7F5;
+	padding: 0px;
+	margin: 0px;
+}
+
+#papel {
+	background-image: url(../IMG/papel.jpg);
+	background-repeat: no-repeat;	
+	width: 405px;
+	height: 517px;	
+	padding-top: 50px;
+	padding-left: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+#imgl1 , #imgl2 , #imgl3 , #imgl4 , #imgl5 , #imgl6 , #imgl7 , #imgl8 , #imgl9 {
+	background-image: url(../IMG/bagregarm0.jpg) , url(../IMG/bagregarm1.jpg);
+    background-position: 0px, 25px;
+    background-repeat:no-repeat;
+	width: 25px;
+	height: 25px;
+}
+                    
