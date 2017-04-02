@@ -1,0 +1,43 @@
+*
+body{
+	background-repeat:repeat-x;
+	opacity: 0.9;
+}
+.nav li a{
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  font-size: 20px;
+  padding:30px 30px;
+  display:inline;
+  position: static;
+  width: 50px;
+  top:50px;
+  right:50px;
+  left: 50px;
+  }
+
+.nav li a:hover
+  {
+  background-color:#434343;
+  }
+.nav>li
+  {
+  float:right;
+  position: static;
+  }
+.nav li ul
+  {
+  display:inline;
+  position:static;
+  border-spacing: 20px;
+  }
+.nav li:hover > ul
+  {
+  display:inline;
+  }
+.nav li ul li
+  {
+  position: static;
+  }
