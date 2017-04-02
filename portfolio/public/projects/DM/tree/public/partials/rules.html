@@ -1,0 +1,67 @@
+<div class="transaction-list">
+	<div ng-if="!full">
+		<b>Limit to:</b>
+		<input type="number" min="0" value="100" onchange="getService('LoadedFile').changeNumberShow(this)"/>
+		<b>Search By Item: </b>
+		<input type="text" placeholder="item name..." onkeyup="getService('LoadedFile').changeText(this)"/>
+		<b>Min Support</b>
+		<input type="number" min="0" 
+			max="100" value="{{support}}" step="0.1" onchange="getService('LoadedFile').changeSupport(this)"/>
+			<b>% ({{(total*(support/100)).toFixed(2)}} Items)</b>
+		<b>Min Items </b>
+		<input type="number" min="1" max="10" value="1" onchange="getService('LoadedFile').changeNumber(this)"/>
+		<b>Max Items </b>
+		<input type="number" min="1" max="10" value="10" onchange="getService('LoadedFile').changeNumberMax(this)"/>
+		<b>Showing {{data.filtered.length}} of {{rules.length}} Itemsets</b>
+		<ul class="list-group">
+			<g ng-repeat="item in data.filtered=(rules|filtertran:searchText:searchNumber:searchNumberMax:support:total:maxShow)" 
+					class="list-group-item">
+				<li ng-animate="'animate'" >
+					<b>{{$index+1+" "}}</b>
+					{ <span ng-repeat="text in item.elements" >
+							<reddit text="text"></reddit>
+						<span ng-if="!$last">,</span> </span>  } 
+					<b ng-if="!total">{{item.support}}</b>
+					<b ng-if="total">{{(100*(item.support/total)).toFixed(2) + '%'}}</b>
+				</li>
+			</g>
+		</ul>
+	</div>
+	<div ng-if="full">
+		<b>Limit to:</b>
+		<input type="number" min="0" value="100" onchange="getService('LoadedFile').changeNumberShow(this)"/>
+		<b>Search By Item: </b>
+		<input type="text" placeholder="item name..." onkeyup="getService('LoadedFile').changeText(this)"/>
+		<b>Min Support</b>
+		<input type="number" min="0" 
+			max="100" value="{{support}}" step="0.1" onchange="getService('LoadedFile').changeSupport(this)"/>
+		<b>Max Support</b>
+		<input type="number" min="0" 
+			max="100" value="100" step="0.1" onchange="getService('LoadedFile').changeMaxSupport(this)"/>
+		<b>Min Confidence</b>
+		<input type="number" min="0" 
+			max="100" value="0" step="0.1" onchange="getService('LoadedFile').changeConfidence(this)"/>
+		<b>Max Confidence</b>
+		<input type="number" min="0" 
+			max="100" value="100" step="0.1" onchange="getService('LoadedFile').changeMaxConfidence(this)"/>
+		<b>Min Items </b>
+		<input type="number" min="1" max="10" value="1" onchange="getService('LoadedFile').changeNumber(this)"/>
+		<b>Max Items </b>
+		<input type="number" min="1" max="10" value="10" onchange="getService('LoadedFile').changeNumberMax(this)"/>
+		<b>Showing {{data.filtered.length}} of {{rules.length}} Itemsets</b>
+		<button class="button" onclick="getService('LoadedFile').saveRules(this)">Save Rules</button>
+		<ul class="list-group">
+			<g ng-repeat="item in data.filtered=(full|filterrule:searchText:searchNumber:searchNumberMax:support:total:maxShow:confidence:supportMax:confidenceMax)" 
+					class="list-group-item">
+				<li ng-animate="'animate'" >
+					<b>{{$index+1+" "}}</b>
+					<b>{{'[ '+ (100*(item.support/total)).toFixed(2) + '% , ' + item.confidencePer +'% , ' + item.total + ' ]'}}</b>
+					{ 	<span ng-repeat="text in item.when" >
+							<reddit text="text"></reddit>
+						<span ng-if="!$last">,</span> </span> 
+					} -> <reddit text="item.then"></reddit>
+				</li>
+			</g>
+		</ul>
+	</div>
+</div>
