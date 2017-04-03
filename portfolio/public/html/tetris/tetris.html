@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tetris - Vanilla JS</title>
+	<script type="text/javascript" src="tetris.js"></script>
+	<link rel="stylesheet" type="text/css" href="tetris.css">
+</head>
+<body>
+	<audio autoplay loop >
+	  <source src="tetris.mp3" type="audio/mpeg">
+	</audio>
+	<div class="wrapper">
+		<div class="inner-wrapper">
+			<div id="board" class="board">
+			</div>
+		</div>
+	</div>
+	<div class="score-table">
+		<div>Score: <span id="score">0</span></div>
+		<div>Level: <span id="level">1</span></div>
+		<div>Next Level: <span id="next">25</span></div>
+	</div>
+	<div id="gameover" class="gameover">
+		<div><span>Game Over!</span></div>
+		<div class="small"><span>Your Score:<span id="finalscore">0</span></span></div>
+		<div class="restart" onclick="restart()">Restart</div>
+	</div>
+	<div class="Instructions">Use Arrow keys or WASD to Play</div>
+</body>
+</html>

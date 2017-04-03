@@ -1,0 +1,180 @@
+ html , body {
+ 	width: 100%;
+ 	height: 100%;
+ 	margin: 0;
+ 	background: black;
+ 	color: white;
+ 	background-image: url(back.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: top center;
+ }
+
+
+ .board {
+ 	display: inline-block;
+ 	border-bottom: 10px solid #999999;
+ 	border-left: 10px solid #999999;
+ 	border-right: 10px solid #999999;
+ 	margin-top: 10px;
+ }
+
+.score-table {
+	text-align: left;
+	position: fixed;
+	left: 0;
+	top: 0;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	padding: 10px;
+	background-color: #222222;
+	font-size: 18px;
+}
+
+.score-table {
+	font-weight: bold;
+}
+
+.Instructions {
+	text-align: left;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	padding: 10px;
+	background-color: #222222;
+	font-size: 18px;
+}
+
+.wrapper {
+	display: table;
+	text-align: center;
+	width: 100%;
+    height: 100%;
+}
+
+.inner-wrapper {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.row {
+	display: block;
+	margin: 0;
+	height: 24px;
+}
+
+.cell {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #FFFFFF;
+}
+
+.cell[value="0"] {
+	background-color: #ECECEC;
+	border: 2px solid #AAAAAA;
+}
+
+.gameover {
+	display: none;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 5em;
+    padding-top: 10%;
+}
+
+.restart {
+	cursor: pointer;
+	font-size: 0.5em;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	background-color: #D8D8D8;
+	transition: all 1s ease;
+}
+
+.restart:hover {
+	background-color: #556BA4;
+	color: white;
+}
+
+.small {
+	font-size: 0.7em;
+}
+
+.gameover.visible {
+	display: inline;
+}
+
+
+.cell[value="100"] {
+	background-color: #E7DC00;
+	border: 2px solid #E60000;
+}
+.cell[value="200"] {
+	background-color: #C80000;
+	border: 2px solid #E60000;
+}
+.cell[value="300"] {
+	background-color: #00109E;
+	border: 2px solid #E60000;
+}
+.cell[value="400"] {
+	background-color: #098B00;
+	border: 2px solid #E60000;
+}
+
+.cell[value="1"] {
+	background-color: #E7DC00;
+	border: 2px solid #333333;
+}
+.cell[value="2"] {
+	background-color: #C80000;
+	border: 2px solid #333333;
+}
+.cell[value="3"] {
+	background-color: #00109E;
+	border: 2px solid #333333;
+}
+.cell[value="4"] {
+	background-color: #098B00;
+	border: 2px solid #333333;
+}
+
+
+.cell[value="-1"] {
+	background-color: #EDE99F;
+	transition: background-color 1s ease;
+	border: 2px solid #EDE99F;
+}
+.cell[value="-2"] {
+	background-color: #E56F6F;
+	transition: background-color 1s ease;
+	border: 2px solid #E56F6F;
+}
+.cell[value="-3"] {
+	background-color: #5E66A6;
+	transition: background-color 1s ease;
+	border: 2px solid #5E66A6;
+}
+.cell[value="-4"] {
+	background-color: #82BB7E;
+	transition: background-color 1s ease;
+	border: 2px solid #82BB7E;
+}
+
+.cell[value="10"] {
+	background-color: #1D9AAB;
+	transition: background-color 1s ease;
+	border: 2px solid #1D9AAB;
+}
