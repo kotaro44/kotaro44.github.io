@@ -47,6 +47,18 @@
 	font-size: 18px;
 }
 
+.credits {
+	text-align: left;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	padding: 10px;
+	background-color: #222222;
+	font-size: 18px;
+}
+
 .wrapper {
 	display: table;
 	text-align: center;
