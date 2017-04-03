@@ -15,6 +15,10 @@ html body {
 	overflow:hidden;
 }
 
+.carlos-logo {
+	color: #E79C69!important;	
+}
+
 .card {
 	border: 1px solid #A5A5A5;
 }
