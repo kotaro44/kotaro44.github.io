@@ -2909,5 +2909,1939 @@
 			"desc": "",
 			"from": "Taiwan"
 		}
+	},
+	"Germany": {
+		"Afghanistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Albania": {
+			"req": "Visa not required",
+			"desc": "90 days; ID card valid",
+			"from": "Taiwan"
+		},
+		"Algeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Andorra": {
+			"req": "Visa not required",
+			"desc": "ID card valid",
+			"from": "Taiwan"
+		},
+		"Angola": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Antigua and Barbuda": {
+			"req": "Visa not required",
+			"desc": "6 months",
+			"from": "Taiwan"
+		},
+		"Argentina": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Armenia": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Taiwan"
+		},
+		"Australia": {
+			"req": "a href=\"/wiki/EVisitor\" class=\"mw-redirect\" title=\"EVisitor\"",
+			"desc": "90 days on each visit in 12-month period if granted",
+			"from": "Taiwan"
+		},
+		"Austria": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Azerbaijan": {
+			"req": "eVisa",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Bahamas": {
+			"req": "Visa not required",
+			"desc": "8 months",
+			"from": "Taiwan"
+		},
+		"Bahrain": {
+			"req": "Visa on arrival",
+			"desc": "14 days",
+			"from": "Taiwan"
+		},
+		"Bangladesh": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Barbados": {
+			"req": "Visa not required",
+			"desc": "6 months",
+			"from": "Taiwan"
+		},
+		"Belarus": {
+			"req": "Visa not required",
+			"desc": "5 days, must arrive via Minsk International Airport;Visas are issued on arrival at the Minsk International Airportif the support documents were submitted not later than 3 business days before expected date of arrival.",
+			"from": "Taiwan"
+		},
+		"Belgium": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Belize": {
+			"req": "Visa not required",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Benin": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bhutan": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Bolivia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Bosnia and Herzegovina": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6 month period; ID card valid",
+			"from": "Taiwan"
+		},
+		"Botswana": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Brazil": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Brunei": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Bulgaria": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Burkina Faso": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Burundi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cambodia": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Visa is also obtainable online.",
+			"from": "Taiwan"
+		},
+		"Cameroon": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Canada": {
+			"req": "Visa not required",
+			"desc": "6 months; eTA required if arriving by air.",
+			"from": "Taiwan"
+		},
+		"Cape Verde": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Central African Republic": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Chad": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Chile": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"China": {
+			"req": "Visa required",
+			"desc": "72-hours visa free visit when in transit at Beijing, Changsha, Chengdu, Chongqing, Dalian, Guangzhou, Guilin, Harbin, Kunming, Qingdao, Shenyang, Tianjin, Wuhan, Xi'an and Xiamen.144-hours visa free visit when in transit at Hangzhou, Nanjing and Shanghai's Hongqiao and Pudong international airports, Railway Station and port.",
+			"from": "Taiwan"
+		},
+		"Colombia": {
+			"req": "Visa not required",
+			"desc": "90 days - extendable up to 180-days stay within a one year period",
+			"from": "Taiwan"
+		},
+		"Comoros": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Democratic Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Costa Rica": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Ivory Coast": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Croatia": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Cuba": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cyprus": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Czech Republic": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Denmark": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid (DK)",
+			"from": "Taiwan"
+		},
+		"Djibouti": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Dominica": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Dominican Republic": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Ecuador": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Egypt": {
+			"req": "Visa on arrival",
+			"desc": "30 days; ID card valid",
+			"from": "Taiwan"
+		},
+		"El Salvador": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Equatorial Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Eritrea": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Estonia": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Ethiopia": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Fiji": {
+			"req": "Visa not required",
+			"desc": "4 months",
+			"from": "Taiwan"
+		},
+		"Finland": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"France": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid (in Regions of France)",
+			"from": "Taiwan"
+		},
+		"Gabon": {
+			"req": "e-Visa",
+			"desc": "Electronic visa holders must arrive via Libreville International Airport.",
+			"from": "Taiwan"
+		},
+		"Gambia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Georgia": {
+			"req": "Visa not required",
+			"desc": "1 year",
+			"from": "Taiwan"
+		},
+		"Ghana": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Greece": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Grenada": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Guatemala": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Guinea-Bissau": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Guyana": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Haiti": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Honduras": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Hungary": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Iceland": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"India": {
+			"req": "e-Tourist Visa",
+			"desc": "60 days; eTV holders must arrive via 16 designated airports.",
+			"from": "Taiwan"
+		},
+		"Indonesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Iran": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Iraq": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Ireland": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Israel": {
+			"req": "Visa not required",
+			"desc": "3 months for tourism only  German citizens born before January 1, 1928 need a visa which will be issued for free if one was not a member of the Nazi party or involved in crimes committed during the time of Nazi Germany.",
+			"from": "Taiwan"
+		},
+		"Italy": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Jamaica": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Japan": {
+			"req": "Visa not required",
+			"desc": "90 days, extendable once",
+			"from": "Taiwan"
+		},
+		"Jordan": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Conditions apply",
+			"from": "Taiwan"
+		},
+		"Kazakhstan": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Kenya": {
+			"req": "eVisa",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Kiribati": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"North Korea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"South Korea": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Kuwait": {
+			"req": "eVisa",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Kyrgyzstan": {
+			"req": "Visa not required",
+			"desc": "60 days",
+			"from": "Taiwan"
+		},
+		"Laos": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Latvia": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Lebanon": {
+			"req": "Visa on arrival",
+			"desc": "1 month extendable for 2 additional months; granted free of charge at Beirut International Airport or any other port of entry if there is no Israeli visa or seal, holding a telephone number, an address in Lebanon, and a non refundable return or circle trip ticket.",
+			"from": "Taiwan"
+		},
+		"Lesotho": {
+			"req": "Visa not required",
+			"desc": "14 days",
+			"from": "Taiwan"
+		},
+		"Liberia": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Libya": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Liechtenstein": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Lithuania": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Luxembourg": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Macedonia": {
+			"req": "Visa not required",
+			"desc": "90 days; ID card valid",
+			"from": "Taiwan"
+		},
+		"Madagascar": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Malawi": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Malaysia": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Maldives": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Mali": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Malta": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Marshall Islands": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Mauritania": {
+			"req": "Visa on arrival",
+			"desc": "Available at Nouakchott–Oumtounsy International Airport.",
+			"from": "Taiwan"
+		},
+		"Mauritius": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Mexico": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Taiwan"
+		},
+		"Micronesia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Moldova": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6 month period; ID card valid",
+			"from": "Taiwan"
+		},
+		"Monaco": {
+			"req": "Visa not required",
+			"desc": "ID card valid",
+			"from": "Taiwan"
+		},
+		"Mongolia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Montenegro": {
+			"req": "Visa not required",
+			"desc": "90 days; ID card valid for 30 days",
+			"from": "Taiwan"
+		},
+		"Morocco": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Mozambique": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Myanmar": {
+			"req": "eVisa",
+			"desc": "28 days. eVisa holders must arrive via Yangon, Nay Pyi Taw or Mandalay airports.",
+			"from": "Taiwan"
+		},
+		"Namibia": {
+			"req": "Visa not required",
+			"desc": "3 months within a calendar year",
+			"from": "Taiwan"
+		},
+		"Nauru": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nepal": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Netherlands": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid (European Netherlands)",
+			"from": "Taiwan"
+		},
+		"New Zealand": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Nicaragua": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Niger": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nigeria": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Norway": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Oman": {
+			"req": "Visa on arrival",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Pakistan": {
+			"req": "Visa required",
+			"desc": "Visa on arrival when travelling on business valid for 30 days. Conditions apply.",
+			"from": "Taiwan"
+		},
+		"Palau": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Panama": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Taiwan"
+		},
+		"Papua New Guinea": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "60 days. Free of charge.",
+			"from": "Taiwan"
+		},
+		"Paraguay": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Peru": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6 month period",
+			"from": "Taiwan"
+		},
+		"Philippines": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Poland": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Portugal": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Qatar": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Romania": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Russia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Rwanda": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Saint Kitts and Nevis": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Saint Lucia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Saint Vincent and the Grenadines": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Samoa": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"San Marino": {
+			"req": "Visa not required",
+			"desc": "ID card valid",
+			"from": "Taiwan"
+		},
+		"São Tomé and Príncipe": {
+			"req": "Visa not required",
+			"desc": "15 days",
+			"from": "Taiwan"
+		},
+		"Saudi Arabia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Senegal": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Serbia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6 month period; ID card valid",
+			"from": "Taiwan"
+		},
+		"Seychelles": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Sierra Leone": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Singapore": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Slovakia": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Slovenia": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Solomon Islands": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Somalia": {
+			"req": "Visa required",
+			"desc": "Visa may be obtained on arrival, provided an invitation letter by the sponsor had been submitted to the authorities before arrival.",
+			"from": "Taiwan"
+		},
+		"South Africa": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"South Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Spain": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Sri Lanka": {
+			"req": "Electronic Travel Authorization",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Suriname": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Swaziland": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Sweden": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Switzerland": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"Syria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tajikistan": {
+			"req": "Visa on arrival",
+			"desc": "45 days at Dushanbe International Airport. Visa also available online. E-visa holders can enter through all border points.",
+			"from": "Taiwan"
+		},
+		"Tanzania": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Thailand": {
+			"req": "Visa not required",
+			"desc": "30 days (maximum two visits annually if not arriving by air)",
+			"from": "Taiwan"
+		},
+		"Timor-Leste": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Togo": {
+			"req": "Visa on arrival",
+			"desc": "7 days",
+			"from": "Taiwan"
+		},
+		"Tonga": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Trinidad and Tobago": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Tunisia": {
+			"req": "Visa not required",
+			"desc": "4 months; ID card valid in certain cases",
+			"from": "Taiwan"
+		},
+		"Turkey": {
+			"req": "Visa not required",
+			"desc": "3 months&nbsp;; ID card valid Former Turkish citizens with aTurkish \"Blue Card\" (Mavi Kart): Freedom of movement.",
+			"from": "Taiwan"
+		},
+		"Turkmenistan": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival.",
+			"from": "Taiwan"
+		},
+		"Tuvalu": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Uganda": {
+			"req": "Visa on arrival",
+			"desc": "May apply online.",
+			"from": "Taiwan"
+		},
+		"Ukraine": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"United Arab Emirates": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"United Kingdom": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "Freedom of movement; ID card valid",
+			"from": "Taiwan"
+		},
+		"United States": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "90 days on arrival from overseas; ESTA (valid for 2 years when issued) required if arriving by air or cruise ship.",
+			"from": "Taiwan"
+		},
+		"Uruguay": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Uzbekistan": {
+			"req": "Visa required",
+			"desc": "Pre-approved visa can be picked up on arrival. Simplified procedure for German citizens.",
+			"from": "Taiwan"
+		},
+		"Vanuatu": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Vatican City": {
+			"req": "Visa not required",
+			"desc": "ID card valid",
+			"from": "Taiwan"
+		},
+		"Venezuela": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Vietnam": {
+			"req": "Visa not required",
+			"desc": "15 days; effective from 1 July 2015 - 30 June 2017. A single entry eVisa valid for 30 days is also available.",
+			"from": "Taiwan"
+		},
+		"Yemen": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Zambia": {
+			"req": "Visa on arrival",
+			"desc": "90 days; also eligible for a universal visa allowing access to Zimbabwe.",
+			"from": "Taiwan"
+		},
+		"Zimbabwe": {
+			"req": "Visa on arrival",
+			"desc": "3 months; also eligible for a universal visa allowing access to Zambia.",
+			"from": "Taiwan"
+		}
+	},
+	"China": {
+		"Afghanistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Albania": {
+			"req": "Visa required",
+			"desc": "Holders of valid multiple entry visa issued by the United States/United Kingdom/Schengen States are exempt",
+			"from": "China"
+		},
+		"Algeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Andorra": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Angola": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Antigua and Barbuda": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Argentina": {
+			"req": "Visa required",
+			"desc": "E-Visa if holding a valid US or Schengen visa. Multiple entry and 90 days per stay.",
+			"from": "China"
+		},
+		"Armenia": {
+			"req": "eVisa &amp; Visa on Arrival",
+			"desc": "Also visa free for 30 days for diplomatic passports and passports for public affairs. ",
+			"from": "China"
+		},
+		"Australia": {
+			"req": "Online Visitor e600 visa",
+			"desc": "May apply online.",
+			"from": "China"
+		},
+		"Austria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Azerbaijan": {
+			"req": "Visa on arrival",
+			"desc": "30 days; available at airports eVisa is also available.",
+			"from": "China"
+		},
+		"Bahamas": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "China"
+		},
+		"Bahrain": {
+			"req": "Visa on arrival",
+			"desc": "14 days",
+			"from": "China"
+		},
+		"Bangladesh": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Barbados": {
+			"req": "Visa required",
+			"desc": "Visa exempt for cruise passengers arriving and departing on the same vessel and passengers who are in transit from the airport and cruise terminal (or vice versa). Mutual waiver agreement signed and is yet to be ratified.",
+			"from": "China"
+		},
+		"Belarus": {
+			"req": "Visa required",
+			"desc": "Visa-free for 5 days for holders a Schengen visa or a national visa of country of EU, must arrive via Minsk International Airport.Visa free when traveling as part of an accredited tourist group. Group leaders must hold the original of the invitation letter issued by an accredited travel agency and a list of visitors verified by Chinese national (CNTA), provincial, municipal authority responsible for tourism.",
+			"from": "China"
+		},
+		"Belgium": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Belize": {
+			"req": "Visa required",
+			"desc": "Cruise passengers do not require a visa.",
+			"from": "China"
+		},
+		"Benin": {
+			"req": "Visa required",
+			"desc": "Visa free for 90 days if travel on duty.",
+			"from": "China"
+		},
+		"Bhutan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Bolivia": {
+			"req": "Visa required",
+			"desc": "Visa free for passports for public affairs.",
+			"from": "China"
+		},
+		"Bosnia and Herzegovina": {
+			"req": "Visa required",
+			"desc": "Visa free for passports for public affairs. Visa free for a maximum stay of 7 days for valid visa holders and residents of the European Union member states.",
+			"from": "China"
+		},
+		"Botswana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Brazil": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Brunei": {
+			"req": "Visa on arrival",
+			"desc": "14 days",
+			"from": "China"
+		},
+		"Bulgaria": {
+			"req": "Visa required",
+			"desc": "Visa free for if holding a valid Schengen visa (single or multiple entry.",
+			"from": "China"
+		},
+		"Burkina Faso": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Burundi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Cambodia": {
+			"req": "Visa on arrival",
+			"desc": "30 days on arrival, or e-visa online",
+			"from": "China"
+		},
+		"Cameroon": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Canada": {
+			"req": "Visa required",
+			"desc": "No transit visa required if transiting Toronto Pearson Terminal 1 or Vancouver International Airports to or from the USA on same travel day (no overnight stay) while holding valid USA visa and travelling on selected airlines. Visa not required for permanent residents of the USA. eTA is still required by permanent residents of USA if traveling by air.",
+			"from": "China"
+		},
+		"Cape Verde": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Central African Republic": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Chad": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Chile": {
+			"req": "Visa required",
+			"desc": "Visa free for holders of valid visa for Canada or the US, valid for a minimum of 6 months from the arrival date.",
+			"from": "China"
+		},
+		"Colombia": {
+			"req": "Visa required",
+			"desc": "Visa free for holders of valid visa for Schengen area or the US, valid for a minimum of 180 days from the arrival date. .",
+			"from": "China"
+		},
+		"Comoros": {
+			"req": "Visa on arrival",
+			"desc": "45 days",
+			"from": "China"
+		},
+		"Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "Visa free for passports for public affairs.",
+			"from": "China"
+		},
+		"Democratic Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Costa Rica": {
+			"req": "Visa required",
+			"desc": "Visa free for a maximum stay of 30 days for holders of passport for public affairs.Visa free for holders of valid visa for Canada or the US.",
+			"from": "China"
+		},
+		"Côte d'Ivoire": {
+			"req": "eVisa",
+			"desc": "3 months; eVisa holders must arrive via Port Bouet Airport.",
+			"from": "China"
+		},
+		"Croatia": {
+			"req": "Visa required",
+			"desc": "Visa exempt for holders of a visa issued by a Schengen Member State and a travel health insurance. Passenger must travel as a tourist in an organised group and arrive from a Schengen Member State.",
+			"from": "China"
+		},
+		"Cuba": {
+			"req": "Tourist Card Required",
+			"desc": "Tourist Card can be purchased for a maximum stay for 30 days.",
+			"from": "China"
+		},
+		"Cyprus": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Czech Republic": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Denmark": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Djibouti": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "China"
+		},
+		"Dominica": {
+			"req": "Visa not required",
+			"desc": "21 days",
+			"from": "China"
+		},
+		"Dominican Republic": {
+			"req": "Visa required",
+			"desc": "Holders of a visa issued by Canada, USA or any European Union member state will be issued a Tourist Card for a stay of max. 30 days. max 90 days for UK resident.",
+			"from": "China"
+		},
+		"Ecuador": {
+			"req": "Visa not required",
+			"desc": "90 days within any year period",
+			"from": "China"
+		},
+		"Egypt": {
+			"req": "Visa on arrival",
+			"desc": "According to Egyptian diplomatic missions in China, Chinese citizens can apply for visa on arrival since July 19, 2016 and can stay for up 30 days. However, according to IATA, Chinese citizens are visa exempt for 30 days if they hold a return ticket, a reservation in a 4 or 5 star hotel, and USD 2000.",
+			"from": "China"
+		},
+		"El Salvador": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Equatorial Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Eritrea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Estonia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Ethiopia": {
+			"req": "Visa on arrival",
+			"desc": "6 months",
+			"from": "China"
+		},
+		"Fiji": {
+			"req": "Visa not required",
+			"desc": "4 months",
+			"from": "China"
+		},
+		"Finland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"France": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Gabon": {
+			"req": "e-Visa",
+			"desc": "Electronic visa holders must arrive via Libreville International Airport.",
+			"from": "China"
+		},
+		"Gambia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Georgia": {
+			"req": "eVisa",
+			"desc": "up to 30 days",
+			"from": "China"
+		},
+		"Germany": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Ghana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Greece": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Grenada": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Guatemala": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Guinea-Bissau": {
+			"req": "Visa on arrival &amp; E-visa",
+			"desc": "90 days",
+			"from": "China"
+		},
+		"Guyana": {
+			"req": "Visa required",
+			"desc": "Visa free for 3 months, for passports for public affairs.",
+			"from": "China"
+		},
+		"Haiti": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "China"
+		},
+		"Honduras": {
+			"req": "Visa required",
+			"desc": "Visa free for holders of a visa valid for at least 6 months issued by Canada, the USA, or a Schengen Member State, and for residents of the UK, Japan, Singapore, Australia and New Zealand.",
+			"from": "China"
+		},
+		"Hungary": {
+			"req": "Visa required",
+			"desc": "Hungary was a hotspot for illegal Chinese immigrants between 1990 and 1992, because after the collapse of the communist bloc, it was the only major European country that granted visa free entry for Chinese citizens. Hungary abolished it in 1992 after the massive number of illegal immigrants (50,000 at its highest).",
+			"from": "China"
+		},
+		"Iceland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"India": {
+			"req": "e-Tourist Visa",
+			"desc": "60 days; eTV holders must arrive via 16 designated airports.",
+			"from": "China"
+		},
+		"Indonesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Iran": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Iraq": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Ireland": {
+			"req": "Visa required",
+			"desc": "Visa waiver for UK 'C' visa holders until October 2016 or for holders of British visas endorsed with BIVS. Entry permitted only if first point of entry to the Common Travel Area is in the UK.",
+			"from": "China"
+		},
+		"Israel": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Italy": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Jamaica": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Japan": {
+			"req": "Visa required",
+			"desc": "Passengers of approved cruiseships do not require a visa from April 2015.",
+			"from": "China"
+		},
+		"Jordan": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Kazakhstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Kenya": {
+			"req": "eVisa",
+			"desc": "3 months",
+			"from": "China"
+		},
+		"Kiribati": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"North Korea": {
+			"req": "Visa required",
+			"desc": "Chinese tourists may visit Tongnim County without a visa for 2 days. They may also visit Sinuiju for a day trip without a visa.",
+			"from": "China"
+		},
+		"South Korea": {
+			"req": "Visa required",
+			"desc": "Visa free for visits to Jeju Island for up to 30 days. Individual \"transit tourists\" bound for or arriving from one of the following countries and holding a valid visa or re-entry permit for that country: EEA member state, Switzerland, USA, Japan, Canada, Australia, or New Zealand. Must show a confirmed flight ticket for onward departure from Korea within 30 days. If traveling by air to Jeju Island via Seoul, Busan, Cheongju, Muan and Yangyang, Chinese citizens traveling as part of a tourist group by authorized travel agent may stay in mainland South Korea for up to 15 days.",
+			"from": "China"
+		},
+		"Kuwait": {
+			"req": "Visa required",
+			"desc": "Visa free for 30 days for passports for public affairs.",
+			"from": "China"
+		},
+		"Kyrgyzstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Laos": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Latvia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Lebanon": {
+			"req": "Visa on arrival",
+			"desc": "1 month extendable for 2 additional months; granted free of charge at Beirut International Airport or any other port of entry if there is no Israeli visa or seal, holding a telephone number, an address in Lebanon, and a non refundable return or circle trip ticket.",
+			"from": "China"
+		},
+		"Lesotho": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Liberia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Libya": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Liechtenstein": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Lithuania": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Luxembourg": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Macedonia": {
+			"req": "Visa required",
+			"desc": "Visa exempted for 15 days if holding a double or multiple Schengen C visa or a visa issued by USA, Canada or United Kingdom. The visa must be valid for at least 5 days beyond the period of intended stay in Macedonia. Visa free for a maximum stay of 90 days for holders of passports for public affairs.",
+			"from": "China"
+		},
+		"Madagascar": {
+			"req": "Visa on arrival",
+			"desc": "30 days, free of charge",
+			"from": "China"
+		},
+		"Malawi": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "China"
+		},
+		"Malaysia": {
+			"req": "Online registration or eVisa",
+			"desc": "Between March 1, 2016 to December 31, 2017, Chinese citizens do not require a visa for Malaysia for a stay of up to 15 days, online registration prior to arrival required",
+			"from": "China"
+		},
+		"Maldives": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Mali": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Malta": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Marshall Islands": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Mauritania": {
+			"req": "Visa on arrival",
+			"desc": "Available at Nouakchott–Oumtounsy International Airport.",
+			"from": "China"
+		},
+		"Mauritius": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "China"
+		},
+		"Mexico": {
+			"req": "Visa required",
+			"desc": "Visa free for holders of valid visas issued by Canada, Japan, United Kingdom, United States, or a Schengen member state. Also visa free for all visiting \"through maritime ports as passengers in tourism cruises\"",
+			"from": "China"
+		},
+		"Micronesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Moldova": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Monaco": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Mongolia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Montenegro": {
+			"req": "Visa required",
+			"desc": "Visa free for a maximum stay of 30 days for valid visa holders and residents of the European Union member states and the United States.",
+			"from": "China"
+		},
+		"Morocco": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "China"
+		},
+		"Mozambique": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Myanmar": {
+			"req": "eVisa",
+			"desc": "28 days. eVisa holders must arrive via Yangon, Nay Pyi Taw or Mandalay airports. Visa on arrival is available for any countries foreigners if departing from Guangzhou by Myanmar Airways.",
+			"from": "China"
+		},
+		"Namibia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Nauru": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Nepal": {
+			"req": "Visa on arrival",
+			"desc": "Visa is issued free of charge for tourists.",
+			"from": "China"
+		},
+		"Netherlands": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"New Zealand": {
+			"req": "eVisa",
+			"desc": "Visa free if having a current Australian permanent residence visa or a current Australian resident return visa. eVisa eligible if \"you are outside New Zealand and are from a visa waiver country or from China and are applying for a student, visitor or work visa\"..",
+			"from": "China"
+		},
+		"Nicaragua": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Niger": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Nigeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Norway": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Oman": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Pakistan": {
+			"req": "Visa required",
+			"desc": "Visa on arrival when travelling on business valid for 30 days. Conditions apply. Visa on arrival when travelling as part of a group through a designated tour operator.",
+			"from": "China"
+		},
+		"Palau": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Panama": {
+			"req": "Visa required",
+			"desc": "Visa exempted for a max. stay of 30 days for holders of a valid visa for Andorra, Australia, Canada, Iceland, Monaco, Liechtenstein, Norway, San Marino, Switzerland, USA, 30 days for UK permanent residents.",
+			"from": "China"
+		},
+		"Papua New Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Paraguay": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Peru": {
+			"req": "Visa required",
+			"desc": "Visa free if holding valid US/Canada/UK/Australia/Schengen visa (at least 6 months before expiry) or permanent residency in US/CA/UK/EU/AU countries. Up to 180 days per stay for tourism and business.",
+			"from": "China"
+		},
+		"Philippines": {
+			"req": "Visa required",
+			"desc": "Visa-free 7 days if a tourist and holding a valid visa for Schengen countries, Australia, Canada, Japan or the USA.",
+			"from": "China"
+		},
+		"Poland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Portugal": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Qatar": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Romania": {
+			"req": "Visa required",
+			"desc": "Visa free if holding valid Schengen multiple entry visa. The journey has to be completed before the expiration of Schengen visa.",
+			"from": "China"
+		},
+		"Russia": {
+			"req": "Visa required",
+			"desc": "Visa free for a maximum stay of 15 days for visitors travelling as part of a tour group (5 to 50 persons), accompanied by a representative of a tour operator accredited in both Russia and China. Visa free for 30 days for diplomatic and service passports since April 26, 2014.",
+			"from": "China"
+		},
+		"Rwanda": {
+			"req": "eVisa",
+			"desc": "90 days",
+			"from": "China"
+		},
+		"Saint Kitts and Nevis": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "China"
+		},
+		"Saint Lucia": {
+			"req": "Visa required",
+			"desc": "Cruise ship passengers visiting for one day are visa exempt",
+			"from": "China"
+		},
+		"Saint Vincent and the Grenadines": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Samoa": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "60 days",
+			"from": "China"
+		},
+		"San Marino": {
+			"req": "Visa not required",
+			"desc": "90 days. Although no visa is required, travelers must transit through Italy to reach San Marino, which requires at least a single entry Schengen visa.",
+			"from": "China"
+		},
+		"São Tomé and Príncipe": {
+			"req": "eVisa",
+			"desc": "30 days. Holders of a visa issued by the United States or a Schengen area member state do not require a visa for stays up to 15 days.",
+			"from": "China"
+		},
+		"Saudi Arabia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Senegal": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Serbia": {
+			"req": "Visa not required",
+			"desc": "30 daysVisa free for a maximum stay of 90 days for holders of a passport for public affairs.Visa free for a maximum stay of 90 days for valid visa holders and residents of the European Union member states and the United States.",
+			"from": "China"
+		},
+		"Seychelles": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "China"
+		},
+		"Sierra Leone": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Singapore": {
+			"req": "eVisa",
+			"desc": "Visa free for 30 days for holders of passport for public affairs.",
+			"from": "China"
+		},
+		"Slovakia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Slovenia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Solomon Islands": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Somalia": {
+			"req": "Visa required",
+			"desc": "Visa may be obtained on arrival, provided an invitation letter by the sponsor had been submitted to the authorities before arrival.",
+			"from": "China"
+		},
+		"South Africa": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"South Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Spain": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Sri Lanka": {
+			"req": "Electronic Travel Authorization",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Suriname": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "90 days; available at Johan Adolf Pengel International Airport.",
+			"from": "China"
+		},
+		"Swaziland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Sweden": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Switzerland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Syria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Tajikistan": {
+			"req": "Visa on arrival",
+			"desc": "45 days; Visa free for passports for public affairs. Visa also available online. E-visa holders can enter through all border points.",
+			"from": "China"
+		},
+		"Tanzania": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "China"
+		},
+		"Thailand": {
+			"req": "Visa on arrival",
+			"desc": "15 days",
+			"from": "China"
+		},
+		"Timor-Leste": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Togo": {
+			"req": "Visa on arrival",
+			"desc": "7 days",
+			"from": "China"
+		},
+		"Tonga": {
+			"req": "Visa not required",
+			"desc": "30 days ",
+			"from": "China"
+		},
+		"Trinidad and Tobago": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Tunisia": {
+			"req": "Visa not required",
+			"desc": "90 days ",
+			"from": "China"
+		},
+		"Turkey": {
+			"req": "E-visa",
+			"desc": "30 days, visa fee US $60.",
+			"from": "China"
+		},
+		"Turkmenistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Tuvalu": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "China"
+		},
+		"Uganda": {
+			"req": "Visa on arrival",
+			"desc": "May apply online.",
+			"from": "China"
+		},
+		"Ukraine": {
+			"req": "Visa on arrival",
+			"desc": "15 days for business or tourist purposes, available at Boryspil International Airport and Odessa International Airport.",
+			"from": "China"
+		},
+		"United Arab Emirates": {
+			"req": "Visa on arrival",
+			"desc": "30 days or expand to 60 days.",
+			"from": "China"
+		},
+		"United Kingdom": {
+			"req": "Visa required",
+			"desc": "Visa not required if holding a valid Irish visa endorsed with BIVS. Entry permitted only if first point of entry to the Common Travel Area is in Ireland.",
+			"from": "China"
+		},
+		"United States": {
+			"req": "Visa required",
+			"desc": "Chinese citizens who do receive a visa are normally issued \"120-month multiple-entry combination B1/B2 visas.\"",
+			"from": "China"
+		},
+		"Uruguay": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Uzbekistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Vanuatu": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "China"
+		},
+		"Vatican City": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Venezuela": {
+			"req": "Visa required",
+			"desc": "Visa free for 30 days, for diplomatic, service passports and passports for public affairs. (since January 8, 2014)",
+			"from": "China"
+		},
+		"Vietnam": {
+			"req": "Visa required",
+			"desc": "Visa free for 30 days, for passports for public affairs.Visa on arrival can be arranged online through travel agencies and are available at Ho Chi Minh City, Hanoi and Da Nang airports.A single entry eVisa valid for 30 days is also available (not apply to Chinese e-passport holders)",
+			"from": "China"
+		},
+		"Yemen": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "China"
+		},
+		"Zambia": {
+			"req": "eVisa",
+			"desc": "",
+			"from": "China"
+		},
+		"Zimbabwe": {
+			"req": "eVisa",
+			"desc": "Approved tour groups may obtain visa on arrival.",
+			"from": "China"
+		}
 	}
 }
