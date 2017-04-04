@@ -1,0 +1,2913 @@
+{
+	"Honduras": {
+		"Afghanistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Albania": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Algeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Andorra": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Angola": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Antigua and Barbuda": {
+			"req": "Electronic Entry Visa",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Argentina": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Armenia": {
+			"req": "Visa on arrival",
+			"desc": "120 days",
+			"from": "Honduras"
+		},
+		"Australia": {
+			"req": "Online Visitor e600 visa",
+			"desc": "May apply online.",
+			"from": "Honduras"
+		},
+		"Austria": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Azerbaijan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Bahamas": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Bahrain": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Bangladesh": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Barbados": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Belarus": {
+			"req": "Visa required",
+			"desc": "Visa-free for 5 days for holders a Schengen visa or a national visa of country of EU, must arrive via Minsk International Airport.Visas are issued on arrival at the Minsk International Airportif the support documents were submitted not later than 3 business days before expected date of arrival.",
+			"from": "Honduras"
+		},
+		"Belgium": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Belize": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Benin": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Bhutan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Bolivia": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Bosnia and Herzegovina": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6 month period",
+			"from": "Honduras"
+		},
+		"Botswana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Brazil": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Brunei": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Bulgaria": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Honduras"
+		},
+		"Burkina Faso": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Burundi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Cambodia": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Visa is also obtainable online.",
+			"from": "Honduras"
+		},
+		"Cameroon": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Canada": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Cape Verde": {
+			"req": "Visa on arrival",
+			"desc": "Not available at all entry points.",
+			"from": "Honduras"
+		},
+		"Central African Republic": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Chad": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Chile": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"China": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Colombia": {
+			"req": "Visa not required",
+			"desc": "90 days - extendable up to 180-days stay within a one year period",
+			"from": "Honduras"
+		},
+		"Comoros": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Democratic Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Costa Rica": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Côte d'Ivoire": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Croatia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Honduras"
+		},
+		"Cuba": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Cyprus": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Honduras"
+		},
+		"Czech Republic": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Denmark": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Djibouti": {
+			"req": "Visa on arrival",
+			"desc": "Not available at all entry points.",
+			"from": "Honduras"
+		},
+		"Dominica": {
+			"req": "Visa not required",
+			"desc": "6 months",
+			"from": "Honduras"
+		},
+		"Dominican Republic": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Ecuador": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Egypt": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"El Salvador": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Equatorial Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Eritrea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Estonia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Ethiopia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Fiji": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Finland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"France": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area (in Regions of France)",
+			"from": "Honduras"
+		},
+		"Gabon": {
+			"req": "eVisa",
+			"desc": "Electronic visa holders must arrive via Libreville International Airport.",
+			"from": "Honduras"
+		},
+		"Gambia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Georgia": {
+			"req": "Visa not required",
+			"desc": "1 year",
+			"from": "Honduras"
+		},
+		"Germany": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Ghana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Greece": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Grenada": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Guatemala": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Guinea-Bissau": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Guyana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Haiti": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Hungary": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Iceland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"India": {
+			"req": "e-Tourist Visa",
+			"desc": "60 days; eTV holders must arrive via 16 designated airports.",
+			"from": "Honduras"
+		},
+		"Indonesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Iran": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Iraq": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Ireland": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Israel": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Italy": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Jamaica": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Japan": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Jordan": {
+			"req": "Visa on arrival",
+			"desc": "Conditions apply. Not available at all entry points.",
+			"from": "Honduras"
+		},
+		"Kazakhstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Kenya": {
+			"req": "eVisa",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Kiribati": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"North Korea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"South Korea": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Kuwait": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Kyrgyzstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Laos": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Not available at all entry points.",
+			"from": "Honduras"
+		},
+		"Latvia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Lebanon": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Lesotho": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Liberia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Libya": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Liechtenstein": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Lithuania": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Luxembourg": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Macedonia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Madagascar": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Malawi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Malaysia": {
+			"req": "Visa not required",
+			"desc": "1 month",
+			"from": "Honduras"
+		},
+		"Maldives": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Mali": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Malta": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Marshall Islands": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Mauritania": {
+			"req": "Visa on arrival",
+			"desc": "Available at Nouakchott–Oumtounsy International Airport.",
+			"from": "Honduras"
+		},
+		"Mauritius": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Mexico": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Micronesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Moldova": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Monaco": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Mongolia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Montenegro": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Morocco": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Mozambique": {
+			"req": "Visa on arrival",
+			"desc": "30 days, conditions apply",
+			"from": "Honduras"
+		},
+		"Myanmar": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Namibia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Nauru": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Nepal": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Netherlands": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area (European Netherlands)",
+			"from": "Honduras"
+		},
+		"New Zealand": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Nicaragua": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Niger": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Nigeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Norway": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Oman": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Pakistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Palau": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Panama": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Honduras"
+		},
+		"Papua New Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Paraguay": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Peru": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Honduras"
+		},
+		"Philippines": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Poland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Portugal": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Qatar": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Romania": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Honduras"
+		},
+		"Russia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Honduras"
+		},
+		"Rwanda": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Saint Kitts and Nevis": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Saint Lucia": {
+			"req": "Visa on arrival",
+			"desc": "6 weeks",
+			"from": "Honduras"
+		},
+		"Saint Vincent and the Grenadines": {
+			"req": "Visa not required",
+			"desc": "1 month",
+			"from": "Honduras"
+		},
+		"Samoa": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "60 days",
+			"from": "Honduras"
+		},
+		"San Marino": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"São Tomé and Príncipe": {
+			"req": "Visa required",
+			"desc": "Visa is obtained online.",
+			"from": "Honduras"
+		},
+		"Saudi Arabia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Senegal": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Serbia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Seychelles": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Sierra Leone": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Singapore": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Slovakia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Slovenia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Solomon Islands": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Somalia": {
+			"req": "Visa on arrival",
+			"desc": "30 days, must hold an invitation letter issued at least 2 days before arrival.",
+			"from": "Honduras"
+		},
+		"South Africa": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"South Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Spain": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Sri Lanka": {
+			"req": "Electronic Travel Authorization",
+			"desc": "30 days",
+			"from": "Honduras"
+		},
+		"Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Suriname": {
+			"req": "Tourist Card on arrival",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Swaziland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Sweden": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Switzerland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Honduras"
+		},
+		"Syria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Tajikistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Tanzania": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Thailand": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Timor-Leste": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Not available at all entry points.",
+			"from": "Honduras"
+		},
+		"Togo": {
+			"req": "Visa on arrival",
+			"desc": "7 days",
+			"from": "Honduras"
+		},
+		"Tonga": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Trinidad and Tobago": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Tunisia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Turkey": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Honduras"
+		},
+		"Turkmenistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Tuvalu": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "Honduras"
+		},
+		"Uganda": {
+			"req": "Visa on arrival",
+			"desc": "Determined at the port of entry. May apply online.",
+			"from": "Honduras"
+		},
+		"Ukraine": {
+			"req": "Visa required",
+			"desc": "Visa on arrival for 15 days from 16 April 2017",
+			"from": "Honduras"
+		},
+		"United Arab Emirates": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"United Kingdom": {
+			"req": "Visa not required",
+			"desc": "6 months",
+			"from": "Honduras"
+		},
+		"United States": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Uruguay": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Uzbekistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Vanuatu": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Vatican City": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Venezuela": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Vietnam": {
+			"req": "Visa required",
+			"desc": "Pre-arranged visa obtained online through travel agencies available at Hanoi, Ho Chi Minh City, Phú Quốc or Da Nang airports.Phú Quốc without a visa for up to 30 days.",
+			"from": "Honduras"
+		},
+		"Yemen": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Zambia": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Honduras"
+		},
+		"Zimbabwe": {
+			"req": "eVisa",
+			"desc": "",
+			"from": "Honduras"
+		},
+		"Taiwan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Honduras"
+		}
+	},
+	"Taiwan": {
+		"Afghanistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Albania": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Algeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Andorra": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Angola": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Antigua and Barbuda": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Argentina": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "ROC passports are not accepted. Must hold a Travel Certificate issued by Argentina instead of a visa.",
+			"from": "Taiwan"
+		},
+		"Armenia": {
+			"req": "Visa on arrival",
+			"desc": "120 days",
+			"from": "Taiwan"
+		},
+		"Australia": {
+			"req": "a href=\"/wiki/Electronic_Travel_Authority_(Australia)\" class=\"mw-redirect\" title=\"Electronic Travel Authority (Australia)\"",
+			"desc": "90 days on each visit in 12-month period. ETA is only applicable when the ROC passport contains a National ID number and can only be applied from an approved travel agent in Taiwan or at an Australian visa office. ROC passports without National ID numbers are not accepted unless the holder has permanent residency in another country.",
+			"from": "Taiwan"
+		},
+		"Austria": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Azerbaijan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bahamas": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bahrain": {
+			"req": "eVisa",
+			"desc": "14 days",
+			"from": "Taiwan"
+		},
+		"Bangladesh": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Barbados": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Belarus": {
+			"req": "Visa required",
+			"desc": "Visas are issued on arrival at the Minsk International Airportif the support documents were submitted not later than 3 business days before expected date of arrival.",
+			"from": "Taiwan"
+		},
+		"Belgium": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Belize": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Benin": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bhutan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bolivia": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Bosnia and Herzegovina": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6-month period",
+			"from": "Taiwan"
+		},
+		"Botswana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Brazil": {
+			"req": "Visa required",
+			"desc": "Brazilian visas issued before 14 May 2014 were affixed on laissez-passers.",
+			"from": "Taiwan"
+		},
+		"Brunei": {
+			"req": "Visa on arrival",
+			"desc": "14 days",
+			"from": "Taiwan"
+		},
+		"Bulgaria": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Burkina Faso": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Burundi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cambodia": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Cameroon": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Canada": {
+			"req": "Visa not required",
+			"desc": "180 days, passport with National ID number issued by the Ministry of Foreign Affairs required. eTA required when arriving by air.",
+			"from": "Taiwan"
+		},
+		"Cape Verde": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Central African Republic": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Chad": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Chile": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"China": {
+			"req": "With ",
+			"desc": "ROC passports are not recognized for entry and transit. However, all ROC nationals with Household Registration are also able to apply for a Mainland Travel Permit for Taiwan Residents either before arrival or on arrival, allowing the holder to enter and stay in Mainland China until its expiry. All ROC nationals can also apply for a Chinese Travel Document before arrival which allows them to remain for up to 2 years. Issuance of the Taiwan Compatriot Permit or Chinese Travel Document is not automatic for all ROC nationals and is at the sole discretion of the PRC government.",
+			"from": "Taiwan"
+		},
+		"Colombia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Comoros": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Democratic Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Costa Rica": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Côte d'Ivoire": {
+			"req": "eVisa",
+			"desc": "3 months; eVisa holders must arrive via Port Bouet Airport.",
+			"from": "Taiwan"
+		},
+		"Croatia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Cuba": {
+			"req": "Tourist card required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cyprus": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Czech Republic": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Denmark": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Djibouti": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Dominica": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Taiwan"
+		},
+		"Dominican Republic": {
+			"req": "Visa not required",
+			"desc": "Tourist card must be purchased on arrival.",
+			"from": "Taiwan"
+		},
+		"Ecuador": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Egypt": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"El Salvador": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Equatorial Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Eritrea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Estonia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Ethiopia": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Fiji": {
+			"req": "Visa not required",
+			"desc": "4 months",
+			"from": "Taiwan"
+		},
+		"Finland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"France": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Gabon": {
+			"req": "eVisa",
+			"desc": "Electronic visa holders must arrive via Libreville International Airport.",
+			"from": "Taiwan"
+		},
+		"Gambia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Georgia": {
+			"req": "Admission refused",
+			"desc": "ROC nationals are not allowed to enter or transit.",
+			"from": "Taiwan"
+		},
+		"Germany": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Ghana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Greece": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Grenada": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Guatemala": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Guinea-Bissau": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Guyana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Haiti": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Honduras": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Hungary": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Iceland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"India": {
+			"req": "e-Tourist Visa",
+			"desc": "60 days; eTV holders must arrive via 16 designated airports.",
+			"from": "Taiwan"
+		},
+		"Indonesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Iran": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Iraq": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Ireland": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Israel": {
+			"req": "Visa not required",
+			"desc": "90 days; entry refused by certain Muslim countries due to Arab league boycott of Israel if evidence of travel to Israel",
+			"from": "Taiwan"
+		},
+		"Italy": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Jamaica": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "ROC passports are not recognized. Must hold an Affidavit of Identity issued by Jamaica.",
+			"from": "Taiwan"
+		},
+		"Japan": {
+			"req": "Visa not required",
+			"desc": "90 days, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Jordan": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Kazakhstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Kenya": {
+			"req": "eVisa",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Kiribati": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"North Korea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"South Korea": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Kuwait": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Kyrgyzstan": {
+			"req": "Visa required",
+			"desc": "Visa on arrival for those with pre-arranged landing visa invitation.",
+			"from": "Taiwan"
+		},
+		"Laos": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Latvia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Lebanon": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Lesotho": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Liberia": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "May apply through e-mail.",
+			"from": "Taiwan"
+		},
+		"Libya": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Liechtenstein": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Lithuania": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Luxembourg": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Macedonia": {
+			"req": "Visa not required",
+			"desc": "90 days, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Madagascar": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Malawi": {
+			"req": "Visa on arrival",
+			"desc": "30 days, extendable to 90 days",
+			"from": "Taiwan"
+		},
+		"Malaysia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Maldives": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Mali": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Malta": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Marshall Islands": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Mauritania": {
+			"req": "Visa on arrival",
+			"desc": "Available at Nouakchott–Oumtounsy International Airport.",
+			"from": "Taiwan"
+		},
+		"Mauritius": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "ROC passports are not recognized. Must obtain an entry permit at the Mauritius Passport &amp; Immigration Office before travel.",
+			"from": "Taiwan"
+		},
+		"Mexico": {
+			"req": "Visa required",
+			"desc": "No visa is required for passengers with a valid visa issued by Canada, Japan, USA, United Kingdom or a Schengen Member State.",
+			"from": "Taiwan"
+		},
+		"Micronesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Moldova": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Monaco": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Mongolia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Montenegro": {
+			"req": "Visa not required",
+			"desc": "90 days, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Morocco": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Mozambique": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Myanmar": {
+			"req": "eVisa",
+			"desc": "28 days. eVisa holders must arrive via Yangon, Nay Pyi Taw or Mandalay airports.",
+			"from": "Taiwan"
+		},
+		"Namibia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nauru": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nepal": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Netherlands": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"New Zealand": {
+			"req": "Visa not required",
+			"desc": "90 days, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Nicaragua": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Niger": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nigeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Norway": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Oman": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Pakistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Palau": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Panama": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Taiwan"
+		},
+		"Papua New Guinea": {
+			"req": "Visa on arrival",
+			"desc": "60 days",
+			"from": "Taiwan"
+		},
+		"Paraguay": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Peru": {
+			"req": "Visa not required",
+			"desc": "183 days",
+			"from": "Taiwan"
+		},
+		"Philippines": {
+			"req": "eVisa",
+			"desc": "Passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Poland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Portugal": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Qatar": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Romania": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Russia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Rwanda": {
+			"req": "eVisa",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Saint Kitts and Nevis": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Saint Lucia": {
+			"req": "Visa not required",
+			"desc": "6 weeks",
+			"from": "Taiwan"
+		},
+		"Saint Vincent and the Grenadines": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Samoa": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "60 days",
+			"from": "Taiwan"
+		},
+		"San Marino": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"São Tomé and Príncipe": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Visa can also be obtained online.",
+			"from": "Taiwan"
+		},
+		"Saudi Arabia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Senegal": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Serbia": {
+			"req": "Travel certificate required",
+			"desc": "Travel certificate issued on a separate piece of paper.",
+			"from": "Taiwan"
+		},
+		"Seychelles": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Sierra Leone": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Singapore": {
+			"req": "Visa not required",
+			"desc": "30 days, holders of passports without National ID numbers are required to hold a valid Taiwanese re-entry permit.",
+			"from": "Taiwan"
+		},
+		"Slovakia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Slovenia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Solomon Islands": {
+			"req": "Visa on arrival",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Somalia": {
+			"req": "Visa required",
+			"desc": "Visa on arrival for 30 days, provided an invitation letter issued by the sponsor has been submittedto the Airport Immigration Department at least 2 days before arrival.",
+			"from": "Taiwan"
+		},
+		"South Africa": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"South Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Spain": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Sri Lanka": {
+			"req": "Electronic Travel Authorization",
+			"desc": "30 days; must hold return or onward ticket",
+			"from": "Taiwan"
+		},
+		"Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Suriname": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Swaziland": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Sweden": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Switzerland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"Syria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tajikistan": {
+			"req": "Visa on arrival",
+			"desc": "45 days",
+			"from": "Taiwan"
+		},
+		"Tanzania": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Thailand": {
+			"req": "Visa on arrival",
+			"desc": "15 days",
+			"from": "Taiwan"
+		},
+		"Timor-Leste": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Togo": {
+			"req": "Visa on arrival",
+			"desc": "7 days",
+			"from": "Taiwan"
+		},
+		"Tonga": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Trinidad and Tobago": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tunisia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Turkey": {
+			"req": "eVisa",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Turkmenistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tuvalu": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Uganda": {
+			"req": "Visa on arrival",
+			"desc": "May apply online.",
+			"from": "Taiwan"
+		},
+		"Ukraine": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"United Arab Emirates": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"United Kingdom": {
+			"req": "Visa not required",
+			"desc": "6 months, passport with National ID number required.",
+			"from": "Taiwan"
+		},
+		"United States": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "90 days on arrival from overseas; ESTA (valid for 2 years when issued) required if arriving by air or cruise ship. Passport with National ID number required, otherwise visa issued on a separate form DS-232.",
+			"from": "Taiwan"
+		},
+		"Uruguay": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Uzbekistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Vanuatu": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Vatican City": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Venezuela": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Vietnam": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Yemen": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Zambia": {
+			"req": "eVisa",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Zimbabwe": {
+			"req": "eVisa",
+			"desc": "",
+			"from": "Taiwan"
+		}
+	},
+	"Nicaragua": {
+		"Afghanistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Albania": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Algeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Andorra": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Angola": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Antigua and Barbuda": {
+			"req": "Electronic Entry Visa",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Argentina": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Armenia": {
+			"req": "Visa on arrival",
+			"desc": "120 days",
+			"from": "Taiwan"
+		},
+		"Australia": {
+			"req": "Online Visitor e600 visa",
+			"desc": "May apply online.",
+			"from": "Taiwan"
+		},
+		"Austria": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Azerbaijan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bahamas": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Bahrain": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bangladesh": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Barbados": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Belarus": {
+			"req": "Visa not required",
+			"desc": "5 days, must arrive via Minsk International Airport;Visas are issued on arrival at the Minsk International Airportif the support documents were submitted not later than 3 business days before expected date of arrival.",
+			"from": "Taiwan"
+		},
+		"Belgium": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Belize": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Benin": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bhutan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bolivia": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bosnia and Herzegovina": {
+			"req": "Visa not required",
+			"desc": "90 days within any 6 month period",
+			"from": "Taiwan"
+		},
+		"Botswana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Brazil": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Brunei": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Bulgaria": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Burkina Faso": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Burundi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cambodia": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Visa is also obtainable online.",
+			"from": "Taiwan"
+		},
+		"Cameroon": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Canada": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cape Verde": {
+			"req": "Visa on arrival",
+			"desc": "Not available at all entry points.",
+			"from": "Taiwan"
+		},
+		"Central African Republic": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Chad": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Chile": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"China": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Colombia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Comoros": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Democratic Republic of the Congo": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Costa Rica": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Côte d'Ivoire": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Croatia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Cuba": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Cyprus": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Czech Republic": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Denmark": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Djibouti": {
+			"req": "Visa on arrival",
+			"desc": "Not available at all entry points.",
+			"from": "Taiwan"
+		},
+		"Dominica": {
+			"req": "Visa not required",
+			"desc": "6 months",
+			"from": "Taiwan"
+		},
+		"Dominican Republic": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Ecuador": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Egypt": {
+			"req": "Visa required",
+			"desc": "Visa not required when visiting as part of the tourist group that consists of at least 10 citizens who hold a return ticket, booked accommodation and a signed guarantee letter from a travel agency.",
+			"from": "Taiwan"
+		},
+		"El Salvador": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Equatorial Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Eritrea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Estonia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Ethiopia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Fiji": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Finland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"France": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area (in Regions of France)",
+			"from": "Taiwan"
+		},
+		"Gabon": {
+			"req": "eVisa",
+			"desc": "Electronic visa holders must arrive via Libreville International Airport.",
+			"from": "Taiwan"
+		},
+		"Gambia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Georgia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Germany": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Ghana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Greece": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Grenada": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Guatemala": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Guinea-Bissau": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Guyana": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Haiti": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Honduras": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Hungary": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Iceland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"India": {
+			"req": "e-Tourist Visa",
+			"desc": "60 days; eTV holders must arrive via 16 designated airports.",
+			"from": "Taiwan"
+		},
+		"Indonesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Iran": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Iraq": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Ireland": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Israel": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Italy": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Jamaica": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Japan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Jordan": {
+			"req": "Visa on arrival",
+			"desc": "Conditions apply. Not available at all entry points.",
+			"from": "Taiwan"
+		},
+		"Kazakhstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Kenya": {
+			"req": "eVisa",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Kiribati": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"North Korea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"South Korea": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Kuwait": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Kyrgyzstan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Laos": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Not available at all entry points.",
+			"from": "Taiwan"
+		},
+		"Latvia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Lebanon": {
+			"req": "Visa required",
+			"desc": "In addition to a visa, an approval should be obtained from the Immigration department of the General Directorate for General Secutiy (La Surete Generale).",
+			"from": "Taiwan"
+		},
+		"Lesotho": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Liberia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Libya": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Liechtenstein": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Lithuania": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Luxembourg": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Macedonia": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Madagascar": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Malawi": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Malaysia": {
+			"req": "Visa not required",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Maldives": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Mali": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Malta": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Marshall Islands": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Mauritania": {
+			"req": "Visa on arrival",
+			"desc": "Available at Nouakchott–Oumtounsy International Airport.",
+			"from": "Taiwan"
+		},
+		"Mauritius": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Mexico": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Micronesia": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Moldova": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Monaco": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Mongolia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Montenegro": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Morocco": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Mozambique": {
+			"req": "Visa on arrival",
+			"desc": "30 days, conditions apply",
+			"from": "Taiwan"
+		},
+		"Myanmar": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Namibia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nauru": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nepal": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Netherlands": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area (European Netherlands)",
+			"from": "Taiwan"
+		},
+		"New Zealand": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Niger": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Nigeria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Norway": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Oman": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Pakistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Palau": {
+			"req": "Visa on arrival",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Panama": {
+			"req": "Visa not required",
+			"desc": "180 days",
+			"from": "Taiwan"
+		},
+		"Papua New Guinea": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Paraguay": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Peru": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Philippines": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Poland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Portugal": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Qatar": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Romania": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Russia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period",
+			"from": "Taiwan"
+		},
+		"Rwanda": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Saint Kitts and Nevis": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Saint Lucia": {
+			"req": "Visa on arrival",
+			"desc": "6 weeks",
+			"from": "Taiwan"
+		},
+		"Saint Vincent and the Grenadines": {
+			"req": "Visa not required",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Samoa": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "60 days",
+			"from": "Taiwan"
+		},
+		"San Marino": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"São Tomé and Príncipe": {
+			"req": "Visa required",
+			"desc": "Visa is obtained online.",
+			"from": "Taiwan"
+		},
+		"Saudi Arabia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Senegal": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Serbia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Seychelles": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Sierra Leone": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Singapore": {
+			"req": "Visa not required",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Slovakia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Slovenia": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Solomon Islands": {
+			"req": "span style=\"display:none;\" class=\"sortkey\"",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Somalia": {
+			"req": "Visa on arrival",
+			"desc": "30 days, must hold an invitation letter issued at least 2 days before arrival.",
+			"from": "Taiwan"
+		},
+		"South Africa": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"South Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Spain": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Sri Lanka": {
+			"req": "Electronic Travel Authorization",
+			"desc": "30 days",
+			"from": "Taiwan"
+		},
+		"Sudan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Suriname": {
+			"req": "Tourist Card on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Swaziland": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Sweden": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Switzerland": {
+			"req": "Visa not required",
+			"desc": "90 days within any 180 day period in the Schengen Area",
+			"from": "Taiwan"
+		},
+		"Syria": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tajikistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tanzania": {
+			"req": "Visa on arrival",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Thailand": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Timor-Leste": {
+			"req": "Visa on arrival",
+			"desc": "30 days. Not available at all entry points.",
+			"from": "Taiwan"
+		},
+		"Togo": {
+			"req": "Visa on arrival",
+			"desc": "7 days",
+			"from": "Taiwan"
+		},
+		"Tonga": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Trinidad and Tobago": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Tunisia": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Turkey": {
+			"req": "Visa not required",
+			"desc": "3 months",
+			"from": "Taiwan"
+		},
+		"Turkmenistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Tuvalu": {
+			"req": "Visa on arrival",
+			"desc": "1 month",
+			"from": "Taiwan"
+		},
+		"Uganda": {
+			"req": "Visa on arrival",
+			"desc": "Determined at the port of entry. May apply online.",
+			"from": "Taiwan"
+		},
+		"Ukraine": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"United Arab Emirates": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"United Kingdom": {
+			"req": "Visa not required",
+			"desc": "6 months",
+			"from": "Taiwan"
+		},
+		"United States": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Uruguay": {
+			"req": "Visa not required",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Uzbekistan": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Vanuatu": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Vatican City": {
+			"req": "Visa not required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Venezuela": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Vietnam": {
+			"req": "Visa required",
+			"desc": "Pre-arranged visa obtained online through travel agencies available at Hanoi, Ho Chi Minh City, Phú Quốc or Da Nang airports.Phú Quốc without a visa for up to 30 days.",
+			"from": "Taiwan"
+		},
+		"Yemen": {
+			"req": "Visa required",
+			"desc": "",
+			"from": "Taiwan"
+		},
+		"Zambia": {
+			"req": "Visa on arrival",
+			"desc": "90 days",
+			"from": "Taiwan"
+		},
+		"Zimbabwe": {
+			"req": "eVisa",
+			"desc": "",
+			"from": "Taiwan"
+		}
+	}
+}

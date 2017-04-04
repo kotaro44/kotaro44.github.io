@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="visa">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carlos Sanchez">
+        <title>Do I need Visa?</title>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="public/style/css/bootstrap.css" >
+        <link rel="stylesheet" type="text/css" href="public/style/css/visa.css" >
+        <link rel="stylesheet" type="text/css" href="public/style/css/font-awesome.css" >
+        <link href="public/style/css/grayscale.mod.css" rel="stylesheet">
+        <!--Google Fonts-->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" >
+        <!--Libs-->
+        <script src="public/lib/jquery/jquery.js"></script>
+        <script src="public/lib/bootstrap/bootstrap.min.js"></script>
+        <script src="public/lib/angular/angular.min.js"></script>
+        <!-- Plugins & API's -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <!-- JS -->
+        <script src="public/lib/bootstrap/grayscale.mod.js"></script>
+        <!--Services-->
+        <script src="public/js/services/services.js"></script>
+        <script src="public/js/services/analytics.js"></script>
+        <!--Config-->
+        <script src="public/js/config/app.js"></script>
+        <!--Controllers-->
+        <script src="public/js/controllers/controllers.js"></script>
+        <!--Filters-->
+        <script src="public/js/filters/filters.js"></script>
+        <!--Directives-->
+        <script src="public/js/directives/directives.js"></script>
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <a href="https://www.airbnb.com/">
+            <div class="powered-by-cmp2 powered-by"></div>
+        </a>
+        <navigation></navigation>
+        <front-page></front-page>
+        <travel></travel>
+        <requirements></requirements>
+        <div class="Ad-Banner" ng-if="front_page.Data.destiny_country">
+            <p>Need a place to Stay?</p>
+            <p>Search on <a href="https://www.airbnb.com/"><span class="cmp2 cmp"></span></a></p>
+        </div>
+        <contact></contact>
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center">
+                <p>Copyright &copy; Carlos Amílcar Sánchez Rosa 2017</p>
+            </div>
+        </footer>
+
+        <app-start></app-start>
+    </body>
+</html>

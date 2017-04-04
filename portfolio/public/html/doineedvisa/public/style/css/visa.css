@@ -1,0 +1,99 @@
+
+.angular-logo , .bootstrap-logo {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	cursor: pointer;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+footer {
+	border-top: 1px solid #333;
+}
+
+.pro-pic {
+	display: inline-block;
+	background-image: url(../../img/pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 2px solid #333333;
+}
+
+.angular-logo {
+	background-image: url(../../img/angular.png);
+
+}
+
+.bootstrap-logo {
+	background-image: url(../../img/bootstrap.png);
+	background-size: 80% auto;
+}
+
+.download-section{
+	-moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(100%);
+}
+
+.download-section[country="Honduras"] {
+	background: none;
+	background-image: url(../../img/Honduras.jpg);
+	background-size: 100% auto;
+}
+
+.download-section[country="Taiwan"] {
+	background: none;
+    background-image: url(../../img/taiwan.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Ad-Banner {
+	text-align: center;
+	margin-top: -200px;
+}
+
+.powered-by {
+	position: fixed;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 100;
+	cursor: pointer;
+	height: 30px;
+	width: 120px;
+	right: 5px;
+	bottom: 5px;
+}
+
+.cmp {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+	width: 120px;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.powered-by-cmp1 , .cmp1 {
+	background-image: url(../../img/trivago.png);
+}
+
+.powered-by-cmp2 , .cmp2 {
+	background-image: url(../../img/airbnb.png);
+}
+
+.powered-by-cmp3 , .cmp3 {
+	background-image: url(../../img/agoda.png);
+}

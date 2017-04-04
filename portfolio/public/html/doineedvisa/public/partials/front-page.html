@@ -1,0 +1,21 @@
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="brand-heading">Where are you from?</h3>
+                    <p class="intro-text">
+                        <select class="selectpicker dark-select" ng-model="front_page.country_value">
+                            <option ng-repeat="country in front_page.Data.origin_countries track by $index">
+                                {{country}}
+                            </option>
+                        </select>
+                    </p>
+                    <a href="#travel" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
