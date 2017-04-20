@@ -126,7 +126,7 @@ Services.service('Data',[function(){
 		},{
 			"title": "SAP - Burberry",
 			"category": "Web Application",
-			"img": "Burberry-app.png",
+			"img": "burberry-app.png",
 			"video": "Burberry.mp4",
 			"url": "http://news.sap.com/burberry-ulta-beauty-mobilize-clienteling/",
 			"desc": "One of the first Projects where Carlos was assigned to help as developer at SAP Palo Alto California, this project was presented at SAPPHIRE 2012 in Madrid, Spain. This POC became a mockup for all the following projects at Innovation Center Silicon Valley.",
