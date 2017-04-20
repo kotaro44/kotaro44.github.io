@@ -1,7 +1,7 @@
 'use strict';
 
 /* Controllers */
-var Controllers = angular.module('cvsimple.controllers', []);
+var Controllers = angular.module('portfolio.controllers', []);
 
 Controllers.controller('seedCtrl', ['$scope','Analytics','$http',
 	function($scope,Analytics,$http) {

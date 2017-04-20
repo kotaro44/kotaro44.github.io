@@ -1,0 +1,26 @@
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Portfolio - Carlos A. Sánchez</h2>
+                <hr class="primary">
+            </div>
+        </div>
+        <div class="row" ng-repeat="project_set in portfolio|groupBy:columns track by $index">
+            <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="project in project_set track by $index">
+                <a href="{{'#portfolioModal-' + (columns*$parent.$index + $index)}}" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="public/img/{{project.img}}" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>{{project.title}}</h4>
+                    <p class="text-muted">{{project.category}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

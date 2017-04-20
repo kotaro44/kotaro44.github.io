@@ -1,0 +1,48 @@
+<div class="modal-wrapper">
+    <div ng-repeat="project in portfolio track by $index" class="portfolio-modal modal fade" 
+        id="{{'portfolioModal-' + $index}}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>{{project.title}}</h2>
+                                <p class="item-intro text-muted">{{project.category}}</p>
+                                <a href="{{project.url}}">
+                                <img class="img-responsive img-centered" src="public/img/{{project.img}}" alt="">
+                                </a>
+                                <p>{{project.desc}}</p>
+                                <p ng-if="project.video">
+                                    <video controls width="100%">
+                                    <source src="{{'./public/img/'+project.video}}" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                    </video>
+                                </p>
+                                <ul class="list-inline" ng-if="project.date">
+                                    <li>Date: {{project.date}}</li>
+                                </ul>
+                                <p ng-if="project.labels" class="label-wrapper">
+                                    <a href="{{label.url}}" ng-repeat="label in project.labels" >
+                                        <img class="logo" src="public/img/{{label.img}}"></img>
+                                    </a>
+                                </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Item</button>
+            
+                                <a href="{{project.url}}">
+                                <button  type="button" class="btn btn-primary"><i class="glyphicon glyphicon-link"></i> Website</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

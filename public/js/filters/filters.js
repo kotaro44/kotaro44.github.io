@@ -1,11 +1,21 @@
 'use strict';
 
 /* Filters */
-var Filters = angular.module('cvsimple.filters', []);
+var Filters = angular.module('portfolio.filters', []);
 
-Filters.filter('capitalize',function(){
-	return function(text){
-		return text[0].toUpperCase() + text.substring(1).toLowerCase();
+Filters.filter('groupBy',function(){
+	return function(data,columns){
+		var result = [] , t = []; 
+		for( var i = 0 ; i < Math.ceil( data.length/columns ) ; i++ ){
+			for( var j = i*columns ; j < i*columns + columns ; j++ ){
+				if( data[j] ) { 
+					t.push( data[j] );
+				}
+			}
+			result.push(t);
+			t = [];
+		}
+		return result;
 	};
 });
 
