@@ -3,13 +3,16 @@
 /* Directives */
 var Directives = angular.module('portfolio.directives', []);
 
-Directives.directive("start", [function() {
+Directives.directive("start", ['Analytics',function(Analytics) {
     return {
         restrict: 'E',
         replace: true,
         templateUrl: 'public/partials/start.html',
         link: function (scope, element, attributes) {
-        	setTimeout(function(){creative();},500);
+        	setTimeout(function(){
+                creative();
+                Analytics.report('Start');
+            },500);
         }
     }
 }]);
