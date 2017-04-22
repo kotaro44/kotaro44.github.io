@@ -30,6 +30,18 @@ a:focus {
   color: #eb3812;
 }
 
+.profile-pic {  
+  display: inline-block;
+  background-image: url(../../img/profile.png);
+  width: 200px;
+  height: 200px;
+  border: 2px solid #FFFFFF;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  background-position: center center;
+  background-size: 100% auto;
+}
+
 .download-pdf {
     position: fixed;
     left: 10px;
