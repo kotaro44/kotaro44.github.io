@@ -70,6 +70,43 @@ Services.service('Data',[function(){
 	var Data = {
 		"columns": 3,
 		"portfolio": [{
+			"title": "SDXess",
+			"category": "Android and Windows App",
+			"img": "sdxess.png",
+			"imgs": ["sdxess.png","sdxess1.png","sdxess2.png","sdxess3.png","sdxess4.png","sdxess5.png"],
+			"url": "http://sdxess.com/",
+			"desc": "Netflix running from USA? Youtube from Taiwan? Youku.com from China? and everything in the same connection with a control panel that can help you change the lcoation for any website, that is SDXess a smart VPN almost fully developed by Carlos with the Company 8VG.org, working a Linux Server Side interaction and 2 client apps, one in Windows and another one in Android both developed by Carlos, is one of the most demanding projects that Carlos had worked on. iOS version is coming!",
+			"labels": [{
+				"img": "8vg.png",
+				"url": "http://www.8vg.org/"
+			},{
+				"img": "android.png",
+				"url": "https://play.google.com/store?hl=es"
+			},{
+				"img": "java.png",
+				"url": "https://www.java.com/es/"
+			},{
+				"img": "sdxess.png",
+				"url": "http://sdxess.com/"
+			},{
+				"img": "php.png",
+				"url": "http://php.net/manual/es/intro-whatis.php"
+			}]
+		},{
+			"title": "Phi Tau Phi Scholastic Scholastic Honor Society of the Republic of China",
+			"category": "Master of Science",
+			"img": "phitauphi.jpg",
+			"imgs": ["phitauphi.png","phitauphi2.png","phitauphi3.jpg"],
+			"url": "http://nthu-en.web.nthu.edu.tw/bin/home.php",
+			"desc": "With a Perfect GPA of 4.3 (100% / A+) on His Master Degree Studies, Carlos was selected as the best student of the entire Institute of Information Systems and Applications at 國立清華大學 (National Tsing Hua University) Taiwan R.O.C, getting the honor of being selected to be a member of Phi Tau Phi Scholastic Honor Society of the Republic of China"
+		},{
+			"title": "International Master on Information Systems and Applications",
+			"category": "Master of Science",
+			"img": "master.jpg",
+			"imgs": ["master.jpg","master2.jpg"],
+			"url": "http://nthu-en.web.nthu.edu.tw/bin/home.php",
+			"desc": "On 12-July-2017, Carlos got his Master Degree from the International Master Program on Information Systems and applications from 國立清華大學 (National Tsing Hua University) Taiwan R.O.C. with a Perfect GPA of 4.3 (Magna Cum Laude)"
+		},{
 			"title": "Do I need Visa?",
 			"category": "Web Application",
 			"img": "visa.png",

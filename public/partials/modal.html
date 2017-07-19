@@ -15,9 +15,14 @@
                             <div class="modal-body">
                                 <h2>{{project.title}}</h2>
                                 <p class="item-intro text-muted">{{project.category}}</p>
-                                <a href="{{project.url}}">
-                                <img class="img-responsive img-centered" src="public/img/{{project.img}}" alt="">
+                                
+                                <a ng-if="!project.imgs" href="{{project.url}}">
+                                    <img class="img-responsive img-centered" src="public/img/{{project.img}}" alt="">
                                 </a>
+                                <a ng-repeat="image in project.imgs" href="{{project.url}}">
+                                    <img class="img-responsive img-centered" src="public/img/{{image}}" alt="">
+                                </a>
+
                                 <p>{{project.desc}}</p>
                                 <p ng-if="project.video">
                                     <video controls width="100%">
@@ -35,7 +40,7 @@
                                 </p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Item</button>
             
-                                <a href="{{project.url}}">
+                                <a ng-if="project.url" href="{{project.url}}">
                                 <button  type="button" class="btn btn-primary"><i class="glyphicon glyphicon-link"></i> Website</button>
                                 </a>
                             </div>

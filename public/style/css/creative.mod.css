@@ -107,6 +107,19 @@ a:focus {
 .logo-sql {
   background-image: url(../../img/sql.png);
 }
+.logo-php {
+  background-image: url(../../img/php.png);
+  background-size: 100% auto;
+}
+.logo-linux {
+  background-image: url(../../img/linux.png);
+}
+.logo-cmd {
+  background-image: url(../../img/cmd.png);
+}
+.logo-android {
+  background-image: url(../../img/android.png);
+}
 
 
 h1,
