@@ -34,7 +34,7 @@ Filters.filter('Math',function(){
 Filters.filter('i18n',['i18n',function(i18n){
 	return function(text){
 		i18n._registerScope(this);
-		return i18n[text];
+		return i18n[text] || text;
 	};
 }]);
 

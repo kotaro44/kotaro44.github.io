@@ -13,8 +13,8 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>{{project.title}}</h2>
-                                <p class="item-intro text-muted">{{project.category}}</p>
+                                <h2>{{project.title|i18n}}</h2>
+                                <p class="item-intro text-muted">{{project.category|i18n}}</p>
                                 
                                 <a ng-if="!project.imgs" href="{{project.url}}">
                                     <img class="img-responsive img-centered" src="public/img/{{project.img}}" alt="">
@@ -23,7 +23,7 @@
                                     <img class="img-responsive img-centered" src="public/img/{{image}}" alt="">
                                 </a>
 
-                                <p>{{project.desc}}</p>
+                                <p>{{project.desc|i18n}}</p>
                                 <p ng-if="project.video">
                                     <video controls width="100%">
                                     <source src="{{'./public/img/'+project.video}}" type="video/mp4">
@@ -31,17 +31,17 @@
                                     </video>
                                 </p>
                                 <ul class="list-inline" ng-if="project.date">
-                                    <li>Date: {{project.date}}</li>
+                                    <li>{{"Date: "|i18n"}}{{project.date}}</li>
                                 </ul>
                                 <p ng-if="project.labels" class="label-wrapper">
                                     <a href="{{label.url}}" ng-repeat="label in project.labels" >
                                         <img class="logo" src="public/img/{{label.img}}"></img>
                                     </a>
                                 </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Item</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>{{"Close Item"|i18n}}</button>
             
                                 <a ng-if="project.url" href="{{project.url}}">
-                                <button  type="button" class="btn btn-primary"><i class="glyphicon glyphicon-link"></i> Website</button>
+                                <button  type="button" class="btn btn-primary"><i class="glyphicon glyphicon-link"></i>{{"Website"|i18n}}</button>
                                 </a>
                             </div>
                         </div>
