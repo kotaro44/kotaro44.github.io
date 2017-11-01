@@ -35,6 +35,9 @@ Directives.directive('navigation', [function navigation() {
     replace: true,
     templateUrl: 'public/partials/navigation.html',
     scope: {},
+    controller: ['$scope', 'Analytics', function navigationCtrl($scope, Analytics) {
+      $scope.Analytics = Analytics;
+    }],
   };
 }]);
 
