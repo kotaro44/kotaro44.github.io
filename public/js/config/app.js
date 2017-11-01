@@ -5,5 +5,5 @@ angular.module('portfolio', [
   'portfolio.filters',
   'portfolio.services',
   'portfolio.directives',
-  'portfolio.controllers'
+  'portfolio.controllers',
 ]);

@@ -1,0 +1,4 @@
+node_modules/*
+bower_components/*
+i18n/node_modules/*
+dist/*

@@ -6,7 +6,7 @@
                 <hr class="primary">
             </div>
         </div>
-        <div class="row" ng-repeat="project_set in portfolio|groupBy:columns track by $index">
+        <div class="row" ng-repeat="project_set in portfolio|cluster:columns track by $index">
             <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="project in project_set track by $index">
                 <a href="{{'#portfolioModal-' + (columns*$parent.$index + $index)}}" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">

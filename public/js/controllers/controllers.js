@@ -1,9 +1,12 @@
 'use strict';
 
-/* Controllers */
+/**
+ * ********** Controllers ************
+ */
 var Controllers = angular.module('portfolio.controllers', []);
 
-Controllers.controller('seedCtrl', ['$scope','Analytics','$http',
-	function($scope,Analytics,$http) {
-	//Analytics.analyzePage('seed');
-}]);
+Controllers.controller('seedCtrl', [
+  function seedCtrl() {
+    //Analytics.analyzePage('seed');
+  },
+]);
