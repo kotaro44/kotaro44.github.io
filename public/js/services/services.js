@@ -151,6 +151,18 @@ Services.service('Data', [function Data() {
   var Data = {
     'columns': 3,
     'portfolio': [{
+      'title': 'Frontend Engineer',
+      'category': 'intowow innovation',
+      'img': 'intowowb.png',
+      'imgs': ['intowowb.png'],
+      'url': 'http://intowow.com/',
+      'desc': 'Worked as a Software Engineers mainting Crystall Express App',
+      'labels': [{
+        'img': 'intowowc.png',
+        'url': 'http://www.intowow.org/',
+      }],
+    },
+    {
       'title': 'SDXess',
       'category': 'Android and Windows App',
       'img': 'sdxess.png',
