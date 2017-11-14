@@ -30,6 +30,19 @@ a:focus {
   color: #eb3812;
 }
 
+.news-highlight {
+  margin-left: 20px;
+}
+
+.news-wrapper {
+  height: 700px;
+  background-color: black;
+  background-image: url(../../img/reinvent.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  auto 100%; 
+}
+
 .profile-pic {  
   display: inline-block;
   background-image: url(../../img/profile.png);

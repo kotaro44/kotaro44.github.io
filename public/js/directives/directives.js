@@ -29,6 +29,15 @@ Directives.directive('about', [function about() {
   };
 }]);
 
+Directives.directive('news', [function about() {
+  return {
+    restrict: 'E',
+    replace: true,
+    templateUrl: 'public/partials/news.html',
+    scope: {},
+  };
+}]);
+
 Directives.directive('navigation', [function navigation() {
   return {
     restrict: 'E',
