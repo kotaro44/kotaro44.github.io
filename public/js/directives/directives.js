@@ -12,7 +12,7 @@ Directives.directive('start', ['Analytics', function start(Analytics) {
     templateUrl: 'public/partials/start.html',
     link: function startLink() {
     	setTimeout(function timeout() {
-        creative();
+        window.creative();
         Analytics.report('Start');
       }, 500);
     },
@@ -102,3 +102,4 @@ Directives.directive('modal', ['Data', function modal(Data) {
     scope: {},
   };
 }]);
+

@@ -5,6 +5,17 @@
  */
 var Filters = angular.module('portfolio.filters', []);
 
+Filters.filter('range', [function range() {
+  return function rangeFilter(init, end) {
+    var result = [];
+    for( init = init; init < end; init++ ) {
+      result.push(init);
+    }
+
+    return result;
+  };
+}]);
+
 Filters.filter('cluster', function cluster() {
   return function clusterFlter(data, columns) {
     var result = [];
