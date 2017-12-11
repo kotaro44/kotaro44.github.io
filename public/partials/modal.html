@@ -20,14 +20,15 @@
               <div class="modal-body">
                 <h2>{{project.title | i18n}}</h2>
                 <p class="item-intro text-muted">{{project.category | i18n}}</p>
-                <a ng-if="!project.imgs" href="{{project.url}}" event="{{project.title + '-img'}}">
+                <a ng-if="!project.imgs" href="{{project.url}}" event="{{project.title + '_img'}}">
                   <img 
                     class="img-responsive img-centered" 
                     src="public/img/{{project.img}}" 
-                    alt="" >
+                    alt="" 
+                    event="{{project.title + '_img'}}">
                 </a>
-                <a ng-repeat="image in project.imgs" href="{{project.url}}" event="{{project.title + '-img-' + $index}}">
-                  <img class="img-responsive img-centered" src="public/img/{{image}}" alt="" >
+                <a ng-repeat="image in project.imgs" href="{{project.url}}" event="{{project.title + '_img_' + $index}}">
+                  <img class="img-responsive img-centered" src="public/img/{{image}}" alt="" event="{{project.title + '_img_' + $index}}">
                 </a>
 
                 <p>{{project.desc | i18n}}</p>
