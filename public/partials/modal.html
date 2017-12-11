@@ -8,7 +8,7 @@
     aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div event="close_modal"class="close-modal" data-dismiss="modal">
+        <div event="close_modal_x"class="close-modal" data-dismiss="modal">
           <div class="lr">
             <div class="rl">
             </div>
@@ -20,12 +20,14 @@
               <div class="modal-body">
                 <h2>{{project.title | i18n}}</h2>
                 <p class="item-intro text-muted">{{project.category | i18n}}</p>
-                
                 <a ng-if="!project.imgs" href="{{project.url}}" event="{{project.title + '-img'}}">
-                  <img class="img-responsive img-centered" src="public/img/{{project.img}}" alt="">
+                  <img 
+                    class="img-responsive img-centered" 
+                    src="public/img/{{project.img}}" 
+                    alt="" >
                 </a>
                 <a ng-repeat="image in project.imgs" href="{{project.url}}" event="{{project.title + '-img-' + $index}}">
-                  <img class="img-responsive img-centered" src="public/img/{{image}}" alt="">
+                  <img class="img-responsive img-centered" src="public/img/{{image}}" alt="" >
                 </a>
 
                 <p>{{project.desc | i18n}}</p>
@@ -38,9 +40,9 @@
                 <ul class="list-inline" ng-if="project.date">
                     <li>{{"Date: " | i18n}}{{project.date}}</li>
                 </ul>
-                <p ng-if="project.labels" class="label-wrapper">
-                  <a href="{{label.url}}" ng-repeat="label in project.labels" event="{{label.img}}">
-                    <img class="logo" src="public/img/{{label.img}}"></img>
+                <p ng-if="project.labels" class="label-wrapper" >
+                  <a href="{{label.url}}" ng-repeat="label in project.labels" >
+                    <img class="logo" src="public/img/{{label.img}}" event="{{label.url}}"></img>
                   </a>
                 </p>
                 <button type="button" class="btn btn-primary" data-dismiss="modal" event="close_item">

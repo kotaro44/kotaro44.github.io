@@ -8,11 +8,11 @@
     </div>
     <div class="row" ng-repeat="i in 0|range:(portfolio.length/columns) track by $index">
       <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="j in 0|range:columns track by $index">
-        <div ng-if="portfolio[i*columns + j]">
-          <a event="portfolio-{{i*columns + j}}-card" href="{{'#portfolioModal-' + (columns*i + j)}}" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
+        <div ng-if="portfolio[i*columns + j]" >
+          <a href="{{'#portfolioModal-' + (columns*i + j)}}" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover" event="portfolio-{{i*columns + j}}-card">
               <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
+                <i class="fa fa-plus fa-3x" event="portfolio-{{i*columns + j}}-card"></i>
               </div>
             </div>
             <img src="public/img/{{portfolio[i*columns + j].img}}" class="img-responsive" alt="">

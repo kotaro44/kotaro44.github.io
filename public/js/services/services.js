@@ -159,7 +159,7 @@ Services.service('Data', [function Data() {
       desc: 'Worked as a Software Engineers mainting Crystall Express App',
       labels: [{
         img: 'intowowc.png',
-        url: 'http://www.intowow.org/',
+        url: 'http://www.intowow.com/',
       }],
     },
     {
