@@ -36,7 +36,7 @@ window.Services.service('Analytics', [function Analytics() {
       hitType: 'event',
       eventCategory: window.location.href,
       eventAction: action,
-      eventLabel: target + ':' + Analytics.event++,
+      eventLabel: (Analytics.event++) + ':' + target,
     });
   };
 
