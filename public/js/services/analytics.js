@@ -35,8 +35,8 @@ window.Services.service('Analytics', [function Analytics() {
     window.ga('send', {
       hitType: 'event',
       eventCategory: window.location.href,
-      eventAction: action,
-      eventLabel: (Analytics.event++) + ':' + target,
+      eventAction: target + ':' + action,
+      eventLabel: Analytics.event++,
     });
   };
 
