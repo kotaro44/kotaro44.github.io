@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="gameoflife">
+<head>
+  <meta charset="utf-8">
+  <title>Game of Life</title>
+  <link rel="stylesheet" href="style/css/app.css"/>
+  <link rel="stylesheet" href="style/css/logo.css"/>
+  <link rel="stylesheet" href="style/css/main.css"/>
+  <!--Libraries-->
+  <script src="lib/magicanv.js"></script>
+  <script src="lib/generation.js"></script>
+</head>
+<body>
+  <canvas id="logoCanvas" ng-controller="canvasCtrl" width="{{window.innerWidth}}" height="{{window.innerHeight}}" ></canvas>
+  <div ng-view></div>
+  <div class="sap-logo"></div>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="js/config/app.js"></script>
+  <script src="js/services/services.js"></script>
+  <script src="js/controllers/controllers.js"></script>
+  <script src="js/controllers/canvas.js"></script>
+  <script src="js/controllers/main.js"></script>
+  <script src="js/filters/filters.js"></script>
+  <script src="js/directives/directives.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<div class="mainHolder {{grid?'':'noGrid'}}">
+	<div class="ctrlPanel">
+		<div ng-click="playBtnClick()" class="playStopBtn" ng-class="{playBtn: !play, stopBtn: play}"></div>
+		<span>Rows: </span><input type="text" ng-model="rows"></input>
+		<span>Columns: </span><input type="text" ng-model="columns"></input>
+		<span class="generation-label">Generation: {{generations}}</span>
+	</div>
+	<div id="matrixCanvas">
+		<table ng-model="data">
+			<tr ng-repeat="row in data">
+				<td ng-repeat="cell in row" x="{{$parent.$index}}" y="{{$index}}" ng-click="cellClick($event)" 
+					class="cell {{cell.val?'livecell':'deadcell'}}">
+					<div class="cell-inner"></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<about></about>
+	<div ng-click="grid = !grid" class="gridBtn {{grid?'gridBtn-on':'gridBtn-off'}}"></div>
+</div>

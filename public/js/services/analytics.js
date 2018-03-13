@@ -1,10 +1,10 @@
 'use strict';
 
 window.Services.service('Analytics', [function Analytics() {
+  var userEvents = ['click', 'dblclick', 'keyup'];
   var Analytics = {
     report: report,
     reportEvent: reportEvent,
-    event: 0,
   };
 
   /** 
@@ -20,23 +20,26 @@ window.Services.service('Analytics', [function Analytics() {
   /** 
    * Capture all Events
    */
-  document.addEventListener('click', function onAnalyticalClick(event) {
-    var id = event.srcElement.getAttribute('event');
-    if (id) {
-      reportEvent('click', id);
-    }
-  }, true);
+  userEvents.forEach(function forEachEvent(evantName) {
+    document.addEventListener(evantName, function onAnalyticalClick(event) {
+      var ecventId = event.srcElement.getAttribute('event');
+      if (ecventId) {
+        reportEvent(evantName, ecventId);
+      }
+    }, true);
+  });
 
   function report(pagename) {
     window.ga('send', 'pageview', pagename );
   };
 
   function reportEvent(action, target) {
-    window.ga('send', {
+    //window.ga('send', {
+    console.log({
       hitType: 'event',
       eventCategory: window.location.href,
-      eventAction: target + ':' + action,
-      eventLabel: Analytics.event++,
+      eventAction: action,
+      eventLabel: target,
     });
   };
 

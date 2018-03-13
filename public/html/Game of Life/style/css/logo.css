@@ -1,0 +1,121 @@
+.logoHolder {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  background-image: url(../../img/title.png);
+  top: 0;
+  left: 50%;
+  width: 60%;
+  height: 100%;
+  margin-left: -30%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: logoInit 8s;
+  -webkit-animation: logoInit 8s;
+}
+
+.sap-logo {
+  position: absolute;
+  background-image: url(../../img/sap.png);
+  right: 2%;
+  bottom: 2%;
+  width: 8%;
+  height: 10%;
+  margin-left: -4%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: sapInit 3s;
+  -webkit-animation: sapInit 3s;
+}
+
+.credits {
+  position: absolute;
+  background-image: url(../../img/credits.png);
+  top: 50%;
+  left: 60%;
+  width: 20%;
+  height: 20%;
+  margin-left: -10%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation: creditsInit 8s;
+  -webkit-animation: creditsInit 8s;
+}
+
+.angular-credits {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  color: white;
+  animation: angularInit 2s;
+  -webkit-animation: angularInit 2s;
+}
+
+@-webkit-keyframes angularInit
+{
+  from {top: -10%;}
+  to {top: 2%;}
+}
+@keyframes angularInit
+{
+  from {top: -10%;}
+  to {top: 2%;}
+}
+
+
+@-webkit-keyframes logoInit
+{
+  from {width: 0%;margin-left: 0%;}
+  30% {width: 0%;margin-left: 0%;}
+  to {width: 60%;margin-left: -30%;}
+}
+@keyframes logoInit
+{
+  from {width: 0%;margin-left: 0%;}
+  30% {width: 0%;margin-left: 0%;}
+  to {width: 60%;margin-left: -30%;}
+}
+
+@-webkit-keyframes sapInit
+{
+  from {bottom: -30%;}
+  to {bottom: 2%;}
+}
+@keyframes sapInit
+{
+  from {bottom: -30%;}
+  to {bottom: 2%;}
+}
+
+@-webkit-keyframes creditsInit
+{
+  from {width: 0%;margin-left: 0%;}
+  30% {width: 0%;margin-left: 0%;}
+  to {width: 20%;margin-left: -10%;}
+}
+@keyframes creditsInit
+{
+  from {width: 0%;margin-left: 0%;}
+  30% {width: 0%;margin-left: 0%;}
+  to {width: 20%;margin-left: -10%;}
+}
+
+@-webkit-keyframes closeWindow
+{
+  from {left: 0%;}
+  to {left: 100%;}
+}
+@keyframes closeWindow
+{
+  from {left: 0%;}
+  to {left: 100%;}
+}

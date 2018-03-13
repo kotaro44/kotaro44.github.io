@@ -20,6 +20,10 @@ Services.service('i18n', function i18n() {
   var observers = [];
   var langs = {
     'en': {
+      'Contact': 'Contact',
+      'Programming Languages': 'Programming Languages',
+      'Portfolio': 'Portfolio',
+      'About': 'About',
       'Computer Systems Engineer, Software Engineer & Web Developer...': 'Computer Systems Engineer, Software Engineer & Web Developer with a Master Degree in Information systems and Applications',
       'Android and Windows App': 'Android and Windows App',
       'Netflix running from USA...': 'Netflix running from USA? Youtube from Taiwan? Youku.com from China? and everything in the same connection with a control panel that can help you change the lcoation for any website, that is SDXess a smart VPN almost fully developed by Carlos with the Company 8VG.org, working a Linux Server Side interaction and 2 client apps, one in Windows and another one in Android both developed by Carlos, is one of the most demanding projects that Carlos had worked on. iOS version is coming!',
@@ -77,26 +81,6 @@ Services.service('i18n', function i18n() {
       'Website': 'Website',
     },
     'es': {
-      'Computer Systems Engineer, Software Engineer & Web Developer...': 'Ingeniero en sistemas computacionales, Ingeniero de Software & Desarrollador Web con una maestría en sistemas de información y aplicaiones',
-      'Android and Windows App': 'Aplicación para Android y Windows',
-      'Netflix running from USA...': '¿Netflix funcionando desde USA? ¿Youtube desde Taiwan? ¿Youku.com desde China? y todo en la misma conexión con un apellido de control que te ayuda a cambiar la ubicación de cualquier sitio web, eso es SDXess una VPN inteligente desarrollada por Carlos con la compañía 8VG.org, trabajando en el servidor de Linux y 2 clientes, uno desarrollado para Windows y otro para Android ambos desarrollados por Carlos, es uno de los proyectos mas demandantes en los que Carlos ha trabajado. ¡la versión para iOS esta por venir!',
-      'Phi Tau Phi Scholastic Scholastic Honor Society of the Republic of China': 'Phi Tau Phi Scholastic Scholastic Honor Society of the Republic of China',
-      'Master of Science': 'Master of Science',
-      'With a Perfect GPA of 4.3...': 'With a Perfect GPA of 4.3 (100% / A+) on His Master Degree Studies, Carlos was selected as the best student of the entire Institute of Information Systems and Applications at 國立清華大學 (National Tsing Hua University) Taiwan R.O.C, getting the honor of being selected to be a member of Phi Tau Phi Scholastic Honor Society of the Republic of China',
-      'International Master on Information Systems and Applications': 'International Master on Information Systems and Applications',
-      'Do I need Visa?': 'Do I need Visa?',
-      'On 12-July-2017, Carlos...': 'On 12-July-2017, Carlos got his Master Degree from the International Master Program on Information Systems and applications from 國立清華大學 (National Tsing Hua University) Taiwan R.O.C. with a Perfect GPA of 4.3 (Magna Cum Laude)',
-      'Web Application': 'Web Application',
-      'A Webpage for any person to be able...': 'A Webpage for any person to be able to consult if they require a visa to travel to an specific country, this project was developed in AngularJS and Bootstrap.',
-      'Web Game': 'Web Game',
-      'A fully functional Tetris Game...': 'A fully functional Tetris Game developed by Carlos only on Javascript, No JQuery, Angular JS or Other Library/Framework just Pure JavaScript',
-      'Carlos Research paper to fullfil...': 'Carlos Research paper to fullfil the requirements of his Master Degree at 國立清華大學.',
-      'Master Thesis': 'Master Thesis',
-      'SAP is a huge company, and the...': 'SAP is a huge company, and the Innovation Center Silicon Valley was the team with Carlos collaborated for more than 1 year.',
-      'A POC developed at SAP Lab\'s...': 'A POC developed at SAP Lab\'s Palo Alto, California USA, Carlos was the lead developer and designer of the app.',
-      'Carlos worked as Lead Developer...': 'Carlos worked as Lead Developer of the project Consumer Insight 365 for SAP.',
-      'Graduated from: ': 'Graduado de: ',
-      'Software Engineer at': 'Ingeniero de software en',
     },
   };
 
@@ -151,6 +135,46 @@ Services.service('Data', [function Data() {
   var Data = {
     columns: 3,
     portfolio: [{
+      title: 'Conway\'s Game of Life',
+      category: 'Web Application',
+      img: 'gameoflife.png',
+      imgs: ['gameoflife.png', 'gol.png'],
+      url: './public/html/Game%20of%20Life/game.html',
+      desc: 'An AngularJS experiment developed for SAP',
+      labels: [{
+        img: 'sap.png',
+        url: 'https://www.sap.com/index.html',
+      }],
+    },
+    {
+      title: 'AWS Re:Invent 2017',
+      category: 'Amazon Web Services',
+      img: 'reinvent2017.jpg',
+      imgs: ['reinvent2017.jpg', 'reinvent.png', 'aws2017.jpg'],
+      url: 'http://intowow.com/',
+      desc: 'Worked as a Software Engineers mainting Crystall Express App',
+      labels: [{
+        img: 'intowowc.png',
+        url: 'http://www.intowow.com/',
+      },
+      {
+        img: 'aws.png',
+        url: 'https://aws.amazon.com/',
+      }],
+    },
+    {
+      title: 'CrystalExpress',
+      category: 'Intowow',
+      img: 'crystalexpress.png',
+      imgs: ['ce2.png', 'crystalexpress.png'],
+      url: 'http://intowow.com/',
+      desc: 'CrystalExpress App is an Internal tool used at Intowow, Carlos help in the maintainance and development of new features of this tool.',
+      labels: [{
+        img: 'intowowc.png',
+        url: 'http://www.intowow.com/',
+      }],
+    },
+    {
       title: 'Frontend Engineer',
       category: 'intowow innovation',
       img: 'intowowb.png',

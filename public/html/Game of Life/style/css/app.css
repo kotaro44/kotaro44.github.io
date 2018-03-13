@@ -1,0 +1,15 @@
+/* app css stylesheet */
+
+html , body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-image: url(../../img/back.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+body > .ng-scope {
+  height: 100%;
+}

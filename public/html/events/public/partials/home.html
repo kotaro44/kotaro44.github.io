@@ -1,0 +1,27 @@
+<div class="dm-tree" ng-class="{loaded:data.FPTree}">
+	<div ng-if="!data.FPTree" class="upload-file" ng-class="{reading: data.file}">
+		<input type="file" accept=".json" fileread="data.file">
+		<div class="file-label">Upload a JSON a File</div>
+	</div>
+	<div class="data-holder" ng-if="data.FPTree">
+		<button class="close-btn button" ng-if="data.FPTree" onclick="getService('LoadedFile').reload()">X</button>
+		<div class="title">FP-Growth Tree</div>
+		<div class="tree-holder"></div>
+		<div ng-if="!data.FPTree.fullRules" class="title">Frequent Transactions , min-support = {{data.FPTree.minSupport}} items {{'('+data.FPTree.minSupportPer+'%)'}} </div>
+		<div ng-if="data.FPTree.fullRules" class="title">Association Rules , min-support = {{data.FPTree.minSupport}} items {{'('+data.FPTree.minSupportPer+'%)'}} </div>
+		<rules  rules="data.FPTree.rules" 
+				full="data.FPTree.fullRules"
+				total="data.FPTree.totalItems" 
+				support="data.FPTree.minSupportPer"></rules>
+	</div>
+	<div class="sample-holder" ng-if="!data.FPTree">
+		<div>Use sample Data:
+		<a><div onclick="getService('LoadedFile').sample(0)">Reddit Data</div></a>
+		<a><div onclick="getService('LoadedFile').sample(1)">Adult</div></a>
+		<a><div onclick="getService('LoadedFile').sample(2)">Sample Association Rules</div></a>
+	</div>
+	<div ng-if="!data.FPTree" class="image-holder">
+	Chrome Extension Example
+		<img src="public/img/extension.png">
+	</div>
+</div>

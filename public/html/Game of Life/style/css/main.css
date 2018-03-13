@@ -1,0 +1,129 @@
+.mainHolder {
+	position: absolute;
+	width: 96%;
+	height: 96%;
+	left: 2%;
+	text-align: center;
+	animation: mainInit 2s forwards;
+	-webkit-animation: mainInit 2s forwards;
+	color: white;
+}
+
+.generation-label {
+	float: right;
+	margin-right: 1%;
+}
+
+#matrixCanvas {
+	margin: 0% auto 0% auto;
+	width: 80%;
+	height: 80%;
+	border: 1px solid white;
+	background-color: rgba(85,85,85,0.8);
+}
+
+.ctrlPanel{
+	height: 6%;
+	padding-top: 4%;
+}
+
+.playStopBtn {
+	float: left;
+	width: 10%;
+	height: 100%;
+	background-size: auto 80%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.playBtn {
+	background-image: url(../../img/rec.png);
+}
+
+.stopBtn {
+	background-image: url(../../img/stop.png);
+}
+
+#matrixCanvas table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+
+.noGrid .cell {
+	border: none;
+}
+
+.cell {
+	border: 1px solid rgba(255,255,255,0.1);	
+	
+}
+
+.deadcell .cell-inner {
+	opacity: 0;
+	background-image: url(../../img/cell2.png);
+	background-size: 0% 0%;
+	
+}
+
+.livecell .cell-inner  {
+	opacity: 1;
+	background-image: url(../../img/cell.png);
+	background-size: 100% 100%;
+}
+
+.cell-inner {
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.5s;
+		width: 100%;
+	height: 100%;
+
+}
+
+
+.gridBtn {
+	position: absolute;
+	bottom: 1%
+	left: 1%;
+	width: 5%;
+	height: 5%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.gridBtn-on {
+	background-image: url(../../img/nogrid.png);
+}
+
+.gridBtn-off {
+	background-image: url(../../img/grid.png);
+}
+
+.about {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 100%;
+	margin-left: -50%;
+	text-align: center;
+}
+
+
+@-webkit-keyframes mainInit
+{
+  from {top: -100%;}
+  to {top: 2%;}
+}
+@keyframes mainInit
+{
+  from {top: -100%;}
+  to {top: 2%;}
+}
