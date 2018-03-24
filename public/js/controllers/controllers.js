@@ -20,9 +20,11 @@ Controllers.controller('canvasCtrl', ['$scope', '$element', '$window', function 
     $scope.circles = [];
     $scope.maxR = 15;
     $scope.minR = 3;
-    $scope.maxT = 20000;
+    $scope.maxT = 5000;
     $scope.minT = 1000;
     $scope.cont = 0;
+
+    window.circles = $scope.circles;
 
     /**
      * Functions
@@ -30,7 +32,7 @@ Controllers.controller('canvasCtrl', ['$scope', '$element', '$window', function 
     //refresh function on the magiccanv interval
     $scope.myCanv = window.magiccanv('logoCanvas', function logoCanvas() {
     //if we have less than N fireflies, create a new one
-      if( $scope.circles.length < 20 ) {
+      if( $scope.circles.length < 35 ) {
       //create new circle
         circle = new window.magic_circle({
           x: Math.random()*$window.innerWidth, 
@@ -69,6 +71,7 @@ Controllers.controller('canvasCtrl', ['$scope', '$element', '$window', function 
               r: 0,
             },
           }, circle.animTime, function onEnd() {
+            console.log('never end??');
             //remove the element form the world for the new 
             $scope.myCanv.removeElement(circle.oid);
             $scope.circles.splice( $scope.circles.indexOf(circle), 1);
