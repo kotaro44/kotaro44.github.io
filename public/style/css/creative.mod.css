@@ -46,6 +46,7 @@ a:focus {
 
 .profile-pic {  
   display: inline-block;
+  background-color: white;
   background-image: url(../../img/propic.jpg);
   width: 200px;
   height: 200px;
