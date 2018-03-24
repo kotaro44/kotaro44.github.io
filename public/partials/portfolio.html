@@ -32,6 +32,19 @@
           </div>
         </div>
       </div>
+
+      <div class="row text-center" ng-if="isLimited()">
+        <span class="filter" ng-click="removeLimit()">
+          Show All results
+        </span>
+      </div>
+
+      <div class="row text-center" ng-if="isNotLimited()">
+        <span class="filter" ng-click="setLimit()">
+          Limit Results
+        </span>
+      </div>
+
     </div>
   </div>
 </section>
