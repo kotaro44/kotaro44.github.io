@@ -83,10 +83,21 @@ Directives.directive('portfolio', ['Data', function portfolio(Data) {
     replace: true,
     templateUrl: 'public/partials/portfolio.html',
     link: function portfolioLink(scope) {
+      var allItems = JSON.parse(JSON.stringify(Data.portfolio));
+
     	scope.portfolio = Data.portfolio;
       scope.columns = Data.columns;
 
-      scope.isPhone = window.mobileAndTabletcheck();
+      scope.filters = ['All', 'Web Apps', 'Professional', 'Android', 'Social', 'Native Apps', 'Games', 'Education', 'Backend'];
+      scope.selectedFilter = 'All';
+
+      scope.applyFilter = function applyFilter(filter){
+        scope.selectedFilter = filter;
+      };
+
+      scope.showItem = function showItem(item){
+        return scope.selectedFilter === 'All' || item.tags.indexOf(scope.selectedFilter) !== -1;
+      };
     },
     scope: {},
   };

@@ -329,10 +329,7 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-}
+
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -388,11 +385,6 @@ header .header-content .header-content-inner p {
 }
 #portfolio * {
   z-index: 2;
-}
-@media (min-width: 767px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
 }
 
 .portfolio-modal {
@@ -633,6 +625,10 @@ body {
   margin: 50px 30px;
 }
 
+#portfolio .box-container {
+  padding: 35px 0px;
+}
+
 #contact {
   border-top: 1px solid white;
   background-color: rgba(255,255,255,0.1);
@@ -711,4 +707,123 @@ b.text-anim-letter {
 
 .about-pic-wrapper {
   margin-bottom: 440px;
+}
+
+
+.filter {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 10px;
+  border: 2px solid grey;
+  margin: 5px 10px;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+}
+
+span.filter.selected-filter {
+  border: 2px solid #9cbc68;
+  color: #9cbc68;
+}
+
+.filter:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.portfolio-items-wrapper {
+  margin-top: 50px;
+}
+
+.portfolio-item img {
+  max-height: 400px;
+}
+
+.portfolio-item {
+  opacity: 0;
+  overflow: hidden;
+  max-width: 0px;
+  max-height: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  min-height: 0px;
+
+  animation-name: shrink;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.portfolio-item.show {
+  opacity: 1;
+  max-width: 500px;
+  max-height: 500px;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 400px;
+
+  animation-name: grow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes shrink {
+  0% {
+    opacity: 1;
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  40% {
+    opacity: 0;
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  50% {
+    opacity: 0;
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  100% {
+    opacity: 0;
+    max-width: 0px;
+    max-height: 0px;
+  }
+}
+
+@keyframes grow {
+  0% {
+    opacity: 0;
+    max-width: 0px;
+    max-height: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  40% {
+    opacity: 1;
+    max-width: 0px;
+    max-height: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  50% {
+    opacity: 1;
+    max-width: 0px;
+    max-height: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  100% {
+    opacity: 1;
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }

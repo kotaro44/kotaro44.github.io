@@ -5,22 +5,29 @@
         <div class="col-lg-12 text-center">
           <h2 class="section-heading">{{"Portfolio"|i18n}} - Carlos A. Sánchez</h2>
           <hr class="primary">
+          <br />
+          <span class="filter" ng-class="{'selected-filter': filter === selectedFilter}" ng-repeat="filter in filters" ng-click="applyFilter(filter)">
+            {{filter}}
+          </span>
         </div>
       </div>
-      <div class="row" ng-repeat="i in 0|range:(portfolio.length/columns) track by $index">
-        <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="j in 0|range:columns track by $index">
-          <div ng-if="portfolio[i*columns + j]" >
-            <a href="{{'#portfolioModal-' + (columns*i + j)}}" class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover" event="{{'portfolio_' + (i*columns + j) + '_card'}}">
-                <div class="portfolio-hover-content" event="{{'portfolio_' + (i*columns + j) + '_card'}}">
-                  <i class="fa fa-plus fa-3x" event="{{'portfolio_' + (i*columns + j) + '_card'}}"></i>
+
+      <div class="portfolio-items-wrapper">
+        <div class="row" >
+          <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="item in portfolio track by $index" ng-class="{'show': showItem(item)}">
+            <div ng-if="item" >
+              <a href="{{'#portfolioModal-' + item.id}}" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover" event="{{'portfolio_' + item.id + '_card'}}">
+                  <div class="portfolio-hover-content" event="{{'portfolio_' + item.id + '_card'}}">
+                    <i class="fa fa-plus fa-3x" event="{{'portfolio_' + item.id + '_card'}}"></i>
+                  </div>
                 </div>
+                <img src="public/img/{{item.img}}" class="img-responsive" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>{{item.title}}</h4>
+                <p class="sub-text">{{item.category}}</p>
               </div>
-              <img src="public/img/{{portfolio[i*columns + j].img}}" class="img-responsive" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>{{portfolio[i*columns + j].title}}</h4>
-              <p class="sub-text">{{portfolio[i*columns + j].category}}</p>
             </div>
           </div>
         </div>
