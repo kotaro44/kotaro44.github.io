@@ -46,14 +46,14 @@ a:focus {
 
 .profile-pic {  
   display: inline-block;
-  background-image: url(../../img/carlos.jpg);
+  background-image: url(../../img/propic.jpg);
   width: 200px;
   height: 200px;
   border: 2px solid #FFFFFF;
   border-radius: 100px;
   margin-bottom: 20px;
-  background-position: 30% center;
-  background-size: 130% auto;
+  background-position: 50% 0%;
+  background-size: 120% auto;
 }
 
 .download-pdf {
@@ -654,7 +654,7 @@ body {
 }
 
 #about {
-  background-color: rgb(156, 188, 104,0.7);
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
 .text-anim-letter {
@@ -693,4 +693,17 @@ b.text-anim-letter {
 
 #mainNav {
   border-bottom: 1px solid white;
+}
+
+.about-pic {
+    background-image: url(../../img/carlos.jpg);
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    border: 1px solid white;
+}
+
+.about-pic-wrapper {
+  margin-bottom: 440px;
 }

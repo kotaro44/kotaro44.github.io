@@ -500,7 +500,7 @@ Services.service('Data', [function Data() {
     {
       title: 'Find Carlos on LinkedIn!',
       category: 'LinkedIn',
-      img: 'linkedin.png',
+      img: 'carlos.jpg',
       url: 'https://www.linkedin.com/in/carlos-amilcar-sanchez-rosa-0aa88b122',
       desc: 'Carlos Personal LinkedIn Profile.',
     },
