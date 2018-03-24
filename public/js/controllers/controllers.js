@@ -71,7 +71,6 @@ Controllers.controller('canvasCtrl', ['$scope', '$element', '$window', function 
               r: 0,
             },
           }, circle.animTime, function onEnd() {
-            console.log('never end??');
             //remove the element form the world for the new 
             $scope.myCanv.removeElement(circle.oid);
             $scope.circles.splice( $scope.circles.indexOf(circle), 1);
