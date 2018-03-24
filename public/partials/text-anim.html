@@ -1,0 +1,7 @@
+<span>
+  <span 
+    ng-repeat="letter in textAnim track by $index" 
+    class="text-anim-letter letter-{{$index}}"
+    style="animation-delay: {{$index*50}}ms"
+    >{{letter}}</span>
+</span>

@@ -24,6 +24,8 @@ Services.service('i18n', function i18n() {
       'Programming Languages': 'Programming Languages',
       'Portfolio': 'Portfolio',
       'About': 'About',
+      'Im a Computer systems engineer...': 'I\'m a Computer systems engineer specialized in Software Engineering and Web Development.',
+      'Currently working at': 'Currently working at',
       'Computer Systems Engineer, Software Engineer & Web Developer...': 'Computer Systems Engineer, Software Engineer & Web Developer with a Master Degree in Information systems and Applications',
       'Android and Windows App': 'Android and Windows App',
       'Netflix running from USA...': 'Netflix running from USA? Youtube from Taiwan? Youku.com from China? and everything in the same connection with a control panel that can help you change the lcoation for any website, that is SDXess a smart VPN almost fully developed by Carlos with the Company 8VG.org, working a Linux Server Side interaction and 2 client apps, one in Windows and another one in Android both developed by Carlos, is one of the most demanding projects that Carlos had worked on. iOS version is coming!',
@@ -71,7 +73,7 @@ Services.service('i18n', function i18n() {
       'Android Game': 'Android Game',
       'Graduated from: ': 'Graduated from: ',
       'Software Engineer at': 'Software Engineer at', 
-      'Got experience in WebApp\'s Development and Software...': 'Got experience in WebApp\'s Development and Software Engineering since 2008, worked at Agile Solutions and SAP Innovation Center Silicon Valley',
+      'Got experience in WebApp\'s Development and Software...': 'Experience in WebApp\'s Development and Software Engineering since 2008, worked at Agile Solutions, SAP Innovation Center Silicon Valley & Intowow',
       'Check his work!': 'Check his work!',
       'Find Out More': 'Find Out More',
       'Let\'s Get In Touch!': 'Let\'s Get In Touch!',
@@ -80,13 +82,11 @@ Services.service('i18n', function i18n() {
       'Close Item': 'Close Item',
       'Website': 'Website',
     },
-    'es': {
-    },
   };
 
   var i18n = {
     _lang: '',
-    _supportedLangs: ['en', 'es', 'pt'],
+    _supportedLangs: ['en'],
     _registerScope: function _registerScope($scope) {
       if (observers.indexOf( $scope ) === -1 ) {
         observers.push( $scope );
@@ -113,20 +113,9 @@ Services.service('i18n', function i18n() {
     },
   };
 
-  var lang = i18n._supportedLangs[i18n._supportedLangs.indexOf(
-    (navigator.language || navigator.systemLanguage).toLowerCase().split(/\-/)[0])] || i18n._supportedLangs[0];
-
-  var _lang = localStorage.getItem('lang');
-
-  if (_lang) {
-    i18n._supportedLangs.map(function mapLang( lng ) {
-      if (lng === _lang) {
-        lang = _lang;
-      }
-    });
-  }
-
-  i18n._setLanguage(lang);
+  i18n._lang = 'en';
+  i18n._readLang();
+  i18n._setLanguage('en');
   return i18n;
 
 });
@@ -134,25 +123,14 @@ Services.service('i18n', function i18n() {
 Services.service('Data', [function Data() {
   var Data = {
     columns: 3,
-    portfolio: [{
-      title: 'Conway\'s Game of Life',
-      category: 'Web Application',
-      img: 'gameoflife.png',
-      imgs: ['gameoflife.png', 'gol.png'],
-      url: './public/html/Game%20of%20Life/game.html',
-      desc: 'An AngularJS experiment developed for SAP',
-      labels: [{
-        img: 'sap.png',
-        url: 'https://www.sap.com/index.html',
-      }],
-    },
+    portfolio: [
     {
       title: 'AWS Re:Invent 2017',
       category: 'Amazon Web Services',
       img: 'reinvent2017.jpg',
       imgs: ['reinvent2017.jpg', 'reinvent.png', 'aws2017.jpg'],
       url: 'http://intowow.com/',
-      desc: 'Worked as a Software Engineers mainting Crystall Express App',
+      desc: 'Carlos Assisted together with his colleagues to AWS:reinvent 2017 at Las Vegas, NV USA',
       labels: [{
         img: 'intowowc.png',
         url: 'http://www.intowow.com/',
@@ -180,7 +158,7 @@ Services.service('Data', [function Data() {
       img: 'intowowb.png',
       imgs: ['intowowb.png'],
       url: 'http://intowow.com/',
-      desc: 'Worked as a Software Engineers mainting Crystall Express App',
+      desc: 'Worked as a Software Engineers maintaining Crystall Express App',
       labels: [{
         img: 'intowowc.png',
         url: 'http://www.intowow.com/',
@@ -190,7 +168,7 @@ Services.service('Data', [function Data() {
       title: 'SDXess',
       category: 'Android and Windows App',
       img: 'sdxess.png',
-      video: 'sdxess.avi',
+      video: 'sdxess',
       imgs: ['sdxess.png', 'sdxess1.png', 'sdxess2.png', 'sdxess3.png', 'sdxess4.png', 'sdxess5.png'],
       url: 'http://sdxess.com/',
       desc: 'Netflix running from USA...',
@@ -207,7 +185,7 @@ Services.service('Data', [function Data() {
         url: 'https://www.java.com/es/',
       },
       {
-        img: 'sdxess.png',
+        img: 'xess.png',
         url: 'http://sdxess.com/',
       },
       {

@@ -1,3 +1,13 @@
+.portfolio-background {
+  position: fixed;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  left: 0;
+  top: 0;
+}
+
+
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
@@ -413,4 +423,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.modal-content {
+  background-color: black;
 }

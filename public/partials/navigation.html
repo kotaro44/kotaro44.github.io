@@ -12,6 +12,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" event="collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
+          <a event="nav-home" class="page-scroll" href="#about" ng-click="Analytics.report('navigation-home')">{{"Home"|i18n}}</a>
+        </li>
+        <li>
           <a event="nav-about" class="page-scroll" href="#about" ng-click="Analytics.report('navigation-about')">{{"About"|i18n}}</a>
         </li>
         <li>
@@ -19,6 +22,9 @@
         </li>
         <li>
           <a event="nav-planguages" class="page-scroll" href="#planguages" ng-click="Analytics.report('navigation-languages')">{{"Programming Languages"|i18n}}</a>
+        </li>
+        <li>
+          <a event="nav-about" class="page-scroll" href="./public/html/CarlosSanchez-CV.pdf" ng-click="Analytics.report('navigation-resume')">{{"Resume"|i18n}}</a>
         </li>
         <li>
           <a event="nav-contact" class="page-scroll" href="#contact" ng-click="Analytics.report('navigation-contact')">{{"Contact"|i18n}}</a>

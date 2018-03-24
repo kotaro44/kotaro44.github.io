@@ -20,6 +20,7 @@
   <script src="public/js/lib/scrollreveal/scrollreveal.min.js"></script>
   <script src="public/js/lib/magnific-popup/jquery.magnific-popup.min.js"></script>
   <script src="public/js/lib/creative/creative.mod.js"></script>
+  <script src="public/js/lib/magicanv/magicanv.js"></script>
   <!--Config-->
   <script src="public/js/config/app.js"></script>
   <!--Services-->
@@ -41,6 +42,8 @@
   <contact></contact>
   <modal></modal>
   <start></start>
-  <a href="public/html/CarlosSanchez-CV.pdf"><div class="download-pdf"></div></a>
+  <div class="portfolio-background">
+    <canvas id="logoCanvas" ng-controller="canvasCtrl" width="{{window.innerWidth}}" height="{{window.innerHeight}}" ></canvas>
+  </div>
 </body>
 </html>

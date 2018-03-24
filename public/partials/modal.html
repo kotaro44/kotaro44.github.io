@@ -19,21 +19,31 @@
             <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
                 <h2>{{project.title | i18n}}</h2>
-                <p class="item-intro text-muted">{{project.category | i18n}}</p>
-                <a ng-if="!project.imgs" href="{{project.url}}" event="{{project.title + '_img'}}">
+                <p class="item-intro">{{project.category | i18n}}</p>
+                <a ng-if="!project.imgs" href="{{project.url}}" event="{{project.title + '_img'}}" class="img-link">
                   <img 
                     class="img-responsive img-centered" 
                     src="public/img/{{project.img}}" 
                     alt="" 
                     event="{{project.title + '_img'}}">
                 </a>
-                <a ng-repeat="image in project.imgs" href="{{project.url}}" event="{{project.title + '_img_' + $index}}">
+                <a ng-repeat="image in project.imgs" href="{{project.url}}" event="{{project.title + '_img_' + $index}}" class="img-link">
                   <img class="img-responsive img-centered" src="public/img/{{image}}" alt="" event="{{project.title + '_img_' + $index}}">
                 </a>
 
                 <p>{{project.desc | i18n}}</p>
                 <p ng-if="project.video">
-                  <video controls width="100%" event="{{project.video}}">
+                  <iframe 
+                    ng-if="project.video === 'sdxess'" 
+                    width="750" 
+                    height="450" 
+                    src="https://www.youtube.com/embed/ogF6CpJm0jA" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>    
+                  </iframe>
+
+                  <video ng-if="project.video !== 'sdxess'"  controls width="100%" event="{{project.video}}">
                   <source src="{{'./public/img/'+project.video}}" type="video/mp4">
                       Your browser does not support HTML5 video.
                   </video>
@@ -42,7 +52,7 @@
                     <li>{{"Date: " | i18n}}{{project.date}}</li>
                 </ul>
                 <p ng-if="project.labels" class="label-wrapper" >
-                  <a href="{{label.url}}" ng-repeat="label in project.labels" >
+                  <a href="{{label.url}}" ng-repeat="label in project.labels" class="img-link">
                     <img class="logo" src="public/img/{{label.img}}" event="{{label.url}}"></img>
                   </a>
                 </p>

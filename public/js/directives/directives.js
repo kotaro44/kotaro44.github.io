@@ -85,6 +85,8 @@ Directives.directive('portfolio', ['Data', function portfolio(Data) {
     link: function portfolioLink(scope) {
     	scope.portfolio = Data.portfolio;
       scope.columns = Data.columns;
+
+      scope.isPhone = window.mobileAndTabletcheck();
     },
     scope: {},
   };
@@ -100,6 +102,16 @@ Directives.directive('modal', ['Data', function modal(Data) {
       scope.columns = Data.columns;
     },
     scope: {},
+  };
+}]);
+
+Directives.directive('textAnim', [function textAnim() {
+  return {
+    restrict: 'A',
+    scope: {
+      textAnim: '@textAnim',
+    },
+    templateUrl: 'public/partials/text-anim.html',
   };
 }]);
 
