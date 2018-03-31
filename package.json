@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/kotaro44/kotaro44.github.io/issues"
   },
-  "homepage": "https://github.com/kotaro44/kotaro44.github.io#readme"
+  "homepage": "https://github.com/kotaro44/kotaro44.github.io#readme",
+  "dependencies": {
+    "image-min": "^0.3.2"
+  },
+  "devDependencies": {
+    "compress-images": "^1.2.0"
+  }
 }

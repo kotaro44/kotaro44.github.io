@@ -7,14 +7,14 @@
           <hr class="primary">
           <br />
           <span class="filter" ng-class="{'selected-filter': filter === selectedFilter}" ng-repeat="filter in filters" ng-click="applyFilter(filter)">
-            {{filter}}
+            {{filter}} ({{totalItems(filter)}})
           </span>
         </div>
       </div>
 
       <div class="portfolio-items-wrapper">
         <div class="row" >
-          <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="item in portfolio track by $index" ng-class="{'show': showItem(item)}">
+          <div class="col-md-4 col-sm-6 portfolio-item" ng-repeat="item in portfolio track by $index" ng-class="{'show': item.show && item.page === pagination.page}">
             <div ng-if="item" >
               <a href="{{'#portfolioModal-' + item.id}}" class="portfolio-link" data-toggle="modal">
                 <div class="portfolio-hover" event="{{'portfolio_' + item.id + '_card'}}">
@@ -33,15 +33,21 @@
         </div>
       </div>
 
-      <div class="row text-center" ng-if="isLimited()">
-        <span class="filter" ng-click="removeLimit()">
-          Show All results
+      <div class="row text-center pagination-wrapper" ng-if="pagination.pages.length > 1">
+        <span class="filter" ng-click="pagination.page = (pagination.page ? pagination.page : pagination.pages.length ) - 1">
+          <i class="fa fa-angle-left"></i>
         </span>
-      </div>
-
-      <div class="row text-center" ng-if="isNotLimited()">
-        <span class="filter" ng-click="setLimit()">
-          Limit Results
+        <span 
+          class="page" 
+          ng-repeat="page in pagination.pages track by $index" 
+          ng-class="{'selected-page': $index === pagination.page}"
+          ng-click="pagination.page = $index"
+          >
+          <i class="fa fa-circle-o default-icon"></i>
+          <i class="fa fa-circle selected-icon"></i>
+        </span>
+        <span class="filter" ng-click="pagination.page = (pagination.page + 1) % pagination.pages.length">
+          <i class="fa fa-angle-right"></i>
         </span>
       </div>
 

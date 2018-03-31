@@ -133,7 +133,7 @@ a:focus {
   background-image: url(../../img/cmd.png);
 }
 .logo-android {
-  background-image: url(../../img/android.png);
+  background-image: url(../../img/4.png);
 }
 
 .intowow-logo {
@@ -162,7 +162,7 @@ p {
 }
 
 section {
-  padding: 20px 0 100px 0;
+  padding: 50px 0px;
 }
 aside {
   padding: 50px 0;
@@ -610,7 +610,7 @@ body {
 
 .portfolio-background {
   position: fixed;
-  background-image: url(../../img/back.jpg);
+  background-image: url(../../img/6.jpg);
   pointer-events: none;
   width: 100%;
   height: 100%;
@@ -715,12 +715,26 @@ b.text-anim-letter {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
-  padding: 10px;
+  padding: 5px 14px;
   border: 2px solid grey;
-  margin: 5px 10px;
+  margin: 4px;
   color: grey;
   cursor: pointer;
   display: inline-block;
+}
+
+.page {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 5px;
+  color: grey;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.page:hover {
+  color: white;
 }
 
 span.filter.selected-filter {
@@ -744,12 +758,14 @@ span.filter.selected-filter {
 .portfolio-item {
   opacity: 0;
   overflow: hidden;
+  max-width: 0px;
+  max-height: 0px;
   padding-right: 0px;
   padding-left: 0px;
   min-height: 0px;
 
   animation-name: shrink;
-  animation-duration: 1s;
+  animation-duration: 0.6s;
   animation-fill-mode: forwards;
 }
 
@@ -766,6 +782,30 @@ span.filter.selected-filter {
   animation-fill-mode: forwards;
 }
 
+.page.selected-page {
+  color: white;
+}
+
+.page .selected-icon {
+  display: none;
+}
+
+.page .default-icon {
+  display: inline;
+}
+
+.page.selected-page .default-icon {
+  display: none;
+}
+
+.page.selected-page .selected-icon {
+  display: inline;
+}
+
+.pagination-wrapper {
+  font-size: 16px;
+}
+
 
 @keyframes shrink {
   0% {
@@ -774,25 +814,29 @@ span.filter.selected-filter {
     max-height: 500px;
     padding-right: 15px;
     padding-left: 15px;
+    min-height: 400px;
   }
-  40% {
+  80% {
     opacity: 0;
     max-width: 500px;
     max-height: 500px;
     padding-right: 15px;
     padding-left: 15px;
+    min-height: 400px;
   }
-  50% {
+  99% {
     opacity: 0;
     max-width: 500px;
     max-height: 500px;
     padding-right: 15px;
     padding-left: 15px;
+    min-height: 400px;
   }
   100% {
     opacity: 0;
     max-width: 0px;
     max-height: 0px;
+    min-height: 0px;
   }
 }
 
@@ -803,20 +847,23 @@ span.filter.selected-filter {
     max-height: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    min-height: 0px;
   }
-  40% {
+  80% {
     opacity: 1;
     max-width: 0px;
     max-height: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    min-height: 0px;
   }
-  50% {
+  99% {
     opacity: 1;
     max-width: 0px;
     max-height: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    min-height: 0px;
   }
   100% {
     opacity: 1;
@@ -824,5 +871,33 @@ span.filter.selected-filter {
     max-height: 500px;
     padding-right: 15px;
     padding-left: 15px;
+    min-height: 400px;
+  }
+}
+
+
+.water-mark {
+  font-size: 10px;
+  opacity: 0;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+
+  animation-name: water-mark;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes water-mark {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
   }
 }

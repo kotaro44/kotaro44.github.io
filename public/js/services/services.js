@@ -38,7 +38,7 @@ Services.service('i18n', function i18n() {
       'Web Application': 'Web Application',
       'A Webpage for any person to be able...': 'A Webpage for any person to be able to consult if they require a visa to travel to an specific country, this project was developed in AngularJS and Bootstrap.',
       'Web Game': 'Web Game',
-      'A fully functional Tetris Game...': 'A fully functional Tetris Game developed by Carlos only on Javascript, No JQuery, Angular JS or Other Library/Framework just Pure JavaScript',
+      'A fully functional Tetris Game...': 'A fully functional Tetris Game developed by Carlos only on Javascript, NO JQuery, NO Angular, NO ReactJS or Other JS Library/Framework just Pure JavaScript',
       'Carlos Research paper to fullfil...': 'Carlos Research paper to fullfil the requirements of his Master Degree at 國立清華大學.',
       'Master Thesis': 'Master Thesis',
       'SAP is a huge company, and the...': 'SAP is a huge company, and the Innovation Center Silicon Valley was the team with Carlos collaborated for more than 1 year.',
@@ -125,6 +125,7 @@ Services.service('Data', [function Data() {
     columns: 3,
     portfolio: [
     {
+      show: false,
       id: 2,
       title: 'Find Carlos on LinkedIn!',
       tags: ['Social', 'Professional'],
@@ -134,12 +135,13 @@ Services.service('Data', [function Data() {
       desc: 'Carlos Personal LinkedIn Profile.',
     },
     {
+      show: false,
       id: 0,
       title: 'AWS Re:Invent 2017',
       tags: ['Backend', 'Professional'],
       category: 'Amazon Web Services',
       img: 'reinvent2017.jpg',
-      imgs: ['reinvent2017.jpg', 'reinvent.png', 'aws2017.jpg'],
+      imgs: ['reinvent2017.jpg', 'reinvent.png', '5.jpg'],
       url: 'http://intowow.com/',
       desc: 'Carlos Assisted together with his colleagues to AWS:reinvent 2017 at Las Vegas, NV USA',
       labels: [{
@@ -147,14 +149,25 @@ Services.service('Data', [function Data() {
         url: 'http://www.intowow.com/',
       },
       {
-        img: 'aws.png',
+        img: '5.png',
         url: 'https://aws.amazon.com/',
       }],
     },
     {
+      show: false,
+      id: 43,
+      title: 'ReactJS || VanilaJS || AngularJS',
+      tags: ['WebApp', 'Working On'],
+      category: 'WebApp',
+      img: 'react.png',
+      url: './public/html/tetris/tetris.html?w=10&h=20',
+      desc: 'Based on a previous project built in VanilaJS, Carlos is recreating the project using ReactJS and AngularJS to create a Comparison Study of these 3 different options of creating Web Apps.',
+    },
+    {
+      show: false,
       id: 1,
       title: 'CrystalExpress',
-      tags: ['Web Apps', 'Professional', 'Backend'],
+      tags: ['Web Apps', 'Professional', 'Backend', 'Working On'],
       category: 'Intowow',
       img: 'crystalexpress.png',
       imgs: ['ce2.png', 'crystalexpress.png'],
@@ -166,6 +179,7 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 3,
       title: 'Frontend Engineer',
       tags: ['Professional'],
@@ -180,6 +194,28 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
+      id: 8,
+      title: 'Tetris JS',
+      tags: ['Web Apps', 'Games'],
+      category: 'Web Game',
+      img: 'tetris.png',
+      url: './public/html/tetris/tetris.html?w=10&h=20',
+      desc: 'A fully functional Tetris Game...',
+    },
+    {
+      show: false,
+      id: 5,
+      title: 'Phi Tau Phi Scholastic Scholastic Honor Society of the Republic of China',
+      tags: ['Education'],
+      category: 'Master of Science',
+      img: 'phitauphi.jpg',
+      imgs: ['phitauphi.png', 'phitauphi2.png', 'phitauphi3.jpg'],
+      url: 'http://nthu-en.web.nthu.edu.tw/bin/home.php',
+      desc: 'With a Perfect GPA of 4.3...',
+    },
+    {
+      show: false,
       id: 4,
       title: 'SDXess',
       tags: ['Android', 'Native Apps', 'Professional'],
@@ -190,11 +226,11 @@ Services.service('Data', [function Data() {
       url: 'http://sdxess.com/',
       desc: 'Netflix running from USA...',
       labels: [{
-        img: '8vg.png',
+        img: '1.png',
         url: 'http://www.8vg.org/',
       },
       {
-        img: 'android.png',
+        img: '4.png',
         url: 'https://play.google.com/store?hl=es',
       },
       {
@@ -210,19 +246,8 @@ Services.service('Data', [function Data() {
         url: 'http://php.net/manual/es/intro-whatis.php',
       }],
     },
-
     {
-      id: 5,
-      title: 'Phi Tau Phi Scholastic Scholastic Honor Society of the Republic of China',
-      tags: ['Education'],
-      category: 'Master of Science',
-      img: 'phitauphi.jpg',
-      imgs: ['phitauphi.png', 'phitauphi2.png', 'phitauphi3.jpg'],
-      url: 'http://nthu-en.web.nthu.edu.tw/bin/home.php',
-      desc: 'With a Perfect GPA of 4.3...',
-    },
-
-    {
+      show: false,
       id: 6,
       title: 'International Master on Information Systems and Applications',
       tags: ['Education'],
@@ -233,6 +258,7 @@ Services.service('Data', [function Data() {
       desc: 'On 12-July-2017, Carlos...',
     },
     {
+      show: false,
       id: 7,
       title: 'Do I need Visa?',
       tags: ['Web Apps'],
@@ -242,15 +268,7 @@ Services.service('Data', [function Data() {
       desc: 'A Webpage for any person to be able...',
     },
     {
-      id: 8,
-      title: 'Tetris JS',
-      tags: ['Web Apps', 'Games'],
-      category: 'Web Game',
-      img: 'tetris.png',
-      url: './public/html/tetris/tetris.html?w=10&h=20',
-      desc: 'A fully functional Tetris Game...',
-    },
-    {
+      show: false,
       id: 9,
       title: 'Cluster Validation: Improving Stability Measurement',
       tags: ['Education'],
@@ -260,6 +278,7 @@ Services.service('Data', [function Data() {
       desc: 'Carlos Research paper to fullfil...',
     },
     {
+      show: false,
       id: 10,
       title: 'SAP - Innovation Center Silicon Valley',
       tags: ['Professional'],
@@ -274,6 +293,7 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 11,
       title: 'SAP - eBay',
       tags: ['Web Apps', 'Professional'],
@@ -292,12 +312,13 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 12,
       title: 'SAP - Consumer Insight 365',
       tags: ['Web Apps', 'Professional'],
       category: 'Web Application',
-      img: '365.png',
-      video: '365.mp4',
+      img: '0.png',
+      video: '0.mp4',
       url: 'https://www.sapconsumerinsight365.com/',
       desc: 'Carlos worked as Lead Developer...',
       labels: [{
@@ -306,6 +327,7 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 13,
       title: 'SAP - Burberry',
       tags: ['Web Apps', 'Professional'],
@@ -324,6 +346,7 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 14,
       title: 'All TAX Platform',
       tags: ['Web Apps', 'Professional'],
@@ -333,11 +356,12 @@ Services.service('Data', [function Data() {
       url: 'http://alltaxplatform.com/',
       desc: 'Agile Solutions biggest Project with more...',
       labels: [{
-        img: 'agile.png',
+        img: '3.png',
         url: 'http://agilesolutions.com/',
       }],
     },
     {
+      show: false,
       id: 15,
       title: 'Data Mining Project',
       tags: ['Web Apps', 'Education'],
@@ -347,15 +371,17 @@ Services.service('Data', [function Data() {
       desc: 'A small Web App that process Association Rules output...',
     },
     {
+      show: false,
       id: 16,
       title: 'Agile Consultant Knowledge Tree',
       tags: ['Web Apps'],
       category: 'Agile Project',
-      img: 'agile-tree.png',
+      img: '2.png',
       url: './public/html/agileconsultant/agile-consultant.html',
       desc: 'An SVG Tree that shows all technologies that...',
     },
     {
+      show: false,
       id: 17,
       title: 'JS Responsive Test',
       tags: ['Web Apps'],
@@ -365,6 +391,7 @@ Services.service('Data', [function Data() {
       desc: 'A simple Javascript Animation Test with...',
     },
     {
+      show: false,
       id: 17,
       title: 'SOS (Spanish)',
       tags: ['Web Apps', 'Games'],
@@ -374,6 +401,7 @@ Services.service('Data', [function Data() {
       desc: 'A Basic SOS web Game, experimenting with Drag & Drop.',
     },
     {
+      show: false,
       id: 18,
       title: 'Clever designs',
       tags: ['Web Apps'],
@@ -383,6 +411,7 @@ Services.service('Data', [function Data() {
       desc: 'A basic webpage showing the art from Designer Carmen Lagos.',
     },
     {
+      show: false,
       id: 19,
       title: 'IMG to Binary Visualization',
       tags: ['Web Apps'],
@@ -392,6 +421,7 @@ Services.service('Data', [function Data() {
       desc: 'A basic webpage that reads any file and try to conert it as image to find patterns on the HEX code.',
     },
     {
+      show: false,
       id: 20,
       title: 'Food Game',
       tags: ['Web Apps', 'Games'],
@@ -401,6 +431,7 @@ Services.service('Data', [function Data() {
       desc: 'A basic Game sample developed by an HTML5 Game Engine developed...',
     },
     {
+      show: false,
       id: 21,
       title: 'Birthday Piano App',
       tags: ['Web Apps'],
@@ -410,6 +441,7 @@ Services.service('Data', [function Data() {
       desc: 'A basic webpage as a Small Gift for Carlos Girlfriend who is a Musician.',
     },
     {
+      show: false,
       id: 22,
       title: 'Prime Number Pattern Finder',
       tags: ['Web Apps'],
@@ -419,6 +451,7 @@ Services.service('Data', [function Data() {
       desc: 'A basic webpage that offers tools for finding patterns in Prime Numbers.',
     },
     {
+      show: false,
       id: 23,
       title: 'Social Computing Survey',
       tags: ['Web Apps', 'Education'],
@@ -428,6 +461,7 @@ Services.service('Data', [function Data() {
       desc: 'A Survey Experiment built as a Web App...',
     },
     {
+      show: false,
       id: 24,
       title: 'SVG Animation',
       tags: ['Web Apps'],
@@ -437,6 +471,7 @@ Services.service('Data', [function Data() {
       desc: 'A Cool SVG Animation made for AGILE app\'s Background.',
     },
     {
+      show: false,
       id: 25,
       title: 'SVG Animation #2',
       tags: ['Web Apps'],
@@ -446,6 +481,7 @@ Services.service('Data', [function Data() {
       desc: 'A Cool SVG Animation made for more Interactive Resume made by Carlos.',
     },
     {
+      show: false,
       id: 26,
       title: 'Xuul Kab',
       tags: ['Native Apps', 'Games'],
@@ -456,6 +492,7 @@ Services.service('Data', [function Data() {
       desc: 'A 3D game for PC that Carlos worked as a...',
     },
     {
+      show: false,
       id: 27,
       title: 'Escuela Digital (Lec. 1, Un. 1)',
       tags: ['Web Apps'],
@@ -465,6 +502,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 28,
       title: 'Escuela Digital (Lec. 2, Un. 1)',
       tags: ['Web Apps'],
@@ -474,6 +512,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 29,
       title: 'Escuela Digital (Lec. 3, Un. 1)',
       tags: ['Web Apps'],
@@ -483,6 +522,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 30,
       title: 'Escuela Digital (Lec. 4, Un. 1)',
       tags: ['Web Apps'],
@@ -492,6 +532,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 31,
       title: 'Escuela Digital (Lec. 5, Un. 1)',
       tags: ['Web Apps'],
@@ -501,6 +542,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 32,
       title: 'Escuela Digital (Lec. 1, Un. 2)',
       tags: ['Web Apps'],
@@ -510,6 +552,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 33,
       title: 'Escuela Digital (Lec. 2, Un. 3)',
       tags: ['Web Apps'],
@@ -519,6 +562,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 34,
       title: 'Escuela Digital (Lec. 1, Un. 4)',
       tags: ['Web Apps'],
@@ -528,6 +572,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 35,
       title: 'Escuela Digital (Lec. 1, Un. 6)',
       tags: ['Web Apps'],
@@ -537,6 +582,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 36,
       title: 'Escuela Digital (Lec. 1, Un. 7)',
       tags: ['Web Apps'],
@@ -546,6 +592,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 37,
       title: 'Escuela Digital (Lec. 1, Un. 8)',
       tags: ['Web Apps'],
@@ -555,6 +602,7 @@ Services.service('Data', [function Data() {
       desc: 'A Lesson from the App \'Escuela Digital\' presented for Carlos Bachelor Thesis.',
     },
     {
+      show: false,
       id: 38,
       title: 'Look for It!',
       tags: ['Android', 'Games'],
@@ -563,7 +611,7 @@ Services.service('Data', [function Data() {
       url: 'https://m.downloadatoz.com/look-for-it/kotaro.lookforit/',
       desc: 'An Android videogame with artistic graphics made for...',
       labels: [{
-        img: 'android.png',
+        img: '4.png',
         url: 'https://play.google.com/store?hl=es',
       },
       {
@@ -572,6 +620,7 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 39,
       title: 'Cookis & Bombs',
       tags: ['Android', 'Games'],
@@ -580,7 +629,7 @@ Services.service('Data', [function Data() {
       url: 'https://m.downloadatoz.com/cookies-bombs/kotaro.cookiesnbombs/',
       desc: 'An Android videogame made for the company Squadventure...',
       labels: [{
-        img: 'android.png',
+        img: '4.png',
         url: 'https://play.google.com/store?hl=es',
       },
       {
@@ -589,6 +638,7 @@ Services.service('Data', [function Data() {
       }],
     },
     {
+      show: false,
       id: 40,
       title: 'Find Carlos on Facebook!',
       tags: ['Social'],
@@ -598,6 +648,7 @@ Services.service('Data', [function Data() {
       desc: 'Carlos Personal Facebook.',
     },
     {
+      show: false,
       id: 41,
       title: 'Numero Dos',
       tags: ['Social'],
@@ -607,6 +658,7 @@ Services.service('Data', [function Data() {
       desc: 'Carlos Play the Bass-Guitar in NTHU Band \'Numero Dos\'.',
     },
     {
+      show: false,
       id: 42,
       title: 'All Around The World',
       tags: ['Social'],

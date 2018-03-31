@@ -91,42 +91,55 @@ Directives.directive('portfolio', ['Data', function portfolio(Data) {
       scope.limit = true;
 
 
-      scope.filters = ['All', 'Web Apps', 'Professional', 'Android', 'Social', 'Native Apps', 'Games', 'Education', 'Backend'];
-      scope.selectedFilter = 'All';
-
-      scope.applyFilter = function applyFilter(filter){
-        scope.selectedFilter = filter;
-        scope.portfolio.map(function(item){
-          item.show = false;
-        })
+      scope.filters = ['All', 'Working On', 'Web Apps', 'Professional', 'Android', 'Social', 'Native Apps', 'Games', 'Education', 'Backend'];
+      scope.pagination = {
+        page: 0,
+        pages: 0,
+        itemsPerPage: 6,
+        totalItems: 0,
       };
 
-      scope.showItem = function showItem(item){
-        item.show = scope.selectedFilter === 'All' || item.tags.indexOf(scope.selectedFilter) !== -1
-        if (scope.limit && scope.portfolio.filter(function(a){return a.show}).length > 6) {
-          item.show = false;
+      scope.haveFilter = function haveFilter(item, filter) {
+        return filter === 'All' || item.tags.indexOf(filter) !== -1;
+      };
+      
+      scope.totalItems = function totalItems(filter) {
+        return scope.portfolio.filter(function filterItems(item){
+          return scope.haveFilter(item, filter);
+        }).length;
+      };
+
+      scope.applyFilter = function applyFilter(filter) {
+        var index = 0;
+        var pageCount = 0;
+        var itemCount = 0;
+
+        scope.selectedFilter = filter;
+        scope.portfolio.map(function mapItems(item){
+          item.show = scope.haveFilter(item, scope.selectedFilter);
+        });
+
+        scope.pagination.page = 0;
+        scope.pagination.totalItems = scope.portfolio.filter(function(a){return a.show}).length;
+        scope.pagination.pages = [];
+
+        for( index = 0 ; index < Math.ceil(scope.pagination.totalItems / scope.pagination.itemsPerPage) ; index++ ) {
+          scope.pagination.pages.push(true);
         }
 
-        return item.show;
+        scope.portfolio.forEach(function forEachItem(item) {
+          if (item.show) {
+            if (itemCount++ >= scope.pagination.itemsPerPage) {
+              itemCount = 1;
+              pageCount++;
+            }
+
+            item.page = pageCount;
+          }
+        });
       };
 
-      scope.removeLimit = function removeLimit() {
-        scope.limit = false;
-      };
-
-      scope.setLimit = function setLimit() {
-        scope.limit = true;
-      };
-
-      scope.isLimited = function isLimited(){
-        return scope.limit && scope.portfolio.filter(function(a){return a.show}).length >= 6;
-      };
-
-      scope.isNotLimited = function isNotLimited(){
-        return !scope.limit && scope.portfolio.filter(function(a){return a.show}).length >= 6;
-      };
-
-      
+      scope.applyFilter(scope.filters[0]);
     },
     scope: {},
   };
