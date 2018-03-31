@@ -11,6 +11,14 @@ Controllers.controller('seedCtrl', [
   },
 ]);
 
+Controllers.controller('mainCtrl', ['$scope', function mainCtrl($scope) {
+  $scope.isTop = $('html').scrollTop() === 0;
+  document.addEventListener('scroll', function (event) {
+    $scope.isTop = $('html').scrollTop() === 0;
+    $scope.$apply();
+  }, true);
+}]);
+
 Controllers.controller('canvasCtrl', ['$scope', '$element', '$window', function canvasCtrl($scope, $element, $window) {
   $scope.initMagiCanv = function initMagiCanv() {
     /**
