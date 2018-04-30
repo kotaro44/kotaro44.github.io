@@ -72,7 +72,7 @@ Services.service('i18n', function i18n() {
       'LinkedIn': 'LinkedIn',
       'Android Game': 'Android Game',
       'Graduated from: ': 'Graduated from: ',
-      'Software Engineer at': 'Software Engineer at', 
+      'Software Engineer at': 'Software Engineer at',
       'Got experience in WebApp\'s Development and Software...': 'Experience in WebApp\'s Development and Software Engineering since 2008, worked at Agile Solutions, SAP Innovation Center Silicon Valley & Intowow',
       'Check his work!': 'Check his work!',
       'Find Out More': 'Find Out More',
@@ -124,6 +124,25 @@ Services.service('Data', [function Data() {
   var Data = {
     columns: 3,
     portfolio: [
+    {
+      show: false,
+      id: 44,
+      title: 'Web Robot',
+      tags: ['Backend', 'WebApp', 'Professional', 'Native Apps', 'Working On'],
+      category: 'WebApp',
+      img: 'robot1.png',
+      video: 'robot',
+      url: 'https://www.youtube.com/watch?v=6zS0GOgNolI',
+      desc: 'A WebRobot that can Control your Keyboard and Mouse, to do programmed task written in JavaScript, this robot was coded using JAVA and NodeJS by Carlos A. Sanchez, it is been use to test web apps automatically.',
+      labels: [{
+        img: 'java.png',
+        url: 'https://www.java.com/es/',
+      },
+      {
+        img: 'node.png',
+        url: 'https://nodejs.org/en/',
+      }],
+    },
     {
       show: false,
       id: 2,

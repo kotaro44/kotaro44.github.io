@@ -1,10 +1,10 @@
 <div class="modal-wrapper">
-  <div 
-    ng-repeat="project in portfolio track by $index" 
-    class="portfolio-modal modal fade" 
-    id="{{'portfolioModal-' + project.id}}" 
-    tabindex="-1" 
-    role="dialog" 
+  <div
+    ng-repeat="project in portfolio track by $index"
+    class="portfolio-modal modal fade"
+    id="{{'portfolioModal-' + project.id}}"
+    tabindex="-1"
+    role="dialog"
     aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -21,10 +21,10 @@
                 <h2>{{project.title | i18n}}</h2>
                 <p class="item-intro">{{project.category | i18n}}</p>
                 <a ng-if="!project.imgs" href="{{project.url}}" event="{{project.title + '_img'}}" class="img-link">
-                  <img 
-                    class="img-responsive img-centered" 
-                    src="public/img/{{project.img}}" 
-                    alt="" 
+                  <img
+                    class="img-responsive img-centered"
+                    src="public/img/{{project.img}}"
+                    alt=""
                     event="{{project.title + '_img'}}">
                 </a>
                 <a ng-repeat="image in project.imgs" href="{{project.url}}" event="{{project.title + '_img_' + $index}}" class="img-link">
@@ -33,17 +33,27 @@
 
                 <p>{{project.desc | i18n}}</p>
                 <p ng-if="project.video">
-                  <iframe 
-                    ng-if="project.video === 'sdxess'" 
-                    width="750" 
-                    height="450" 
-                    src="https://www.youtube.com/embed/ogF6CpJm0jA" 
-                    frameborder="0" 
-                    allow="autoplay; encrypted-media" 
-                    allowfullscreen>    
+                  <iframe
+                    ng-if="project.video === 'sdxess'"
+                    width="750"
+                    height="450"
+                    src="https://www.youtube.com/embed/ogF6CpJm0jA"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen>
                   </iframe>
 
-                  <video ng-if="project.video !== 'sdxess'"  controls width="100%" event="{{project.video}}">
+                  <iframe
+                    ng-if="project.video === 'robot'"
+                    width="750"
+                    height="450"
+                    src="https://www.youtube.com/embed/6zS0GOgNolI"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen>
+                  </iframe>
+
+                  <video ng-if="project.video !== 'sdxess' && project.video !== 'robot'"  controls width="100%" event="{{project.video}}">
                   <source src="{{'./public/img/'+project.video}}" type="video/mp4">
                       Your browser does not support HTML5 video.
                   </video>
