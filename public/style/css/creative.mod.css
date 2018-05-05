@@ -338,6 +338,15 @@ header .header-content .header-content-inner p {
   }
 }
 
+
+@media (max-width: 992px) {
+  body #about iframe {
+    margin-left: -25px;
+    width: 443px;
+    height: 250px;
+  }
+}
+
 .service-box p {
   margin-bottom: 0;
 }
@@ -822,6 +831,10 @@ span.filter.selected-filter {
   animation-fill-mode: forwards;
 }
 
+
+#about iframe {
+  margin-left: -45px;
+}
 
 @keyframes water-mark {
   0% {
