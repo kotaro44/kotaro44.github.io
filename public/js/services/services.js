@@ -126,6 +126,17 @@ Services.service('Data', [function Data() {
     portfolio: [
     {
       show: false,
+      id: 45,
+      title: 'GitHub User',
+      tags: ['WebApp', 'Professional'],
+      category: 'WebApp',
+      img: 'gituser.png',
+      imgs: ['gituser.png', 'gituser2.png'],
+      url: './public/html/gituser/gituser.html',
+      desc: 'A WebApp to query all projects of an specific GitHub User, the website can show and render the README.MD file of any project belonging to the User.',
+    },
+    {
+      show: false,
       id: 44,
       title: 'Web Robot',
       tags: ['Backend', 'WebApp', 'Professional', 'Native Apps', 'Working On'],
