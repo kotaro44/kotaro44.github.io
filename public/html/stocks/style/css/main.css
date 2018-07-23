@@ -1,0 +1,78 @@
+body, html {
+  margin: 0;
+}
+
+.companies-wrapper {
+  background-color: #e6eced;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.broker-wrapper {
+  position: relative;
+  background-color: #cfd3cf;
+  margin-top: 10px;
+  overflow-y: scroll;
+  height: 120px;
+}
+
+.total-wrapper {
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+.companies-wrapper .company {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.step-btn {
+  cursor: pointer;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.company-name.sold,
+.company.dead {
+  text-decoration: line-through;
+}
+
+.company-name {
+  margin-right: 10px;
+}
+
+.company-name.have-share,
+.company-value {
+  font-weight: bold;
+}
+
+.positive {
+  color: #0b9330;
+}
+
+.negative {
+  color: #c60505;
+}
+
+.chart-container.open {
+  display: block;
+}
+
+.chart-container {
+  padding: 100px;
+  z-index: 1000;
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.close-chart {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}

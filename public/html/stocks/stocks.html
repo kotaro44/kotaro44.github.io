@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="stocks">
+  <head>
+    <meta charset="UTF-8">
+    <title>Stocks</title>
+    <link rel="stylesheet" type="text/css" href="style/css/main.css">
+    <script type="text/javascript" src="js/libs/angular.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script type="text/javascript" src="js/filters/filters.js"></script>
+    <script type="text/javascript" src="js/services/services.js"></script>
+    <script type="text/javascript" src="js/controllers/controllers.js"></script>
+    <script type="text/javascript" src="js/config/stocks.js"></script>
+  </head>
+  <body ng-controller="mainCtrl">
+    <div class="companies-wrapper">
+      <div class="company" ng-repeat="company in vm.Market.toArray()" ng-class="{'dead': company.dead}">
+        <span class="company-name" ng-class="{'have-share': Broker.haveShare(company.name)}">{{company.name}}</span>
+        <span class="company-value">{{company.value | currency:'NT$'}}</span>
+        <span
+          ng-if="!company.dead && company.history.length"
+          class="company-variation"
+          ng-class="{'positive': company.variation >= 0, 'negative': company.variation < 0}"
+          >
+          <span ng-if="company.variation >= 0">+</span>{{(company.variation*100).toFixed(2)}}%
+        </span>
+        <button ng-if="!company.dead" ng-click="vm.Broker.buy(company.name)">Buy</button>
+        <button ng-if="!company.dead" ng-click="vm.Broker.sell(company.name)">Sell</button>
+        <span>{{company.score.toFixed(2)}}</span>
+        <button ng-click="vm.showCompanyChart(company)">-</button>
+      </div>
+    </div>
+    <div class="broker-wrapper">
+      <div
+        class="company-share"
+        ng-repeat="companyShare in vm.Broker.sharesToArray()"
+        >
+        <span class="company-name" ng-class="{'sold': companyShare.sold}">{{companyShare.name}}</span>
+        <span class="company-value">{{companyShare.shares.length}}</span>
+        <span>*</span>
+        <span class="company-value">{{vm.Market.companies[companyShare.name].value | currency:'NT$'}}</span>
+        <span>=</span>
+        <span class="company-value">{{(companyShare.shares.length * vm.Market.companies[companyShare.name].value) | currency:'NT$'}}</span>
+        <span>({{vm.Broker.lastPrice(companyShare) | currency:'NT$'}})</span>
+        <span
+          ng-if="companyShare.income"
+          ng-class="{'positive': companyShare.income >= 0, 'negative': companyShare.income < 0}"
+          >
+          {{companyShare.income | currency:'NT$'}}
+        </span>
+      </div>
+    </div>
+    <div class="total-wrapper">
+      Cash: {{vm.Broker.value | currency:'NT$'}}
+      <br>
+      Shares: {{vm.Broker.getSharesValue() | currency:'NT$'}}
+      <hr>
+      Total: {{(vm.Broker.getSharesValue() + vm.Broker.value) | currency:'NT$'}}
+    </div>
+    <div class="chart-container" ng-class="{'open': vm.showChart}">
+      <button class="close-chart" ng-click="vm.closeCompanyChart()">X</button>
+      <div id="main-chart"></div>
+    </div>
+    <button class="step-btn" ng-click="vm.step()">Step</button>
+  </body>
+</html>

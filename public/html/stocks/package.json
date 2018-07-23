@@ -1,0 +1,14 @@
+{
+  "name": "stocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stock.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Carlos A. Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.0"
+  }
+}
