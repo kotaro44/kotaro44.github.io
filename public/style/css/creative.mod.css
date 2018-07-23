@@ -31,6 +31,10 @@ a:focus {
   color: white;
 }
 
+.portfolio-link img.img-responsive {
+  margin: auto;
+}
+
 .news-highlight {
   margin-left: 20px;
 }
