@@ -4,102 +4,131 @@
   "price": 32,
   "image": "images/10.png",
   "icon": "icons/10.png",
-    "nutritionFacts": [{
-      "name": "Amount",
-      "value": "Per 100 grams"
+  "nutritionFacts": [{
+      "name": "Amount Per",
+      "value": "100",
+      "unit": "grams"
     },
     {
       "name": "Calories",
-      "value": 52
+      "value": 34
     },
     {
       "name": "Total fat",
       "value": {
-        "value": 0.2,
-        "per": 0,
-        "items": {
-          "Saturated fat": {
-            "value": 0,
-            "per": 0
-          },
-          "Polyunsaturated fat": 0.1,
-          "Monounsaturated fat": 0
-        }
+        "value": 0.4,
+        "per": "0%",
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Saturated fat",
+      "value": {
+        "value": 0,
+        "per": "0%",
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Polyunsaturated fat",
+      "value": {
+        "value": 0,
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Monounsaturated fat",
+      "value": {
+        "value": 0,
+        "unit": "g" 
       }
     },
     {
       "name": "Cholesterol",
       "value": {
         "value": 0,
-        "per": 0
+        "unit": "mg",
+        "per": "0%"
       }
     },
     {
       "name": "Sodium",
       "value": {
-        "value": 1,
-        "per": 0
+        "value": 33,
+        "unit": "mg",
+        "per": "1%"
       }
     },
     {
       "name": "Potassium",
       "value": {
-        "value": 107,
-        "per": 3
+        "value": 316,
+        "unit": "mg",
+        "per": "9%"
       }
     },
     {
       "name": "Total Carbohydrate",
       "value": {
-        "value": 14,
-        "per": 4,
-        "items": {
-          "Dietary fiber": {
-            "value": 2.4,
-            "per": 9
-          },
-          "Sugar": 10
-        }
+        "value": 7,
+        "per": "2%",
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Dietary fiber",
+      "value": {
+        "value": 2.6,
+        "unit": "g",
+        "per": "10%"
+      }
+    },
+    {
+      "name": "Sugar",
+      "value": {
+        "value": 1.7,
+        "unit": "g"
       }
     },
     {
       "name": "Protein",
       "value": {
-        "value": 0.3,
-        "per": 0
+        "value": 2.8,
+        "unit": "g",
+        "per": "5%"
       }
     },
     {
       "name": "Vitamin A",
-      "value": 1
+      "value": "12%"
     },
     {
       "name": "Vitamin C",
-      "value": 7
+      "value": "148%"
     },
     {
       "name": "Calcium",
-      "value": 0
+      "value": "4%"
     },
     {
       "name": "Iron",
-      "value": 0
+      "value": "3%"
     },
     {
       "name": "Vitamin D",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Vitamin B-6",
-      "value": 0
+      "value": "10%"
     },
     {
       "name": "Cobalamin",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Magnesium",
-      "value": 1
+      "value": "5%"
     }
   ]
 }
