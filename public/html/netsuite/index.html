@@ -174,7 +174,7 @@
     function openSPY2(type, id) {
       var openIn = 'popup';
       var radios = document.getElementsByName('type');
-      var url = `https://frontend.b2c.poc.automation.smartpay.co.nz/${type === 'terminals' ? 'terminals?mid=' : 'files-viewer?clientId='}${id}`;
+      var url = `https://frontend.b2c.poc.automation.smartpay.co.nz/${type === 'terminals' ? 'terminals?mid=' : 'files-viewer?customerId='}${id}`;
 
       for (var i = 0, length = radios.length; i < length; i++) {
         if (radios[i].checked) {
