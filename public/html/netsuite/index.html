@@ -130,6 +130,10 @@
       padding: 0px 10%;
     }
 
+    .text-warning {
+      color: #ffc107;
+    }
+
     @keyframes logo-appears {
       0% {
         opacity: 0;
@@ -216,10 +220,11 @@
               <input type="radio" id="window" name="type" value="window"> New Window - Full App
             </label><br>
             <label for="popup">
-              <input type="radio" id="popup" name="type" value="popup"> Popup - Content Only
+              <input checked type="radio" id="popup" name="type" value="popup"> Popup - Content Only
             </label><br>
             <label for="iframe">
-              <input checked type="radio" id="iframe" name="type" value="iframe"> iFrame - Content Only
+              <input type="radio" id="iframe" name="type" value="iframe"> iFrame - Content Only
+              <span class="text-warning">Warning! This only works if you are already logged in</span>
             </label>
           </form>
         </div>
