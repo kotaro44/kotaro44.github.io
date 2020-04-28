@@ -178,7 +178,7 @@
     function openSPY2(type, id) {
       var openIn = 'popup';
       var radios = document.getElementsByName('type');
-      var url = `https://frontend.b2c.poc.automation.smartpay.co.nz/${type === 'terminals' ? 'terminals?mid=' : 'files-viewer?customerId='}${id}`;
+      var url = `https://hub-uat.smartpay.com.au/${type === 'terminals' ? 'terminals?mid=' : (type === 'terminals' ? 'files-uploader?customerId=' : 'files-viewer?customerId=')}${id}`;
 
       for (var i = 0, length = radios.length; i < length; i++) {
         if (radios[i].checked) {
@@ -256,9 +256,23 @@
             </a>
           </div>
         </div>
+        <div>
+          <h2>Upload Documents</h2>
+          <div class="buttons-wrapper">
+            <a class="button" onclick="openSPY2('documents', '10062')">
+              10062
+            </a>
+            <a class="button" onclick="openSPY2('documents', '10060')">
+              10060
+            </a>
+            <a class="button" onclick="openSPY2('documents', '10058')">
+              10058
+            </a>
+          </div>
+        </div>
       </div>
       <div class="right-panel">
-        <iframe id="iframe" src="https://frontend.b2c.poc.automation.smartpay.co.nz/logo.svg" class="new"></iframe>
+        <iframe id="iframe" src="https://hub-uat.smartpay.com.au/logo.svg" class="new"></iframe>
       </div>
     </div>
   </div>
