@@ -178,7 +178,7 @@
     function openSPY2(type, id) {
       var openIn = 'popup';
       var radios = document.getElementsByName('type');
-      var url = `https://hub-uat.smartpay.com.au/${type === 'terminals' ? 'terminals?mid=' : (type === 'terminals' ? 'files-uploader?customerId=' : 'files-viewer?customerId=')}${id}`;
+      var url = `https://hub-uat.smartpay.com.au/${type === 'terminals' ? 'terminals?mid=' : (type === 'upload' ? 'files-uploader?customerId=' : 'files-viewer?customerId=')}${id}`;
 
       for (var i = 0, length = radios.length; i < length; i++) {
         if (radios[i].checked) {
@@ -259,13 +259,13 @@
         <div>
           <h2>Upload Documents</h2>
           <div class="buttons-wrapper">
-            <a class="button" onclick="openSPY2('documents', '10062')">
+            <a class="button" onclick="openSPY2('upload', '10062')">
               10062
             </a>
-            <a class="button" onclick="openSPY2('documents', '10060')">
+            <a class="button" onclick="openSPY2('upload', '10060')">
               10060
             </a>
-            <a class="button" onclick="openSPY2('documents', '10058')">
+            <a class="button" onclick="openSPY2('upload', '10058')">
               10058
             </a>
           </div>
